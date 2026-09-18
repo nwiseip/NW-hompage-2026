@@ -1,0 +1,271 @@
+{
+  "common": {
+    "nav": [
+      "About",
+      "Services",
+      "IP Value",
+      "Professionals",
+      "Insights",
+      "Visit",
+      "Contact"
+    ],
+    "contact": "Contact us",
+    "top": "Back to top",
+    "address": "3F, Suite 303, 20 Yeongdong-daero 85-gil,<br>Gangnam-gu, Seoul 06181, Korea",
+    "org": "Near &amp; Wise IP Law Office"
+  },
+  "home": {
+    "title": "Near & Wise IP Law Office | Seoul",
+    "description": "Engineer-trained patent attorneys connect prosecution, disputes, valuation and value realisation in one team.",
+    "heroTitle": "Filing is the beginning.<br><span>Value realisation is the goal.</span>",
+    "heroLede": "Our engineer-trained patent attorneys understand the technology first. One team carries the matter from filing through disputes, valuation and realisation.",
+    "panel": "Start with the path that fits the purpose of your rights.",
+    "routes": [
+      "Secure",
+      "Defend",
+      "Realise"
+    ],
+    "startQuestion": "What brings you here?",
+    "startTitle": "Start with<br>your objective",
+    "startBody": "The right response depends on where you are and what the matter needs to achieve. The attorney in charge stays with you from the beginning.",
+    "entries": [
+      {
+        "title": "Companies & R&D",
+        "body": "We structure domestic and international filings, registration, dispute response and value realisation around each stage of the business.",
+        "cta": "View services"
+      },
+      {
+        "title": "Foreign associates",
+        "body": "Direct Korean representation for inbound matters. The responsible attorney responds personally and keeps the technical context intact.",
+        "cta": "Meet the team"
+      },
+      {
+        "title": "IP firms",
+        "body": "We manage overseas patent annuities and trademark renewals through a trusted international network.",
+        "cta": "Contact us"
+      }
+    ],
+    "trust": [
+      {
+        "label": "International practice",
+        "detail": "Membership Committee Director"
+      },
+      {
+        "label": "Licensing",
+        "detail": "YMC Director"
+      },
+      {
+        "label": "IP transactions",
+        "detail": "Korea liaison"
+      },
+      {
+        "label": "Technology-listing review",
+        "detail": "Valuation adviser"
+      }
+    ],
+    "aboutTitle": "Near to our clients.<br>Wise in strategy.",
+    "aboutLead": "Obtaining a right is not the end. The goal is to make it work for the business.",
+    "aboutBody": "The attorney in charge works with you from start to finish. We preserve the technical context, read the business stage and competitive landscape, and design both the right protection method and the route to value realisation.",
+    "quote": "“We do not stop at registration. We make the right work in the real business.”",
+    "quoteBy": "Seungyeob Baik · Founding Partner",
+    "how": [
+      "Direct access to the responsible attorney",
+      "IP strategy from a business perspective",
+      "Domestic and international network",
+      "Technology understood by engineers"
+    ],
+    "visual": "Technology must be understood<br>before rights can be designed.",
+    "servicesTitle": "Rights move through<br>many stages",
+    "servicesBody": "Each service connects to the next. Experience in transactions and exits changes how claims should be drafted from the outset.",
+    "group1": "Core stages <span>Core Practice</span>",
+    "group2": "Business-facing stages <span>Business Practice</span>",
+    "services": [
+      {
+        "title": "Secure",
+        "body": "Korean patent, utility model, design and trademark filing and registration, including office-action strategy."
+      },
+      {
+        "title": "Defend",
+        "body": "Infringement analysis, opinions, design-arounds, warning-letter response, trials and litigation—before a dispute hardens."
+      },
+      {
+        "title": "Expand",
+        "body": "PCT and national filings, specification translation and collaboration with trusted foreign associates in market-entry order."
+      },
+      {
+        "title": "Realise",
+        "body": "Valuation, sale-oriented portfolio design, technology-listing review and IP-backed finance. Registration is not the finish line."
+      },
+      {
+        "title": "Korea entry",
+        "body": "The responsible attorney handles Korean filings and disputes directly and communicates closely with foreign associates."
+      },
+      {
+        "title": "Annuities & renewals",
+        "body": "Reliable overseas patent annuity and trademark renewal management through our local network."
+      }
+    ],
+    "valueTitle": "Not only advised on valuation—<br>experienced in doing it.",
+    "valueStat": "share of intangible assets in S&P 500 enterprise value",
+    "valueBody": "People who work beyond registration design filings differently. We consider proof of infringement, family structure and the transaction potential of the right from the beginning.",
+    "valueButton": "Discuss IP valuation",
+    "valuePaths": [
+      "Patent design for a potential U.S. sale",
+      "Valuation response and advisory",
+      "Technology-listing review",
+      "IP-backed finance"
+    ],
+    "peopleTitle": "People who begin with technology<br>and finish with enforceable rights",
+    "peopleBody": "Four patent attorneys and one of-counsel attorney handle matters directly across their technical fields.",
+    "people": [
+      {
+        "name": "Seungyeob Baik",
+        "role": "Founding Partner",
+        "education": "B.S. Nuclear Engineering, Hanyang University",
+        "practice": "International matters, prosecution, trials, litigation and IP valuation",
+        "tags": [
+          "Heavy industry · machinery · shipbuilding",
+          "Medical devices · automotive",
+          "AI · software"
+        ]
+      },
+      {
+        "name": "Junhyung Jin",
+        "role": "Partner",
+        "education": "B.S. Mechanical & Aerospace Engineering, Seoul National University",
+        "practice": "Prosecution, trials, litigation, trademarks and designs",
+        "tags": [
+          "Construction · machinery",
+          "Medical devices · HVAC",
+          "Automotive"
+        ]
+      },
+      {
+        "name": "Taeweon Lyu",
+        "role": "Patent Attorney",
+        "education": "B.S. Electrical Engineering, Pusan National University",
+        "practice": "Electrical and electronics prosecution; Certified Technology Credit Appraiser",
+        "tags": [
+          "Electrical · electronics"
+        ]
+      },
+      {
+        "name": "Jiyoung Yoon",
+        "role": "Patent Attorney",
+        "education": "B.S. Chemical & Biomolecular Engineering, KAIST; M.S. candidate, UCD",
+        "practice": "Chemistry and biotech prosecution; patent-practice automation",
+        "tags": [
+          "Chemistry · biotech",
+          "Software"
+        ]
+      },
+      {
+        "name": "Kihyun Shin",
+        "role": "Of Counsel · Attorney at Law & Patent Attorney",
+        "education": "Chemical & Biological Engineering, SNU · J.D., Yonsei Law School",
+        "practice": "Litigation, legal advice, M&A, licensing, investment and contracts",
+        "tags": [
+          "Blockchain · AI",
+          "Medical · biotech"
+        ]
+      }
+    ],
+    "insightsTitle": "Notes built<br>in practice",
+    "viewAll": "View all",
+    "insights": [
+      {
+        "title": "Taeweon Lyu joins NwiseIP — Electronics practice launched",
+        "body": "Strengthening our protection capabilities in electrical, electronics and software technologies."
+      },
+      {
+        "title": "Korean patent practice — what differs from the EPC?",
+        "body": "Practical differences foreign applicants can easily miss when entering Korea."
+      },
+      {
+        "title": "LES International Annual Conference",
+        "body": "Current issues and deal flows observed in the international licensing market."
+      }
+    ],
+    "note": "These items are layout samples and will be replaced with published articles in sequence.",
+    "contactTitle": "Your idea can still be<br>at an early stage.",
+    "contactBody": "From protectability to filing strategy, we will organise the first questions with you.",
+    "contactButton": "Start a conversation"
+  },
+  "location": {
+    "title": "Visit | Near & Wise IP Law Office",
+    "description": "Address, map and contact information for Near & Wise IP Law Office in Seoul.",
+    "photoTitle": "Meet us<br>in Seoul.",
+    "heading": "How to find<br>Near & Wise",
+    "lead": "Please schedule your visit so the responsible attorney can prepare for a focused meeting. Online meetings are also available.",
+    "office": "Seoul Office",
+    "address": "3F, Suite 303, 20 Yeongdong-daero 85-gil,<br>Gangnam-gu, Seoul 06181, Republic of Korea",
+    "naver": "Naver Map",
+    "kakao": "Kakao Map",
+    "before": "The responsible attorney prepares personally for each visit. If available, please email technical materials in advance for a more specific discussion.",
+    "reserve": "Schedule a visit"
+  },
+  "profileCommon": {
+    "back": "← PROFESSIONALS",
+    "labels": [
+      "KEY PRACTICE",
+      "TECHNICAL FIELDS",
+      "EDUCATION",
+      "APPROACH"
+    ],
+    "note": "This page currently presents publicly available core information. Additional experience and activities will be added in sequence.",
+    "contact": "Start a conversation<br>with this professional.",
+    "button": "Contact us"
+  },
+  "profiles": [
+    {
+      "slug": "baik-seungyeob",
+      "name": "Seungyeob Baik",
+      "role": "Founding Partner · Patent Attorney",
+      "intro": "We design IP strategies that extend beyond protection to disputes, valuation and the realisation of value.",
+      "keyPractice": "International matters · patent prosecution · trials · litigation · IP valuation",
+      "technicalFields": "Heavy industry · machinery · shipbuilding · medical devices · automotive · AI · software",
+      "education": "B.S. Nuclear Engineering, Hanyang University",
+      "approach": "Advice centres on rights that continue to work in real business and transactions after registration."
+    },
+    {
+      "slug": "jin-junhyung",
+      "name": "Junhyung Jin",
+      "role": "Partner · Patent Attorney",
+      "intro": "Grounded in mechanical structures and industrial practice, he provides a consistent protection strategy from filing through trials and litigation.",
+      "keyPractice": "Patent prosecution · trials · litigation · trademarks · designs",
+      "technicalFields": "Construction · machinery · medical devices · HVAC · automotive",
+      "education": "B.S. Mechanical & Aerospace Engineering, Seoul National University",
+      "approach": "Claim scope is designed by examining both the essential technical structure and competing products."
+    },
+    {
+      "slug": "lyu-taeweon",
+      "name": "Taeweon Lyu",
+      "role": "Patent Attorney",
+      "intro": "He reads the operating principles of electrical and electronic technologies and converts software- and AI-enabled inventions into clear rights language.",
+      "keyPractice": "Electrical and electronics prosecution · rights acquisition · prior-art analysis",
+      "technicalFields": "Electrical · electronics · software · AI · automotive",
+      "education": "B.S. Electrical Engineering, Pusan National University",
+      "approach": "Certified Technology Credit Appraiser, Level 2"
+    },
+    {
+      "slug": "yoon-jiyoung",
+      "name": "Jiyoung Yoon",
+      "role": "Patent Attorney",
+      "intro": "Combining chemistry and biotechnology expertise with a broader understanding of electronics and software, she protects convergent technologies.",
+      "keyPractice": "Chemistry and biotechnology prosecution · patent practice · workflow automation",
+      "technicalFields": "Chemistry · materials · biotechnology · healthcare · software",
+      "education": "B.S. Chemical & Biomolecular Engineering, KAIST · M.S. candidate in Electrical Engineering, UCD",
+      "approach": "Complex technical explanations are organised into rights structures useful in both examination and business."
+    },
+    {
+      "slug": "shin-kihyun",
+      "name": "Kihyun Shin",
+      "role": "Of Counsel · Attorney at Law & Patent Attorney",
+      "intro": "With a combined understanding of technology and law, he advises where disputes, contracts, investment and licensing meet.",
+      "keyPractice": "Litigation · legal advice · M&A · licensing · investment · contracts",
+      "technicalFields": "Blockchain · AI · medical · biotechnology · electronics · software",
+      "education": "Chemical & Biological Engineering, SNU · J.D., Yonsei Law School",
+      "approach": "Both the strength of the rights and the transaction structure and legal risks are considered together."
+    }
+  ]
+}

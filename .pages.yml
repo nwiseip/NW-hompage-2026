@@ -1,0 +1,216 @@
+media:
+  input: dist/assets
+  output: /assets
+  rename: safe
+  categories: [image]
+
+components:
+  common:
+    type: object
+    label: 공통 메뉴와 푸터
+    fields:
+      - { name: nav, label: 메뉴 이름, type: string, list: true }
+      - { name: contact, label: 상담 버튼, type: string }
+      - { name: top, label: 맨 위로 버튼, type: string }
+      - { name: address, label: 푸터 주소, type: text }
+      - { name: org, label: 사무소 이름, type: text }
+  home:
+    type: object
+    label: 홈페이지
+    fields:
+      - { name: title, label: 브라우저 제목, type: string }
+      - { name: description, label: 검색 설명, type: text }
+      - { name: heroTitle, label: 첫 화면 제목, type: text }
+      - { name: heroLede, label: 첫 화면 설명, type: text }
+      - { name: panel, label: 첫 화면 패널 문구, type: text }
+      - { name: routes, label: 권리 경로, type: string, list: true }
+      - { name: startQuestion, label: 방문 목적 질문, type: string }
+      - { name: startTitle, label: 방문 목적 제목, type: text }
+      - { name: startBody, label: 방문 목적 설명, type: text }
+      - name: entries
+        label: 고객 유형
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{title}" }
+        fields:
+          - { name: title, label: 제목, type: string }
+          - { name: body, label: 설명, type: text }
+          - { name: cta, label: 버튼, type: string }
+      - name: trust
+        label: 대외 활동
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{label}" }
+        fields:
+          - { name: label, label: 분야, type: string }
+          - { name: detail, label: 역할, type: string }
+      - { name: aboutTitle, label: 사무소 소개 제목, type: text }
+      - { name: aboutLead, label: 사무소 소개 리드, type: text }
+      - { name: aboutBody, label: 사무소 소개 본문, type: text }
+      - { name: quote, label: 인용문, type: text }
+      - { name: quoteBy, label: 인용자, type: string }
+      - { name: how, label: 일하는 방식, type: string, list: true }
+      - { name: visual, label: 기술 사진 문구, type: text }
+      - { name: servicesTitle, label: 서비스 제목, type: text }
+      - { name: servicesBody, label: 서비스 설명, type: text }
+      - { name: group1, label: 서비스 그룹 1, type: string }
+      - { name: group2, label: 서비스 그룹 2, type: string }
+      - name: services
+        label: 서비스 항목
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{title}" }
+        fields:
+          - { name: title, label: 서비스명, type: string }
+          - { name: body, label: 설명, type: text }
+      - { name: valueTitle, label: IP 가치 제목, type: text }
+      - { name: valueStat, label: 통계 설명, type: string }
+      - { name: valueBody, label: IP 가치 설명, type: text }
+      - { name: valueButton, label: IP 가치 버튼, type: string }
+      - { name: valuePaths, label: 가치 실현 경로, type: string, list: true }
+      - { name: peopleTitle, label: 전문가 제목, type: text }
+      - { name: peopleBody, label: 전문가 설명, type: text }
+      - name: people
+        label: 전문가 카드
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{name}" }
+        fields:
+          - { name: name, label: 이름, type: string }
+          - { name: role, label: 직함, type: string }
+          - { name: education, label: 학력, type: text }
+          - { name: practice, label: 주요 업무, type: text }
+          - { name: tags, label: 전문 분야, type: string, list: true }
+      - { name: insightsTitle, label: 인사이트 제목, type: text }
+      - { name: viewAll, label: 전체 보기 버튼, type: string }
+      - name: insights
+        label: 인사이트 카드
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{title}" }
+        fields:
+          - { name: title, label: 제목, type: string }
+          - { name: body, label: 설명, type: text }
+      - { name: note, label: 인사이트 안내문, type: text }
+      - { name: contactTitle, label: 문의 제목, type: text }
+      - { name: contactBody, label: 문의 설명, type: text }
+      - { name: contactButton, label: 문의 버튼, type: string }
+  location:
+    type: object
+    label: 오시는 길
+    fields:
+      - { name: title, label: 브라우저 제목, type: string }
+      - { name: description, label: 검색 설명, type: text }
+      - { name: photoTitle, label: 사진 위 문구, type: text }
+      - { name: heading, label: 페이지 제목, type: text }
+      - { name: lead, label: 페이지 설명, type: text }
+      - { name: office, label: 사무소명, type: string }
+      - { name: address, label: 주소, type: text }
+      - { name: naver, label: 네이버 지도 버튼, type: string }
+      - { name: kakao, label: 카카오맵 버튼, type: string }
+      - { name: before, label: 방문 안내, type: text }
+      - { name: reserve, label: 예약 버튼, type: string }
+  profile_common:
+    type: object
+    label: 전문가 페이지 공통 문구
+    fields:
+      - { name: back, label: 뒤로가기, type: string }
+      - { name: labels, label: 정보 항목 이름, type: string, list: true }
+      - { name: note, label: 안내문, type: text }
+      - { name: contact, label: 문의 제목, type: text }
+      - { name: button, label: 문의 버튼, type: string }
+  profiles:
+    type: object
+    label: 전문가 상세 정보
+    list:
+      collapsible: { collapsed: true, summary: "{name}" }
+    fields:
+      - { name: slug, label: 고유 주소, type: string, readonly: true }
+      - { name: name, label: 이름, type: string }
+      - { name: role, label: 직함, type: string }
+      - { name: intro, label: 소개, type: text }
+      - { name: keyPractice, label: 주요 업무, type: text }
+      - { name: technicalFields, label: 기술 분야, type: text }
+      - { name: education, label: 학력, type: text }
+      - { name: approach, label: 업무 관점, type: text }
+
+content:
+  - name: languages
+    label: 언어별 콘텐츠
+    type: group
+    items:
+      - name: korean
+        label: 한국어
+        type: file
+        path: dist/content/ko.json
+        format: json
+        fields: &language_fields
+          - { name: common, component: common }
+          - { name: home, component: home }
+          - { name: location, component: location }
+          - { name: profileCommon, component: profile_common }
+          - { name: profiles, component: profiles }
+      - name: english
+        label: English
+        type: file
+        path: dist/content/en.json
+        format: json
+        fields: *language_fields
+      - name: japanese
+        label: 日本語
+        type: file
+        path: dist/content/ja.json
+        format: json
+        fields: *language_fields
+      - name: chinese
+        label: 中文
+        type: file
+        path: dist/content/zh.json
+        format: json
+        fields: *language_fields
+      - name: spanish
+        label: Español
+        type: file
+        path: dist/content/es.json
+        format: json
+        fields: *language_fields
+  - name: contact
+    label: 연락처와 지도
+    type: file
+    path: dist/content/contact.json
+    format: json
+    fields:
+      - { name: email, label: 이메일, type: string }
+      - { name: telephone, label: 전화번호 표시, type: string }
+      - { name: telephoneLink, label: 전화 연결값, type: string }
+      - { name: fax, label: 팩스번호 표시, type: string }
+      - { name: faxLink, label: 팩스 연결값, type: string }
+      - { name: naverMap, label: 네이버 지도 링크, type: string }
+      - { name: kakaoMap, label: 카카오맵 링크, type: string }
+  - name: images
+    label: 홈페이지 이미지
+    type: file
+    path: dist/content/media.json
+    format: json
+    fields:
+      - { name: logoDark, label: 밝은 배경 로고, type: image }
+      - { name: logoLight, label: 어두운 배경 로고, type: image }
+      - { name: engineering, label: 기술 섹션 사진, type: image }
+      - { name: architecture, label: 오시는 길 사진, type: image }
+      - name: professionals
+        label: 전문가 사진
+        type: object
+        fields:
+          - { name: baik-seungyeob, label: 백승엽, type: image }
+          - { name: jin-junhyung, label: 진준형, type: image }
+          - { name: lyu-taeweon, label: 류태원, type: image }
+          - { name: yoon-jiyoung, label: 윤지영, type: image }
+          - { name: shin-kihyun, label: 신기현, type: image }
+
+settings:
+  commit:
+    templates:
+      create: "콘텐츠 추가: {filename}"
+      update: "콘텐츠 수정: {filename}"
+      delete: "콘텐츠 삭제: {filename}"
+      upload: "이미지 추가: {filename}"

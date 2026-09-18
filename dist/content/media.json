@@ -1,0 +1,13 @@
+{
+  "logoDark": "/assets/logo-h.png",
+  "logoLight": "/assets/logo-h-white.png",
+  "engineering": "/assets/engineering.jpg",
+  "architecture": "/assets/architecture.jpg",
+  "professionals": {
+    "baik-seungyeob": "/assets/baik.jpg",
+    "jin-junhyung": "/assets/jin.jpg",
+    "lyu-taeweon": "/assets/ryu.jpg",
+    "yoon-jiyoung": "/assets/yoon.jpg",
+    "shin-kihyun": "/assets/shin.jpg"
+  }
+}
