@@ -1,0 +1,271 @@
+{
+  "common": {
+    "nav": [
+      "Le cabinet",
+      "Services",
+      "Valeur de la PI",
+      "Professionnels",
+      "Analyses",
+      "Nous trouver",
+      "Contact"
+    ],
+    "contact": "Nous contacter",
+    "top": "Retour en haut",
+    "address": "3e étage, bureau 303, 20 Yeongdong-daero 85-gil,<br>Gangnam-gu, Séoul 06181, Corée du Sud",
+    "org": "Near &amp; Wise IP Law Office"
+  },
+  "home": {
+    "title": "Near & Wise IP Law Office | Séoul",
+    "description": "Des conseils en propriété industrielle formés à l’ingénierie relient dépôt, contentieux, évaluation et valorisation au sein d’une même équipe.",
+    "heroTitle": "Le dépôt n’est que le début.<br><span>La valorisation est l’objectif.</span>",
+    "heroLede": "Nos conseils en propriété industrielle formés à l’ingénierie commencent par comprendre la technologie. Une même équipe vous accompagne du dépôt aux litiges, à l’évaluation et à la valorisation.",
+    "panel": "Commencez par la voie qui correspond à l’objectif de vos droits.",
+    "routes": [
+      "Protéger",
+      "Défendre",
+      "Valoriser"
+    ],
+    "startQuestion": "Quel est votre besoin ?",
+    "startTitle": "Commencez par<br>votre objectif",
+    "startBody": "La réponse appropriée dépend de votre situation et du résultat recherché. Le conseil responsable vous accompagne directement dès le début.",
+    "entries": [
+      {
+        "title": "Entreprises et R&D",
+        "body": "Nous structurons les dépôts nationaux et internationaux, l’enregistrement, la gestion des litiges et la valorisation selon chaque étape de l’activité.",
+        "cta": "Voir les services"
+      },
+      {
+        "title": "Confrères étrangers",
+        "body": "Représentation directe en Corée pour les dossiers entrants. Le conseil responsable répond personnellement et préserve le contexte technique.",
+        "cta": "Découvrir l’équipe"
+      },
+      {
+        "title": "Cabinets de PI",
+        "body": "Nous gérons les annuités de brevets et les renouvellements de marques à l’étranger grâce à un réseau international éprouvé.",
+        "cta": "Nous contacter"
+      }
+    ],
+    "trust": [
+      {
+        "label": "Pratique internationale",
+        "detail": "Directeur du comité des adhésions"
+      },
+      {
+        "label": "Licences",
+        "detail": "Directeur YMC"
+      },
+      {
+        "label": "Transactions de PI",
+        "detail": "Correspondant en Corée"
+      },
+      {
+        "label": "Cotation technologique",
+        "detail": "Conseiller en évaluation"
+      }
+    ],
+    "aboutTitle": "Proches de nos clients.<br>Avisés dans la stratégie.",
+    "aboutLead": "L’obtention d’un droit n’est pas une fin. L’objectif est qu’il produise des effets concrets pour l’entreprise.",
+    "aboutBody": "Le conseil responsable vous accompagne du début à la fin. Nous préservons le contexte technique, analysons le stade de développement et l’environnement concurrentiel, puis concevons à la fois la protection adéquate et la voie de valorisation.",
+    "quote": "« Nous ne nous arrêtons pas à l’enregistrement : nous faisons vivre le droit dans l’activité réelle. »",
+    "quoteBy": "Seungyeob Baik · Associé fondateur",
+    "how": [
+      "Accès direct au conseil responsable",
+      "Stratégie de PI fondée sur les enjeux de l’entreprise",
+      "Réseau national et international",
+      "Compréhension technologique issue de l’ingénierie"
+    ],
+    "visual": "Il faut comprendre la technologie<br>avant de pouvoir concevoir les droits.",
+    "servicesTitle": "Les droits traversent<br>plusieurs étapes",
+    "servicesBody": "Chaque service s’inscrit dans une continuité. L’expérience des transactions et des cessions améliore la rédaction des revendications dès l’origine.",
+    "group1": "Étapes essentielles <span>Pratique fondamentale</span>",
+    "group2": "Étapes orientées vers l’entreprise <span>Pratique commerciale</span>",
+    "services": [
+      {
+        "title": "Protéger",
+        "body": "Dépôt et enregistrement en Corée de brevets, modèles d’utilité, dessins et modèles et marques, y compris la stratégie de réponse aux objections."
+      },
+      {
+        "title": "Défendre",
+        "body": "Analyse de contrefaçon, avis, solutions de contournement, réponses aux mises en demeure, procédures et contentieux, avant que le litige ne se fige."
+      },
+      {
+        "title": "Étendre",
+        "body": "Dépôts PCT et phases nationales, traduction des demandes et coordination avec des confrères étrangers de confiance selon l’ordre d’entrée sur les marchés."
+      },
+      {
+        "title": "Valoriser",
+        "body": "Évaluation, conception de portefeuilles en vue d’une cession, examen pour cotation technologique et financement adossé à la PI. L’enregistrement n’est pas la ligne d’arrivée."
+      },
+      {
+        "title": "Entrée en Corée",
+        "body": "Le conseil responsable traite directement les dépôts et litiges en Corée et communique étroitement avec les confrères étrangers."
+      },
+      {
+        "title": "Annuités et renouvellements",
+        "body": "Gestion fiable des annuités de brevets et des renouvellements de marques à l’étranger grâce à notre réseau local."
+      }
+    ],
+    "valueTitle": "Nous ne conseillons pas seulement l’évaluation :<br>nous l’avons pratiquée.",
+    "valueStat": "part des actifs incorporels dans la valeur des entreprises du S&P 500",
+    "valueBody": "L’expérience acquise après l’enregistrement transforme la manière de concevoir un dépôt. Dès le départ, nous considérons la preuve de la contrefaçon, la structure des familles et le potentiel transactionnel du droit.",
+    "valueButton": "Échanger sur l’évaluation de PI",
+    "valuePaths": [
+      "Conception de brevets en vue d’une cession potentielle aux États-Unis",
+      "Réponse et conseil en matière d’évaluation",
+      "Accompagnement de la cotation technologique",
+      "Financement adossé à la PI"
+    ],
+    "peopleTitle": "Des professionnels qui partent de la technologie<br>et aboutissent à des droits opposables",
+    "peopleBody": "Quatre conseils en propriété industrielle et un avocat collaborateur traitent directement les dossiers dans leurs domaines techniques.",
+    "people": [
+      {
+        "name": "Seungyeob Baik",
+        "role": "Associé fondateur",
+        "education": "Ingénierie nucléaire, Hanyang University",
+        "practice": "Dossiers internationaux, dépôts, procédures, contentieux et évaluation de PI",
+        "tags": [
+          "Industrie lourde · mécanique · construction navale",
+          "Dispositifs médicaux · automobile",
+          "IA · logiciels"
+        ]
+      },
+      {
+        "name": "Junhyung Jin",
+        "role": "Associé",
+        "education": "Ingénierie mécanique et aérospatiale, Seoul National University",
+        "practice": "Dépôts, procédures, contentieux, marques et dessins et modèles",
+        "tags": [
+          "Construction · mécanique",
+          "Dispositifs médicaux · CVC",
+          "Automobile"
+        ]
+      },
+      {
+        "name": "Taeweon Lyu",
+        "role": "Conseil en propriété industrielle",
+        "education": "Ingénierie électrique, Pusan National University",
+        "practice": "Dépôts en électricité et électronique ; évaluateur agréé du crédit technologique",
+        "tags": [
+          "Électricité · électronique"
+        ]
+      },
+      {
+        "name": "Jiyoung Yoon",
+        "role": "Conseil en propriété industrielle",
+        "education": "Génie chimique et biomoléculaire, KAIST ; master en cours, UCD",
+        "practice": "Dépôts en chimie et biotechnologies ; automatisation des processus et transformation AX",
+        "tags": [
+          "Chimie · biotechnologies",
+          "Logiciels"
+        ]
+      },
+      {
+        "name": "Kihyun Shin",
+        "role": "Avocat collaborateur · Avocat et conseil en PI",
+        "education": "Génie chimique et biologique, SNU · J.D., Yonsei Law School",
+        "practice": "Contentieux, conseil juridique, fusions-acquisitions, licences, investissements et contrats",
+        "tags": [
+          "Blockchain · IA",
+          "Médical · biotechnologies"
+        ]
+      }
+    ],
+    "insightsTitle": "Des analyses nées<br>de la pratique",
+    "viewAll": "Tout voir",
+    "insights": [
+      {
+        "title": "Taeweon Lyu rejoint NwiseIP — création du pôle électronique",
+        "body": "Nous renforçons nos capacités de protection dans les domaines de l’électricité, de l’électronique et des logiciels."
+      },
+      {
+        "title": "Pratique coréenne des brevets — quelles différences avec la CBE ?",
+        "body": "Les différences pratiques que les déposants étrangers peuvent facilement négliger lors de leur entrée en Corée."
+      },
+      {
+        "title": "Conférence annuelle internationale de la LES",
+        "body": "Questions actuelles et tendances transactionnelles observées sur le marché international des licences."
+      }
+    ],
+    "note": "Ces contenus sont des exemples de mise en page et seront progressivement remplacés par des articles publiés.",
+    "contactTitle": "Votre idée peut encore être<br>à un stade précoce.",
+    "contactBody": "De la brevetabilité à la stratégie de dépôt, nous structurerons avec vous les premières questions.",
+    "contactButton": "Commencer un échange"
+  },
+  "location": {
+    "title": "Nous trouver | Near & Wise IP Law Office",
+    "description": "Adresse, plans et coordonnées de Near & Wise IP Law Office à Séoul.",
+    "photoTitle": "Retrouvez-nous<br>à Séoul.",
+    "heading": "Comment trouver<br>Near & Wise",
+    "lead": "Merci de planifier votre visite afin que le conseil responsable puisse préparer une réunion ciblée. Des réunions en ligne sont également possibles.",
+    "office": "Bureau de Séoul",
+    "address": "3e étage, bureau 303, 20 Yeongdong-daero 85-gil,<br>Gangnam-gu, Séoul 06181, Corée du Sud",
+    "naver": "Naver Map",
+    "kakao": "Kakao Map",
+    "before": "Le conseil responsable prépare personnellement chaque visite. Si vous en disposez, merci d’envoyer à l’avance les documents techniques par courriel afin de permettre un échange plus précis.",
+    "reserve": "Planifier une visite"
+  },
+  "profileCommon": {
+    "back": "← PROFESSIONNELS",
+    "labels": [
+      "DOMAINES PRINCIPAUX",
+      "DOMAINES TECHNIQUES",
+      "FORMATION",
+      "APPROCHE"
+    ],
+    "note": "Cette page présente actuellement les principales informations disponibles publiquement. Les expériences et activités complémentaires seront ajoutées progressivement.",
+    "contact": "Commencez un échange<br>avec ce professionnel.",
+    "button": "Nous contacter"
+  },
+  "profiles": [
+    {
+      "slug": "baik-seungyeob",
+      "name": "Seungyeob Baik",
+      "role": "Associé fondateur · Conseil en propriété industrielle",
+      "intro": "Il conçoit des stratégies de PI qui vont au-delà de la protection et intègrent les litiges, l’évaluation et la valorisation.",
+      "keyPractice": "Dossiers internationaux · dépôts de brevets · procédures · contentieux · évaluation de PI",
+      "technicalFields": "Industrie lourde · mécanique · construction navale · dispositifs médicaux · automobile · IA · logiciels",
+      "education": "Ingénierie nucléaire, Hanyang University",
+      "approach": "Ses conseils portent sur des droits qui continuent à produire des effets dans l’activité et les transactions après l’enregistrement."
+    },
+    {
+      "slug": "jin-junhyung",
+      "name": "Junhyung Jin",
+      "role": "Associé · Conseil en propriété industrielle",
+      "intro": "Fort de sa compréhension des structures mécaniques et des pratiques industrielles, il propose une stratégie de protection cohérente du dépôt aux procédures et au contentieux.",
+      "keyPractice": "Dépôts de brevets · procédures · contentieux · marques · dessins et modèles",
+      "technicalFields": "Construction · mécanique · dispositifs médicaux · CVC · automobile",
+      "education": "Ingénierie mécanique et aérospatiale, Seoul National University",
+      "approach": "La portée des revendications est conçue en examinant à la fois la structure technique essentielle et les produits concurrents."
+    },
+    {
+      "slug": "lyu-taeweon",
+      "name": "Taeweon Lyu",
+      "role": "Conseil en propriété industrielle",
+      "intro": "Il comprend les principes de fonctionnement des technologies électriques et électroniques et transforme les inventions intégrant logiciels et IA en droits clairement définis.",
+      "keyPractice": "Dépôts en électricité et électronique · obtention de droits · recherches d’antériorités",
+      "technicalFields": "Électricité · électronique · logiciels · IA · automobile",
+      "education": "Ingénierie électrique, Pusan National University",
+      "approach": "Évaluateur agréé du crédit technologique, niveau 2"
+    },
+    {
+      "slug": "yoon-jiyoung",
+      "name": "Jiyoung Yoon",
+      "role": "Conseil en propriété industrielle",
+      "intro": "En associant son expertise en chimie et biotechnologies à une compréhension étendue de l’électronique et des logiciels, elle protège les technologies convergentes.",
+      "keyPractice": "Dépôts en chimie et biotechnologies · automatisation des processus · transformation AX",
+      "technicalFields": "Chimie · matériaux · biotechnologies · santé · logiciels",
+      "education": "Génie chimique et biomoléculaire, KAIST · master en génie électrique en cours, UCD",
+      "approach": "Les explications techniques complexes sont structurées en droits utiles tant lors de l’examen que dans l’activité."
+    },
+    {
+      "slug": "shin-kihyun",
+      "name": "Kihyun Shin",
+      "role": "Avocat collaborateur · Avocat et conseil en propriété industrielle",
+      "intro": "Grâce à sa double compréhension de la technologie et du droit, il intervient au croisement des litiges, contrats, investissements et licences.",
+      "keyPractice": "Contentieux · conseil juridique · fusions-acquisitions · licences · investissements · contrats",
+      "technicalFields": "Blockchain · IA · médical · biotechnologies · électronique · logiciels",
+      "education": "Génie chimique et biologique, SNU · J.D., Yonsei Law School",
+      "approach": "La solidité des droits, la structure de la transaction et les risques juridiques sont examinés conjointement."
+    }
+  ]
+}

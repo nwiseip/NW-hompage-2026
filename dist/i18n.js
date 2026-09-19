@@ -1,16 +1,17 @@
 (() => {
-  const supported = ['ko', 'en', 'ja', 'zh', 'es'];
+  const supported = ['ko', 'en', 'ja', 'zh', 'es', 'fr'];
   const requested = new URLSearchParams(window.location.search).get('lang');
   const lang = supported.includes(requested) ? requested : 'ko';
   const page = document.body.dataset.page || '';
-  const languageNames = { ko: 'KR', en: 'EN', ja: '日本語', zh: '中文', es: 'ES' };
-  const htmlLang = { ko: 'ko', en: 'en', ja: 'ja', zh: 'zh-CN', es: 'es' };
+  const languageNames = { ko: 'KR', en: 'EN', ja: '日本語', zh: '中文', es: 'ES', fr: 'FR' };
+  const htmlLang = { ko: 'ko', en: 'en', ja: 'ja', zh: 'zh-CN', es: 'es', fr: 'fr' };
   const uiLabels = {
     ko: { contact: '상담 문의', top: '맨 위로' },
     en: { contact: 'Contact us', top: 'Back to top' },
     ja: { contact: 'お問い合わせ', top: 'ページ上部へ' },
     zh: { contact: '联系我们', top: '返回顶部' },
-    es: { contact: 'Contactar', top: 'Volver arriba' }
+    es: { contact: 'Contactar', top: 'Volver arriba' },
+    fr: { contact: 'Nous contacter', top: 'Retour en haut' }
   };
   const scriptUrl = document.currentScript?.src || window.location.href;
   const contentBase = new URL('./content/', scriptUrl);
@@ -125,7 +126,7 @@
     setText('.value-stat small', t.valueStat);
     setText('.value-copy > p', t.valueBody);
     set('.value-copy .button', `${t.valueButton} <span>→</span>`);
-    const evidenceLabels = { ko: '권리를 가치로 만드는 경로', en: 'Routes from rights to value', ja: '権利を価値に変える道筋', zh: '从权利到价值的路径', es: 'Vías de los derechos al valor' };
+    const evidenceLabels = { ko: '권리를 가치로 만드는 경로', en: 'Routes from rights to value', ja: '権利を価値に変える道筋', zh: '从权利到价值的路径', es: 'Vías de los derechos al valor', fr: 'Des droits à la valeur' };
     setText('.value-evidence .card-kicker', evidenceLabels[lang]);
     document.querySelectorAll('.value-evidence li').forEach((item, index) => {
       if (t.valuePaths[index]) item.innerHTML = `<span>0${index + 1}</span>${t.valuePaths[index]}`;
