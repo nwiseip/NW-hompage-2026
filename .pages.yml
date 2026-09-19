@@ -22,6 +22,7 @@ components:
       - { name: description, label: 검색 설명, type: text }
       - { name: heroTitle, label: 첫 화면 제목, type: text }
       - { name: heroLede, label: 첫 화면 설명, type: text }
+      - { name: heroValueButton, label: 첫 화면 IP 가치 버튼, type: string }
       - { name: panel, label: 첫 화면 패널 문구, type: text }
       - { name: routes, label: 권리 경로, type: string, list: true }
       - { name: startQuestion, label: 방문 목적 질문, type: string }

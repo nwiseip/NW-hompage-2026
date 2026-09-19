@@ -19,6 +19,7 @@
     "description": "Abogados de patentes con formación técnica conectan la solicitud, los litigios, la valoración y la materialización del valor.",
     "heroTitle": "La solicitud es el comienzo.<br><span>El objetivo es materializar su valor.</span>",
     "heroLede": "Nuestros abogados de patentes con formación en ingeniería entienden primero la tecnología. Un mismo equipo acompaña la solicitud, los conflictos, la valoración y la realización del valor.",
+    "heroValueButton": "Ver el valor de la PI",
     "panel": "Empiece por la vía que mejor responda al objetivo de sus derechos.",
     "routes": [
       "Proteger",

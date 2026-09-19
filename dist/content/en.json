@@ -19,6 +19,7 @@
     "description": "Engineer-trained patent attorneys connect prosecution, disputes, valuation and value realisation in one team.",
     "heroTitle": "Filing is the beginning.<br><span>Value realisation is the goal.</span>",
     "heroLede": "Our engineer-trained patent attorneys understand the technology first. One team carries the matter from filing through disputes, valuation and realisation.",
+    "heroValueButton": "Explore IP value",
     "panel": "Start with the path that fits the purpose of your rights.",
     "routes": [
       "Secure",

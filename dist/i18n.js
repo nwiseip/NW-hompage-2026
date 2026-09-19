@@ -83,6 +83,7 @@
       if (t.routes[index]) element.textContent = t.routes[index];
     });
     setText('.hero-actions .button-primary', `${t.contactButton} →`);
+    setText('.hero-actions .button-secondary', t.heroValueButton);
     setText('.entry-section .section-heading > div p', t.startQuestion);
     set('.entry-section .section-heading h2', t.startTitle);
     setText('.entry-section .section-heading > p', t.startBody);
