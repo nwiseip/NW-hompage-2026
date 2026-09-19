@@ -76,6 +76,62 @@
       "エンジニアによる技術理解"
     ],
     "visual": "技術を理解してこそ、<br>権利を正しく設計できます。",
+    "experienceEyebrow": "2020—2026 · 匿名化した案件記録",
+    "experienceTitle": "実際の案件記録が示す<br>実務の広さと深さ",
+    "experienceBody": "特許・商標・意匠・著作権・コンサルティングから公的支援事業、IP価値評価まで。NwiseIPは技術と市場、韓国と世界を一つの流れにつなぎます。",
+    "experienceStats": [
+      { "value": "1,900+", "label": "固有NWレファレンス" },
+      { "value": "7", "label": "実務カテゴリー" },
+      { "value": "10+", "label": "主要法域・国際ルート" },
+      { "value": "20+", "label": "価値評価・上場関連記録" }
+    ],
+    "experienceTabs": [
+      {
+        "label": "実務領域",
+        "title": "権利の種類を問いません",
+        "body": "特許・実用新案、商標、意匠、著作権、契約・コンサルティング、公的支援事業、IP価値評価まで、事業の各段階に必要な実務をつなぎます。",
+        "items": [
+          { "title": "特許・実用新案", "detail": "国内外出願 · 中間対応 · 審判 · 訴訟" },
+          { "title": "商標", "detail": "出願 · 更新 · 異議・審判 · 海外ポートフォリオ" },
+          { "title": "意匠", "detail": "国内外出願 · 類否判断 · 権利化" },
+          { "title": "著作権・コンサルティング", "detail": "契約 · ライセンス · 紛争予防" },
+          { "title": "公的支援事業", "detail": "海外出願 · IP-R&D · 事業化連携" },
+          { "title": "IP価値評価", "detail": "技術特例上場 · 担保融資 · 取引" }
+        ]
+      },
+      {
+        "label": "技術分野",
+        "title": "まず技術の言葉で理解します",
+        "body": "案件記録はデジタル技術から製造・モビリティ、バイオ、先端素材まで幅広い技術領域を示しています。",
+        "items": [
+          { "title": "AI・ソフトウェア", "detail": "データ · プラットフォーム · 自動化 · UI/UX" },
+          { "title": "電気・電子", "detail": "半導体 · 通信 · センサー · 制御" },
+          { "title": "機械・ロボティクス", "detail": "産業設備 · 製造 · 空調 · 建設" },
+          { "title": "自動車・モビリティ", "detail": "EV · バッテリー · 車両システム" },
+          { "title": "バイオ・ヘルスケア", "detail": "医療機器 · 診断 · ライフサイエンス" },
+          { "title": "化学・素材・エネルギー", "detail": "新素材 · プロセス · 環境技術" }
+        ]
+      },
+      {
+        "label": "国際業務",
+        "title": "韓国案件と海外展開を一体で扱います",
+        "body": "韓国へのインバウンド、PCT・各国出願、翻訳、海外代理人との連携、年金・更新まで、国ごとの手続きをつなぎます。",
+        "items": [
+          { "title": "KOREA INBOUND", "detail": "海外クライアントの韓国案件" },
+          { "title": "PCT · WO", "detail": "国際出願と国内段階移行" },
+          { "title": "US · EP · DE", "detail": "米国・欧州主要国での権利化" },
+          { "title": "CN · JP · IN", "detail": "中国・日本・インドのポートフォリオ" },
+          { "title": "VN · SG · CA · AU", "detail": "成長市場と英米法圏への展開" },
+          { "title": "GLOBAL PORTFOLIO", "detail": "海外代理人 · 翻訳 · 年金・更新" }
+        ]
+      }
+    ],
+    "experienceMedia": [
+      { "alt": "半導体チップと精密電子部品", "caption": "AI · SOFTWARE · ELECTRONICS", "credit": "Thorium", "creditUrl": "https://unsplash.com/photos/a-close-up-of-a-processor-chip-on-a-table-lD1nt9ePX0s" },
+      { "alt": "自動車生産ラインの産業用ロボット", "caption": "MOBILITY · ROBOTICS · MANUFACTURING", "credit": "Lilian Do Khac", "creditUrl": "https://unsplash.com/photos/robotic-arms-assembling-a-car-chassis-on-a-factory-line-EyqUxJuOb1Q" },
+      { "alt": "研究室で実験するバイオ研究者", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
+    ],
+    "experienceNote": "2026年9月時点の内部フォルダ・メタデータにある固有NW20–NW26レファレンスを匿名集計しました。クライアント名および個別案件情報は公開しません。",
     "servicesTitle": "権利は複数の局面を<br>通過します",
     "servicesBody": "各業務は独立した商品ではなく、前後につながっています。取引や売却の経験が、出願段階のクレーム設計を変えます。",
     "group1": "権利の基本局面 <span>Core Practice</span>",

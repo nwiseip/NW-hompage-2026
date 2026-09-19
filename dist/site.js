@@ -78,6 +78,43 @@ window.addEventListener('scroll', requestScrollUpdate, { passive: true });
 window.addEventListener('resize', requestScrollUpdate);
 updateScrollState();
 
+const experienceTabs = [...document.querySelectorAll('[data-experience-tab]')];
+const experiencePanels = [...document.querySelectorAll('[data-experience-panel]')];
+const experienceMedia = [...document.querySelectorAll('[data-experience-media]')];
+
+function activateExperience(index, moveFocus = false) {
+  experienceTabs.forEach((tab, tabIndex) => {
+    const active = tabIndex === index;
+    tab.setAttribute('aria-selected', String(active));
+    tab.setAttribute('tabindex', active ? '0' : '-1');
+    if (active && moveFocus) tab.focus();
+  });
+  experiencePanels.forEach((panel, panelIndex) => {
+    panel.hidden = panelIndex !== index;
+  });
+  experienceMedia.forEach((figure, mediaIndex) => {
+    const active = mediaIndex === index;
+    figure.classList.toggle('is-active', active);
+    figure.setAttribute('aria-hidden', String(!active));
+  });
+}
+
+experienceTabs.forEach((tab, index) => {
+  tab.addEventListener('click', () => activateExperience(index));
+  tab.addEventListener('keydown', (event) => {
+    let nextIndex = index;
+    if (event.key === 'ArrowRight') nextIndex = (index + 1) % experienceTabs.length;
+    else if (event.key === 'ArrowLeft') nextIndex = (index - 1 + experienceTabs.length) % experienceTabs.length;
+    else if (event.key === 'Home') nextIndex = 0;
+    else if (event.key === 'End') nextIndex = experienceTabs.length - 1;
+    else return;
+    event.preventDefault();
+    activateExperience(nextIndex, true);
+  });
+});
+
+if (experienceTabs.length) activateExperience(0);
+
 const revealSelectors = [
   '.section-head',
   '.section-heading',
@@ -96,6 +133,9 @@ const revealSelectors = [
   '.trust-grid > div',
   '.glance-card',
   '.visual-story figcaption',
+  '.experience-heading',
+  '.experience-stat',
+  '.experience-shell',
   '.office-card',
   '.visit-note',
   '.contact > div',

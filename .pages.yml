@@ -52,6 +52,45 @@ components:
       - { name: quoteBy, label: 인용자, type: string }
       - { name: how, label: 일하는 방식, type: string, list: true }
       - { name: visual, label: 기술 사진 문구, type: text }
+      - { name: experienceEyebrow, label: 사건 기록 섹션 상단 문구, type: string }
+      - { name: experienceTitle, label: 사건 기록 섹션 제목, type: text }
+      - { name: experienceBody, label: 사건 기록 섹션 설명, type: text }
+      - name: experienceStats
+        label: 사건 기록 통계
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{value} · {label}" }
+        fields:
+          - { name: value, label: 숫자, type: string }
+          - { name: label, label: 설명, type: string }
+      - name: experienceTabs
+        label: 실무 경험 탭
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{label}" }
+        fields:
+          - { name: label, label: 탭 이름, type: string }
+          - { name: title, label: 제목, type: string }
+          - { name: body, label: 설명, type: text }
+          - name: items
+            label: 세부 항목
+            type: object
+            list:
+              collapsible: { collapsed: true, summary: "{title}" }
+            fields:
+              - { name: title, label: 항목명, type: string }
+              - { name: detail, label: 세부 내용, type: string }
+      - name: experienceMedia
+        label: 실무 경험 사진 설명과 출처
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{caption}" }
+        fields:
+          - { name: alt, label: 대체 텍스트, type: string }
+          - { name: caption, label: 사진 분야 문구, type: string }
+          - { name: credit, label: 작가명, type: string }
+          - { name: creditUrl, label: 출처 링크, type: string }
+      - { name: experienceNote, label: 사건 기록 집계 안내문, type: text }
       - { name: servicesTitle, label: 서비스 제목, type: text }
       - { name: servicesBody, label: 서비스 설명, type: text }
       - { name: group1, label: 서비스 그룹 1, type: string }
@@ -203,6 +242,9 @@ content:
       - { name: logoDark, label: 밝은 배경 로고, type: image }
       - { name: logoLight, label: 어두운 배경 로고, type: image }
       - { name: engineering, label: 기술 섹션 사진, type: image }
+      - { name: experienceSemiconductor, label: 기술 분야 사진, type: image }
+      - { name: experienceMobility, label: 모빌리티·제조 사진, type: image }
+      - { name: experienceBiotech, label: 바이오·헬스케어 사진, type: image }
       - { name: architecture, label: 오시는 길 사진, type: image }
       - name: professionals
         label: 전문가 사진

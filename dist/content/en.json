@@ -76,6 +76,62 @@
       "Technology understood by engineers"
     ],
     "visual": "Technology must be understood<br>before rights can be designed.",
+    "experienceEyebrow": "2020—2026 · ANONYMIZED MATTER RECORDS",
+    "experienceTitle": "Breadth in practice.<br>Depth proven by real matters.",
+    "experienceBody": "From patents, trademarks, designs, copyright and advisory work to public support programs and IP valuation, NwiseIP connects technology with markets and Korea with the world.",
+    "experienceStats": [
+      { "value": "1,900+", "label": "unique NW references" },
+      { "value": "7", "label": "practice categories" },
+      { "value": "10+", "label": "key jurisdictions and routes" },
+      { "value": "20+", "label": "valuation and listing records" }
+    ],
+    "experienceTabs": [
+      {
+        "label": "Practice",
+        "title": "Across every form of IP",
+        "body": "We connect the work a business needs at each stage: patents and utility models, trademarks, designs, copyright, contracts and advisory services, public programs and IP valuation.",
+        "items": [
+          { "title": "Patents & utility models", "detail": "Korean and foreign filings · prosecution · trials · litigation" },
+          { "title": "Trademarks", "detail": "Filings · renewals · opposition and trials · global portfolios" },
+          { "title": "Designs", "detail": "Korean and foreign filings · similarity analysis · protection" },
+          { "title": "Copyright & advisory", "detail": "Contracts · licensing · dispute prevention" },
+          { "title": "Public support programs", "detail": "Foreign filings · IP-R&D · commercialization" },
+          { "title": "IP valuation", "detail": "Technology listings · secured finance · transactions" }
+        ]
+      },
+      {
+        "label": "Technology",
+        "title": "We begin in the language of technology",
+        "body": "Our matter records span digital technologies, manufacturing and mobility, biotechnology and advanced materials.",
+        "items": [
+          { "title": "AI & software", "detail": "Data · platforms · automation · UI/UX" },
+          { "title": "Electrical & electronics", "detail": "Semiconductors · communications · sensors · control" },
+          { "title": "Mechanical & robotics", "detail": "Industrial equipment · manufacturing · HVAC · construction" },
+          { "title": "Automotive & mobility", "detail": "Electric vehicles · batteries · vehicle systems" },
+          { "title": "Biotech & healthcare", "detail": "Medical devices · diagnostics · life sciences" },
+          { "title": "Chemistry, materials & energy", "detail": "Advanced materials · processes · environmental technology" }
+        ]
+      },
+      {
+        "label": "International",
+        "title": "Korean matters and global market entry",
+        "body": "We connect Korea inbound work, PCT and national filings, translation, foreign associate coordination, annuities and renewals across jurisdictions.",
+        "items": [
+          { "title": "KOREA INBOUND", "detail": "Korean representation for overseas clients" },
+          { "title": "PCT · WO", "detail": "International filings and national-phase entry" },
+          { "title": "US · EP · DE", "detail": "Protection in the US and major European markets" },
+          { "title": "CN · JP · IN", "detail": "Portfolios in China, Japan and India" },
+          { "title": "VN · SG · CA · AU", "detail": "Growth markets and common-law jurisdictions" },
+          { "title": "GLOBAL PORTFOLIO", "detail": "Associates · translation · annuities and renewals" }
+        ]
+      }
+    ],
+    "experienceMedia": [
+      { "alt": "A semiconductor chip and precision electronic components", "caption": "AI · SOFTWARE · ELECTRONICS", "credit": "Thorium", "creditUrl": "https://unsplash.com/photos/a-close-up-of-a-processor-chip-on-a-table-lD1nt9ePX0s" },
+      { "alt": "Industrial robots on an automotive production line", "caption": "MOBILITY · ROBOTICS · MANUFACTURING", "credit": "Lilian Do Khac", "creditUrl": "https://unsplash.com/photos/robotic-arms-assembling-a-car-chassis-on-a-factory-line-EyqUxJuOb1Q" },
+      { "alt": "Biotechnology researchers working in a laboratory", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
+    ],
+    "experienceNote": "Anonymized count of unique NW20–NW26 references found in internal folder metadata as of September 2026. Client names and individual matter details are not disclosed.",
     "servicesTitle": "Rights move through<br>many stages",
     "servicesBody": "Each service connects to the next. Experience in transactions and exits changes how claims should be drafted from the outset.",
     "group1": "Core stages <span>Core Practice</span>",

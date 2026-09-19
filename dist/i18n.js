@@ -64,6 +64,10 @@
     document.querySelectorAll('.brand img').forEach((image) => image.setAttribute('src', media.logoDark));
     document.querySelectorAll('.footer-brand img, .panel-brand img').forEach((image) => image.setAttribute('src', media.logoLight));
     document.querySelector('.visual-story img')?.setAttribute('src', media.engineering);
+    document.querySelectorAll('[data-experience-media] img').forEach((image, index) => {
+      const sources = [media.experienceSemiconductor, media.experienceMobility, media.experienceBiotech];
+      if (sources[index]) image.setAttribute('src', sources[index]);
+    });
     document.querySelector('.location-photo img')?.setAttribute('src', media.architecture);
 
     document.querySelectorAll('.person-card').forEach((card) => {
@@ -111,6 +115,37 @@
       if (t.how[index]) element.textContent = t.how[index];
     });
     set('.visual-story figcaption strong', t.visual);
+
+    setText('.experience-kicker', t.experienceEyebrow);
+    set('#experience-title', t.experienceTitle);
+    setText('.experience-intro', t.experienceBody);
+    document.querySelectorAll('.experience-stat').forEach((stat, index) => {
+      const item = t.experienceStats?.[index];
+      if (!item) return;
+      stat.querySelector('strong').textContent = item.value;
+      stat.querySelector('span').textContent = item.label;
+    });
+    document.querySelectorAll('[data-experience-tab]').forEach((button, index) => {
+      const tab = t.experienceTabs?.[index];
+      if (tab) button.textContent = tab.label;
+    });
+    document.querySelectorAll('[data-experience-panel]').forEach((panel, index) => {
+      const tab = t.experienceTabs?.[index];
+      if (!tab) return;
+      panel.querySelector('h3').textContent = tab.title;
+      panel.querySelector('p').textContent = tab.body;
+      panel.querySelector('.experience-items').innerHTML = tab.items.map((item) => `<div class="experience-item"><strong>${item.title}</strong><span>${item.detail}</span></div>`).join('');
+    });
+    document.querySelectorAll('[data-experience-media]').forEach((figure, index) => {
+      const item = t.experienceMedia?.[index];
+      if (!item) return;
+      figure.querySelector('img').setAttribute('alt', item.alt);
+      figure.querySelector('figcaption span').textContent = item.caption;
+      const credit = figure.querySelector('figcaption a');
+      credit.textContent = item.credit;
+      credit.setAttribute('href', item.creditUrl);
+    });
+    setText('.experience-note', t.experienceNote);
 
     set('#services-title', t.servicesTitle);
     setText('.services .section-heading > p', t.servicesBody);

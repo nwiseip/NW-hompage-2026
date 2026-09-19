@@ -76,6 +76,62 @@
       "Compréhension technologique issue de l’ingénierie"
     ],
     "visual": "Il faut comprendre la technologie<br>avant de pouvoir concevoir les droits.",
+    "experienceEyebrow": "2020—2026 · DOSSIERS ANONYMISÉS",
+    "experienceTitle": "Une pratique étendue.<br>Une expertise prouvée par les dossiers.",
+    "experienceBody": "Des brevets, marques, dessins, droits d’auteur et missions de conseil aux programmes publics et à la valorisation de la PI, NwiseIP relie la technologie au marché et la Corée au monde.",
+    "experienceStats": [
+      { "value": "1 900+", "label": "références NW uniques" },
+      { "value": "7", "label": "domaines de pratique" },
+      { "value": "10+", "label": "juridictions et voies clés" },
+      { "value": "20+", "label": "dossiers de valorisation et cotation" }
+    ],
+    "experienceTabs": [
+      {
+        "label": "Pratique",
+        "title": "Toutes les formes de propriété intellectuelle",
+        "body": "Nous relions les besoins de chaque étape : brevets et modèles d’utilité, marques, dessins, droit d’auteur, contrats et conseil, programmes publics et valorisation de la PI.",
+        "items": [
+          { "title": "Brevets et modèles d’utilité", "detail": "Dépôts coréens et étrangers · procédure · recours · contentieux" },
+          { "title": "Marques", "detail": "Dépôts · renouvellements · oppositions et recours · portefeuilles mondiaux" },
+          { "title": "Dessins et modèles", "detail": "Dépôts coréens et étrangers · analyse de similitude · protection" },
+          { "title": "Droit d’auteur et conseil", "detail": "Contrats · licences · prévention des litiges" },
+          { "title": "Programmes publics", "detail": "Dépôts étrangers · IP-R&D · commercialisation" },
+          { "title": "Valorisation de la PI", "detail": "Cotation technologique · financement garanti · transactions" }
+        ]
+      },
+      {
+        "label": "Technologies",
+        "title": "Nous commençons par le langage de la technologie",
+        "body": "Nos dossiers couvrent les technologies numériques, l’industrie et la mobilité, les biotechnologies et les matériaux avancés.",
+        "items": [
+          { "title": "IA et logiciels", "detail": "Données · plateformes · automatisation · UI/UX" },
+          { "title": "Électricité et électronique", "detail": "Semi-conducteurs · communications · capteurs · commande" },
+          { "title": "Mécanique et robotique", "detail": "Équipements industriels · fabrication · CVC · construction" },
+          { "title": "Automobile et mobilité", "detail": "Véhicules électriques · batteries · systèmes embarqués" },
+          { "title": "Biotechnologies et santé", "detail": "Dispositifs médicaux · diagnostic · sciences du vivant" },
+          { "title": "Chimie, matériaux et énergie", "detail": "Matériaux avancés · procédés · technologies environnementales" }
+        ]
+      },
+      {
+        "label": "International",
+        "title": "Dossiers coréens et déploiement international",
+        "body": "Nous relions les dossiers entrants en Corée, les dépôts PCT et nationaux, la traduction, la coordination des correspondants, les annuités et les renouvellements.",
+        "items": [
+          { "title": "KOREA INBOUND", "detail": "Représentation en Corée de clients étrangers" },
+          { "title": "PCT · WO", "detail": "Dépôts internationaux et entrées en phase nationale" },
+          { "title": "US · EP · DE", "detail": "Protection aux États-Unis et sur les principaux marchés européens" },
+          { "title": "CN · JP · IN", "detail": "Portefeuilles en Chine, au Japon et en Inde" },
+          { "title": "VN · SG · CA · AU", "detail": "Marchés en croissance et juridictions de common law" },
+          { "title": "GLOBAL PORTFOLIO", "detail": "Correspondants · traduction · annuités et renouvellements" }
+        ]
+      }
+    ],
+    "experienceMedia": [
+      { "alt": "Puce semi-conductrice et composants électroniques de précision", "caption": "AI · SOFTWARE · ELECTRONICS", "credit": "Thorium", "creditUrl": "https://unsplash.com/photos/a-close-up-of-a-processor-chip-on-a-table-lD1nt9ePX0s" },
+      { "alt": "Robots industriels sur une chaîne de production automobile", "caption": "MOBILITY · ROBOTICS · MANUFACTURING", "credit": "Lilian Do Khac", "creditUrl": "https://unsplash.com/photos/robotic-arms-assembling-a-car-chassis-on-a-factory-line-EyqUxJuOb1Q" },
+      { "alt": "Chercheurs en biotechnologie travaillant en laboratoire", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
+    ],
+    "experienceNote": "Décompte anonymisé des références NW20–NW26 uniques figurant dans les métadonnées internes en septembre 2026. Les noms des clients et les détails des dossiers ne sont pas divulgués.",
     "servicesTitle": "Les droits traversent<br>plusieurs étapes",
     "servicesBody": "Chaque service s’inscrit dans une continuité. L’expérience des transactions et des cessions améliore la rédaction des revendications dès l’origine.",
     "group1": "Étapes essentielles <span>Pratique fondamentale</span>",

@@ -2,6 +2,9 @@
   "logoDark": "/assets/logo-h.png",
   "logoLight": "/assets/logo-h-white.png",
   "engineering": "/assets/engineering.jpg",
+  "experienceSemiconductor": "https://images.unsplash.com/photo-1739168283356-d1b9bd1c0954?auto=format&fit=crop&w=1600&q=82",
+  "experienceMobility": "https://images.unsplash.com/photo-1777383975764-bec6f5cabf00?auto=format&fit=crop&w=1600&q=82",
+  "experienceBiotech": "https://images.unsplash.com/photo-1760074032600-36943c264fbf?auto=format&fit=crop&w=1600&q=82",
   "architecture": "/assets/architecture.jpg",
   "professionals": {
     "baik-seungyeob": "/assets/baik.jpg",

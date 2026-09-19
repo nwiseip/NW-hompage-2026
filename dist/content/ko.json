@@ -76,6 +76,62 @@
       "엔지니어의 기술 이해"
     ],
     "visual": "기술을 이해해야<br>권리를 제대로 설계할 수 있습니다.",
+    "experienceEyebrow": "2020—2026 · 익명화된 사건 기록",
+    "experienceTitle": "실제 사건 기록이 말하는<br>실무의 폭과 깊이",
+    "experienceBody": "특허·상표·디자인·저작권과 컨설팅부터 정부지원사업, IP 가치평가까지. 엔와이즈는 기술과 시장, 국내와 해외를 하나의 흐름으로 연결합니다.",
+    "experienceStats": [
+      { "value": "1,900+", "label": "고유 NW 레퍼런스" },
+      { "value": "7", "label": "실무 카테고리" },
+      { "value": "10+", "label": "주요 관할·국제 경로" },
+      { "value": "20+", "label": "가치평가·상장 관련 기록" }
+    ],
+    "experienceTabs": [
+      {
+        "label": "실무 범위",
+        "title": "권리의 종류를 가리지 않습니다",
+        "body": "특허·실용신안, 상표, 디자인, 저작권과 계약·컨설팅, 정부지원사업, IP 가치평가까지 사업 단계에 필요한 실무를 연결합니다.",
+        "items": [
+          { "title": "특허·실용신안", "detail": "국내외 출원 · 중간사건 · 심판 · 소송" },
+          { "title": "상표", "detail": "출원 · 갱신 · 이의·심판 · 해외 포트폴리오" },
+          { "title": "디자인", "detail": "국내외 출원 · 유사 판단 · 권리화" },
+          { "title": "저작권·컨설팅", "detail": "계약 · 라이선싱 · 분쟁 예방" },
+          { "title": "정부지원사업", "detail": "해외출원 · IP-R&D · 사업화 연계" },
+          { "title": "IP 가치평가", "detail": "기술특례상장 · 담보대출 · 거래" }
+        ]
+      },
+      {
+        "label": "기술 분야",
+        "title": "기술 언어로 먼저 이해합니다",
+        "body": "내부 사건 기록은 디지털 기술에서 제조·모빌리티, 바이오와 소재까지 폭넓은 기술 스펙트럼을 보여줍니다.",
+        "items": [
+          { "title": "AI · 소프트웨어", "detail": "데이터 · 플랫폼 · 자동화 · UI/UX" },
+          { "title": "전기 · 전자", "detail": "반도체 · 통신 · 센서 · 제어" },
+          { "title": "기계 · 로보틱스", "detail": "산업장비 · 제조 · 공조 · 건설" },
+          { "title": "자동차 · 모빌리티", "detail": "전기차 · 배터리 · 차량 시스템" },
+          { "title": "바이오 · 헬스케어", "detail": "의료기기 · 진단 · 생명과학" },
+          { "title": "화학 · 소재 · 에너지", "detail": "신소재 · 공정 · 환경기술" }
+        ]
+      },
+      {
+        "label": "국제 업무",
+        "title": "국내 사건과 해외 진입을 함께 다룹니다",
+        "body": "한국 인커밍, PCT와 개별국 출원, 번역, 해외 대리인 협업, 연차료·갱신까지 국가별 절차를 연결합니다.",
+        "items": [
+          { "title": "KOREA INBOUND", "detail": "해외 고객의 한국 진입 사건" },
+          { "title": "PCT · WO", "detail": "국제출원과 국내단계 진입" },
+          { "title": "US · EP · DE", "detail": "미국·유럽 주요국 권리화" },
+          { "title": "CN · JP · IN", "detail": "중국·일본·인도 포트폴리오" },
+          { "title": "VN · SG · CA · AU", "detail": "성장시장과 영미권 진입" },
+          { "title": "GLOBAL PORTFOLIO", "detail": "해외 대리인 · 번역 · 연차료·갱신" }
+        ]
+      }
+    ],
+    "experienceMedia": [
+      { "alt": "반도체 칩과 정밀 전자 부품", "caption": "AI · SOFTWARE · ELECTRONICS", "credit": "Thorium", "creditUrl": "https://unsplash.com/photos/a-close-up-of-a-processor-chip-on-a-table-lD1nt9ePX0s" },
+      { "alt": "자동차 생산라인의 산업용 로봇", "caption": "MOBILITY · ROBOTICS · MANUFACTURING", "credit": "Lilian Do Khac", "creditUrl": "https://unsplash.com/photos/robotic-arms-assembling-a-car-chassis-on-a-factory-line-EyqUxJuOb1Q" },
+      { "alt": "연구실에서 실험 중인 바이오 연구진", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
+    ],
+    "experienceNote": "2026년 9월 현재 내부 폴더 메타데이터의 고유 NW20–NW26 레퍼런스를 익명 집계했습니다. 고객명과 개별 사건 정보는 공개하지 않습니다.",
     "servicesTitle": "권리는 여러 국면을<br>지납니다",
     "servicesBody": "각 업무는 독립된 상품이 아니라 앞뒤로 이어집니다. 매각을 다뤄본 경험이 출원 단계의 청구항 설계를 교정합니다.",
     "group1": "권리의 기본 국면 <span>Core Practice</span>",

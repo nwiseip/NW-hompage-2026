@@ -76,6 +76,62 @@
       "工程师对技术的理解"
     ],
     "visual": "只有理解技术，<br>才能正确设计权利。",
+    "experienceEyebrow": "2020—2026 · 匿名化案件记录",
+    "experienceTitle": "真实案件记录所呈现的<br>业务广度与专业深度",
+    "experienceBody": "从专利、商标、外观设计、著作权与咨询，到政府支持项目和知识产权价值评估，NwiseIP将技术与市场、韩国与全球连接为一体。",
+    "experienceStats": [
+      { "value": "1,900+", "label": "独立NW案件编号" },
+      { "value": "7", "label": "业务类别" },
+      { "value": "10+", "label": "主要法域与国际途径" },
+      { "value": "20+", "label": "估值与上市相关记录" }
+    ],
+    "experienceTabs": [
+      {
+        "label": "业务范围",
+        "title": "覆盖各类知识产权",
+        "body": "从专利与实用新型、商标、外观设计、著作权、合同与咨询，到政府支持项目及知识产权价值评估，我们贯通企业各阶段所需的专业服务。",
+        "items": [
+          { "title": "专利与实用新型", "detail": "韩国及海外申请 · 审查答复 · 审判 · 诉讼" },
+          { "title": "商标", "detail": "申请 · 续展 · 异议与审判 · 全球组合" },
+          { "title": "外观设计", "detail": "韩国及海外申请 · 近似判断 · 权利化" },
+          { "title": "著作权与咨询", "detail": "合同 · 许可 · 争议预防" },
+          { "title": "政府支持项目", "detail": "海外申请 · IP-R&D · 商业化衔接" },
+          { "title": "知识产权估值", "detail": "技术特例上市 · 担保融资 · 交易" }
+        ]
+      },
+      {
+        "label": "技术领域",
+        "title": "先用技术语言理解",
+        "body": "我们的案件记录横跨数字技术、制造与移动出行、生物科技及先进材料等广泛领域。",
+        "items": [
+          { "title": "AI与软件", "detail": "数据 · 平台 · 自动化 · UI/UX" },
+          { "title": "电气与电子", "detail": "半导体 · 通信 · 传感器 · 控制" },
+          { "title": "机械与机器人", "detail": "工业设备 · 制造 · 暖通 · 建设" },
+          { "title": "汽车与移动出行", "detail": "电动汽车 · 电池 · 车辆系统" },
+          { "title": "生物与医疗健康", "detail": "医疗器械 · 诊断 · 生命科学" },
+          { "title": "化学、材料与能源", "detail": "先进材料 · 工艺 · 环境技术" }
+        ]
+      },
+      {
+        "label": "国际业务",
+        "title": "兼顾韩国案件与全球布局",
+        "body": "我们贯通韩国入境业务、PCT及各国申请、翻译、海外代理人协作，以及年费和续展管理。",
+        "items": [
+          { "title": "KOREA INBOUND", "detail": "海外客户进入韩国的案件" },
+          { "title": "PCT · WO", "detail": "国际申请与国家阶段进入" },
+          { "title": "US · EP · DE", "detail": "美国及欧洲主要市场的权利化" },
+          { "title": "CN · JP · IN", "detail": "中国、日本与印度的权利组合" },
+          { "title": "VN · SG · CA · AU", "detail": "增长市场及英美法系市场" },
+          { "title": "GLOBAL PORTFOLIO", "detail": "海外代理人 · 翻译 · 年费与续展" }
+        ]
+      }
+    ],
+    "experienceMedia": [
+      { "alt": "半导体芯片与精密电子元件", "caption": "AI · SOFTWARE · ELECTRONICS", "credit": "Thorium", "creditUrl": "https://unsplash.com/photos/a-close-up-of-a-processor-chip-on-a-table-lD1nt9ePX0s" },
+      { "alt": "汽车生产线上的工业机器人", "caption": "MOBILITY · ROBOTICS · MANUFACTURING", "credit": "Lilian Do Khac", "creditUrl": "https://unsplash.com/photos/robotic-arms-assembling-a-car-chassis-on-a-factory-line-EyqUxJuOb1Q" },
+      { "alt": "在实验室工作的生物科技研究人员", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
+    ],
+    "experienceNote": "以上数据为截至2026年9月对内部文件夹元数据中独立NW20–NW26编号的匿名统计。客户名称及具体案件信息不予公开。",
     "servicesTitle": "权利会经历<br>多个阶段",
     "servicesBody": "各项服务彼此衔接。交易与出售经验，会反向改善申请阶段的权利要求设计。",
     "group1": "权利基础阶段 <span>Core Practice</span>",
