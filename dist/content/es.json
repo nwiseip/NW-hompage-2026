@@ -4,7 +4,7 @@
       "El despacho",
       "Servicios",
       "Valor de PI",
-      "Profesionales",
+      "Un solo equipo",
       "Perspectivas",
       "Cómo llegar",
       "Contacto"
@@ -172,8 +172,9 @@
       "Apoyo a cotización tecnológica",
       "Financiación respaldada por PI"
     ],
-    "peopleTitle": "Profesionales que parten de la tecnología<br>y terminan con derechos sólidos",
-    "peopleBody": "Cuatro abogados de patentes y un abogado colaborador gestionan directamente los asuntos en sus áreas técnicas.",
+    "peopleLabel": "Distintas especialidades. Un mismo criterio.",
+    "peopleTitle": "Un solo equipo, desde la tecnología<br>hasta la realización de valor",
+    "peopleBody": "Cuatro abogados de patentes y un abogado colaborador combinan sus especialidades y mantienen la continuidad desde la primera cuestión técnica hasta la protección, los litigios y la realización de valor.",
     "people": [
       {
         "name": "Seungyeob Baik",
@@ -262,7 +263,7 @@
     "reserve": "Reservar una visita"
   },
   "profileCommon": {
-    "back": "← PROFESIONALES",
+    "back": "← EQUIPO",
     "labels": [
       "ÁREAS PRINCIPALES",
       "CAMPOS TÉCNICOS",

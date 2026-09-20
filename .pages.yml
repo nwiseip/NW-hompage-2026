@@ -108,6 +108,7 @@ components:
       - { name: valueBody, label: IP 가치 설명, type: text }
       - { name: valueButton, label: IP 가치 버튼, type: string }
       - { name: valuePaths, label: 가치 실현 경로, type: string, list: true }
+      - { name: peopleLabel, label: 한 팀 섹션 짧은 문구, type: string }
       - { name: peopleTitle, label: 전문가 제목, type: text }
       - { name: peopleBody, label: 전문가 설명, type: text }
       - name: people

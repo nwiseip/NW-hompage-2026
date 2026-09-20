@@ -169,6 +169,7 @@
     });
 
     set('#people-title', t.peopleTitle);
+    setText('.people .section-heading > div p', t.peopleLabel);
     setText('.people .section-heading > p', t.peopleBody);
     document.querySelectorAll('.person-card').forEach((card, index) => {
       const person = t.people[index];

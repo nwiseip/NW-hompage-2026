@@ -4,7 +4,7 @@
       "About",
       "Services",
       "IP Value",
-      "Professionals",
+      "One Team",
       "Insights",
       "Visit",
       "Contact"
@@ -38,7 +38,7 @@
       {
         "title": "Foreign associates",
         "body": "Direct Korean representation for inbound matters. The responsible attorney responds personally and keeps the technical context intact.",
-        "cta": "Meet the team"
+        "cta": "Meet One Team"
       },
       {
         "title": "IP firms",
@@ -172,8 +172,9 @@
       "Technology-listing review",
       "IP-backed finance"
     ],
-    "peopleTitle": "People who begin with technology<br>and finish with enforceable rights",
-    "peopleBody": "Four patent attorneys and one of-counsel attorney handle matters directly across their technical fields.",
+    "peopleLabel": "Different expertise. One standard.",
+    "peopleTitle": "One team from technology<br>to value realisation",
+    "peopleBody": "Four patent attorneys and one of-counsel attorney bring their expertise together, staying connected from the first technical question through protection, disputes and value realisation.",
     "people": [
       {
         "name": "Seungyeob Baik",
@@ -262,7 +263,7 @@
     "reserve": "Schedule a visit"
   },
   "profileCommon": {
-    "back": "← PROFESSIONALS",
+    "back": "← ONE TEAM",
     "labels": [
       "KEY PRACTICE",
       "TECHNICAL FIELDS",

@@ -4,7 +4,7 @@
       "Le cabinet",
       "Services",
       "Valeur de la PI",
-      "Professionnels",
+      "Une seule équipe",
       "Analyses",
       "Nous trouver",
       "Contact"
@@ -172,8 +172,9 @@
       "Accompagnement de la cotation technologique",
       "Financement adossé à la PI"
     ],
-    "peopleTitle": "Des professionnels qui partent de la technologie<br>et aboutissent à des droits opposables",
-    "peopleBody": "Quatre conseils en propriété industrielle et un avocat collaborateur traitent directement les dossiers dans leurs domaines techniques.",
+    "peopleLabel": "Des expertises complémentaires. Une même exigence.",
+    "peopleTitle": "Une seule équipe, de la technologie<br>à la valorisation",
+    "peopleBody": "Quatre conseils en propriété industrielle et un avocat collaborateur réunissent leurs expertises, de la première question technique à la protection, au contentieux et à la valorisation.",
     "people": [
       {
         "name": "Seungyeob Baik",
@@ -262,7 +263,7 @@
     "reserve": "Planifier une visite"
   },
   "profileCommon": {
-    "back": "← PROFESSIONNELS",
+    "back": "← ÉQUIPE",
     "labels": [
       "DOMAINES PRINCIPAUX",
       "DOMAINES TECHNIQUES",
