@@ -242,19 +242,31 @@
     "viewAll": "Ver todo",
     "insights": [
       {
+        "kicker": "TEAM NEWS",
         "title": "Taeweon Lyu se incorpora — nueva práctica de electrónica",
-        "body": "Reforzamos la protección en electricidad, electrónica y software."
+        "body": "Reforzamos la protección en electricidad, electrónica y software.",
+        "datetime": "2026-09-09",
+        "date": "9 de septiembre de 2026",
+        "author": "NwiseIP →"
       },
       {
+        "kicker": "TEAM NEWS",
+        "title": "Jiyoung Yoon se incorpora — ampliamos capacidades en química, biotecnología y AX",
+        "body": "Sumamos experiencia en patentes químicas y biotecnológicas, automatización de procesos y transformación AX.",
+        "datetime": "2026-09-01",
+        "date": "1 de septiembre de 2026",
+        "author": "NwiseIP →"
+      },
+      {
+        "kicker": "PRACTICE GUIDE",
         "title": "Práctica coreana de patentes — diferencias frente al EPC",
-        "body": "Diferencias prácticas del examen y los procedimientos del MOIP que los solicitantes extranjeros suelen pasar por alto."
-      },
-      {
-        "title": "LES International Annual Conference",
-        "body": "Cuestiones y tendencias observadas en el mercado internacional de licencias."
+        "body": "Diferencias prácticas del examen y los procedimientos del MOIP que los solicitantes extranjeros suelen pasar por alto.",
+        "datetime": "2026-05-05",
+        "date": "5 de mayo de 2026",
+        "author": "Seungyeob Baik →"
       }
     ],
-    "note": "Estos contenidos son ejemplos de maquetación y serán sustituidos progresivamente por artículos publicados.",
+    "note": "Actualizamos esta sección con noticias del despacho y orientación práctica.",
     "contactTitle": "También trabajamos con ideas<br>en fase inicial.",
     "contactBody": "Desde la posibilidad de protección hasta la estrategia de solicitud, ordenaremos juntos las primeras preguntas.",
     "contactButton": "Iniciar una conversación"

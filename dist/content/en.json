@@ -242,19 +242,31 @@
     "viewAll": "View all",
     "insights": [
       {
+        "kicker": "TEAM NEWS",
         "title": "Taeweon Lyu joins NwiseIP — Electronics practice launched",
-        "body": "Strengthening our protection capabilities in electrical, electronics and software technologies."
+        "body": "Strengthening our protection capabilities in electrical, electronics and software technologies.",
+        "datetime": "2026-09-09",
+        "date": "9 September 2026",
+        "author": "NwiseIP →"
       },
       {
+        "kicker": "TEAM NEWS",
+        "title": "Jiyoung Yoon joins NwiseIP — Expanding our chemistry, biotech and AX capabilities",
+        "body": "Bringing together patent practice in chemistry and biotech with business process automation and AX transformation.",
+        "datetime": "2026-09-01",
+        "date": "1 September 2026",
+        "author": "NwiseIP →"
+      },
+      {
+        "kicker": "PRACTICE GUIDE",
         "title": "Korean patent practice — what differs from the EPC?",
-        "body": "Practical differences in MOIP examination and procedure that foreign applicants can easily overlook."
-      },
-      {
-        "title": "LES International Annual Conference",
-        "body": "Current issues and deal flows observed in the international licensing market."
+        "body": "Practical differences in MOIP examination and procedure that foreign applicants can easily overlook.",
+        "datetime": "2026-05-05",
+        "date": "5 May 2026",
+        "author": "Seungyeob Baik →"
       }
     ],
-    "note": "These items are layout samples and will be replaced with published articles in sequence.",
+    "note": "Firm news and practical guidance are updated here as they are published.",
     "contactTitle": "Early-stage ideas<br>are welcome.",
     "contactBody": "From protectability to filing strategy, we will organise the first questions with you.",
     "contactButton": "Start a conversation"

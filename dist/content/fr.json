@@ -242,19 +242,31 @@
     "viewAll": "Tout voir",
     "insights": [
       {
+        "kicker": "TEAM NEWS",
         "title": "Taeweon Lyu rejoint NwiseIP — création du pôle électronique",
-        "body": "Nous renforçons nos capacités de protection dans les domaines de l’électricité, de l’électronique et des logiciels."
+        "body": "Nous renforçons nos capacités de protection dans les domaines de l’électricité, de l’électronique et des logiciels.",
+        "datetime": "2026-09-09",
+        "date": "9 septembre 2026",
+        "author": "NwiseIP →"
       },
       {
+        "kicker": "TEAM NEWS",
+        "title": "Jiyoung Yoon rejoint NwiseIP — renforcement en chimie, biotechnologies et AX",
+        "body": "Nous associons la pratique des brevets en chimie et biotechnologies à l’automatisation des processus et à la transformation AX.",
+        "datetime": "2026-09-01",
+        "date": "1er septembre 2026",
+        "author": "NwiseIP →"
+      },
+      {
+        "kicker": "PRACTICE GUIDE",
         "title": "Pratique coréenne des brevets — quelles différences avec la CBE ?",
-        "body": "Les particularités de l’examen et des procédures du MOIP que les déposants étrangers peuvent facilement négliger."
-      },
-      {
-        "title": "Conférence annuelle internationale de la LES",
-        "body": "Questions actuelles et tendances transactionnelles observées sur le marché international des licences."
+        "body": "Les particularités de l’examen et des procédures du MOIP que les déposants étrangers peuvent facilement négliger.",
+        "datetime": "2026-05-05",
+        "date": "5 mai 2026",
+        "author": "Seungyeob Baik →"
       }
     ],
-    "note": "Ces contenus sont des exemples de mise en page et seront progressivement remplacés par des articles publiés.",
+    "note": "Nous actualisons cette rubrique avec les nouvelles du cabinet et nos analyses pratiques.",
     "contactTitle": "Même au stade de l’idée,<br>parlons-en.",
     "contactBody": "De la brevetabilité à la stratégie de dépôt, nous structurerons avec vous les premières questions.",
     "contactButton": "Commencer un échange"

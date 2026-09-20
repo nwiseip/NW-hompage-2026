@@ -196,8 +196,13 @@
     document.querySelectorAll('.insight-grid article').forEach((article, index) => {
       const insight = t.insights[index];
       if (!insight) return;
+      article.querySelector(':scope > span').textContent = insight.kicker;
       article.querySelector('h3').textContent = insight.title;
       article.querySelector('p').textContent = insight.body;
+      const time = article.querySelector('time');
+      time.dateTime = insight.datetime;
+      time.textContent = insight.date;
+      article.querySelector('div b').textContent = insight.author;
     });
     setText('.content-note', t.note);
     set('#contact-title', t.contactTitle);

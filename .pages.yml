@@ -34,8 +34,12 @@ components:
         list:
           collapsible: { collapsed: true, summary: "{title}" }
         fields:
+          - { name: kicker, label: 카테고리, type: string }
           - { name: title, label: 제목, type: string }
           - { name: body, label: 설명, type: text }
+          - { name: datetime, label: 날짜 ISO, type: string }
+          - { name: date, label: 표시 날짜, type: string }
+          - { name: author, label: 작성자, type: string }
           - { name: cta, label: 버튼, type: string }
       - name: trust
         label: 대외 활동

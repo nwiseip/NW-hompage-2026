@@ -82,18 +82,20 @@ h1, h2, h3, h4, p, blockquote, dl, dd { margin-top: 0; }
 .section-heading.compact { grid-template-columns: 200px 1fr 360px; }
 .section-heading.compact h2 { font-size: clamp(2.2rem, 3.3vw, 3.4rem); }
 .entry-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
-.entry-card { position: relative; display: flex; flex-direction: column; min-height: 355px; padding: 27px; overflow: hidden; background: #fff; border: 1px solid rgba(27,42,74,.07); border-radius: var(--radius); box-shadow: 0 3px 12px rgba(27,42,74,.035); transition: transform .25s, box-shadow .25s; }
-.entry-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
-.entry-card::after { position: absolute; inset: 0 0 auto; height: 3px; background: var(--navy); content: ""; }
-.entry-card.international::after { background: #416d8c; }
-.entry-card.dispute::after { background: var(--red); }
+.entry-card { --card-accent: var(--navy); position: relative; display: flex; flex-direction: column; min-height: 355px; padding: 27px; overflow: hidden; background: #fff; border: 1px solid rgba(27,42,74,.08); border-radius: var(--radius); box-shadow: 0 3px 12px rgba(27,42,74,.035); transition: transform .25s, border-color .25s, box-shadow .25s; }
+.entry-card.international { --card-accent: #416d8c; }
+.entry-card.dispute { --card-accent: var(--red); }
+.entry-card:hover { transform: translateY(-5px); border-color: rgba(27,42,74,.16); box-shadow: 0 20px 45px rgba(27,42,74,.11); }
 .card-kicker { color: var(--muted); font-family: var(--latin); font-size: .64rem; font-weight: 700; letter-spacing: .12em; }
-.card-symbol { display: grid; place-items: center; width: 46px; height: 46px; margin: 28px 0 23px; color: var(--navy); background: #f0f2f7; border-radius: 14px; font-size: 1.25rem; }
+.card-symbol { display: grid; place-items: center; width: 46px; height: 46px; margin: 28px 0 23px; color: var(--card-accent); background: #f0f2f7; border-radius: 14px; font-size: 1.25rem; transition: transform .25s, border-radius .25s; }
 .international .card-symbol { color: #416d8c; background: #eef5f8; }
 .dispute .card-symbol { color: var(--red); background: #fceff1; }
+.entry-card:hover .card-symbol { transform: rotate(-6deg) scale(1.04); border-radius: 50%; }
 .entry-card h3 { margin-bottom: 12px; font-size: 1.3rem; letter-spacing: -.035em; }
 .entry-card p { margin-bottom: 30px; color: var(--body); font-size: .87rem; line-height: 1.8; }
 .text-link { display: flex; justify-content: space-between; margin-top: auto; color: var(--navy); font-size: .79rem; font-weight: 700; }
+.text-link b { transition: transform .25s; }
+.entry-card:hover .text-link b { transform: translateX(5px); }
 
 .trust-strip { color: #fff; background: var(--navy); }
 .trust-grid { display: grid; grid-template-columns: repeat(4, 1fr); padding-block: 32px; }
