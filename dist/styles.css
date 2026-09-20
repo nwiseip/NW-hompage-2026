@@ -464,10 +464,10 @@ body { overflow-x: hidden; }
 .value-source:hover { color: #fff; border-bottom-color: #fff; }
 
 .person-photo img { filter: grayscale(1); transition: filter .4s, transform .45s; }
-.person-card:hover img, .person-card:focus-visible img { filter: grayscale(0); transform: scale(1.025); }
+.person-card:hover img, .person-card:focus-visible img { transform: scale(1.025); }
 .person-card:focus-visible { outline: 3px solid rgba(200,16,46,.28); outline-offset: 3px; }
 
-/* ONE TEAM: matching pencil studies resolve into the final portrait on interaction. */
+/* ONE TEAM: pencil studies stay on the index; profile pages reveal the final portraits. */
 .person-photo::after {
   content: "";
   position: absolute;
@@ -480,18 +480,13 @@ body { overflow-x: hidden; }
   pointer-events: none;
   transition: opacity .55s cubic-bezier(.22,1,.36,1), transform .65s cubic-bezier(.22,1,.36,1);
 }
-.person-card[href*="baik-seungyeob"] .person-photo::after { background-image: url("/assets/sketch-matched/baik.jpg"); }
-.person-card[href*="jin-junhyung"] .person-photo::after { background-image: url("/assets/sketch-matched/jin.jpg"); }
-.person-card[href*="lyu-taeweon"] .person-photo::after { background-image: url("/assets/sketch-matched/ryu.jpg"); }
+.person-card[href*="baik-seungyeob"] .person-photo::after { background-image: url("/assets/sketch-editorial/baik.jpg"); }
+.person-card[href*="jin-junhyung"] .person-photo::after { background-image: url("/assets/sketch-editorial/jin.jpg"); }
+.person-card[href*="lyu-taeweon"] .person-photo::after { background-image: url("/assets/sketch-editorial/ryu.jpg"); }
 .person-card[href*="yoon-jiyoung"] .person-photo::after { background-image: url("/assets/sketch-matched/yoon.jpg"); }
 .person-card[href*="shin-kihyun"] .person-photo::after { background-image: url("/assets/sketch-matched/shin.jpg"); }
 .person-card:hover .person-photo::after,
-.person-card:focus-visible .person-photo::after { opacity: 0; transform: scale(1.025); }
-
-@media (hover: none), (pointer: coarse) {
-  .person-photo::after { opacity: 0; }
-  .person-photo img { filter: grayscale(0); }
-}
+.person-card:focus-visible .person-photo::after { transform: scale(1.025); }
 
 .floating-actions { position: fixed; z-index: 90; right: 18px; bottom: 18px; display: flex; align-items: stretch; gap: 1px; opacity: 0; transform: translateY(18px); pointer-events: none; transition: opacity .3s, transform .3s; }
 .floating-actions.is-visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
