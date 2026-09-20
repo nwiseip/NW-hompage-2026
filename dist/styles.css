@@ -130,7 +130,7 @@ blockquote cite { position: relative; display: inline-flex; margin-top: 20px; pa
 .service-group > h3 { margin-bottom: 18px; font-size: .85rem; }
 .service-group > h3 span { margin-left: 8px; color: var(--muted); font-family: var(--latin); font-size: .66rem; font-weight: 600; text-transform: uppercase; }
 .service-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-.service-group.portfolio-care .service-grid { grid-template-columns: repeat(2, 1fr); }
+.service-group.portfolio-care .service-grid { grid-template-columns: repeat(3, 1fr); }
 .service-card { position: relative; min-height: 275px; padding: 27px; background: #fff; border: 1px solid rgba(27,42,74,.06); border-radius: var(--radius); box-shadow: 0 3px 10px rgba(27,42,74,.03); transition: transform .2s, box-shadow .2s; }
 .service-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
 .service-card > span { color: #a8adb7; font-family: var(--latin); font-size: .68rem; }
@@ -157,7 +157,6 @@ blockquote cite { position: relative; display: inline-flex; margin-top: 20px; pa
 .person-photo { position: relative; aspect-ratio: 4 / 4.55; overflow: hidden; background: #e8e9ec; }
 .person-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center top; transition: transform .45s; }
 .person-card:hover img { transform: scale(1.025); }
-.person-photo > span { position: absolute; top: 13px; left: 13px; padding: 5px 9px; color: #fff; background: rgba(27,42,74,.8); border-radius: 999px; font-size: .62rem; font-weight: 700; backdrop-filter: blur(8px); }
 .person-info { padding: 19px 17px 21px; }
 .person-info h3 { margin-bottom: 2px; font-size: 1.25rem; }
 .person-info .person-en { min-height: 34px; margin-bottom: 12px; color: var(--muted); font-family: var(--latin); font-size: .57rem; line-height: 1.45; }
