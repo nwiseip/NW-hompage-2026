@@ -467,6 +467,32 @@ body { overflow-x: hidden; }
 .person-card:hover img, .person-card:focus-visible img { filter: grayscale(0); transform: scale(1.025); }
 .person-card:focus-visible { outline: 3px solid rgba(200,16,46,.28); outline-offset: 3px; }
 
+/* ONE TEAM: matching pencil studies resolve into the final portrait on interaction. */
+.person-photo::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  pointer-events: none;
+  transition: opacity .55s cubic-bezier(.22,1,.36,1), transform .65s cubic-bezier(.22,1,.36,1);
+}
+.person-card[href*="baik-seungyeob"] .person-photo::after { background-image: url("/assets/sketch-matched/baik.jpg"); }
+.person-card[href*="jin-junhyung"] .person-photo::after { background-image: url("/assets/sketch-matched/jin.jpg"); }
+.person-card[href*="lyu-taeweon"] .person-photo::after { background-image: url("/assets/sketch-matched/ryu.jpg"); }
+.person-card[href*="yoon-jiyoung"] .person-photo::after { background-image: url("/assets/sketch-matched/yoon.jpg"); }
+.person-card[href*="shin-kihyun"] .person-photo::after { background-image: url("/assets/sketch-matched/shin.jpg"); }
+.person-card:hover .person-photo::after,
+.person-card:focus-visible .person-photo::after { opacity: 0; transform: scale(1.025); }
+
+@media (hover: none), (pointer: coarse) {
+  .person-photo::after { opacity: 0; }
+  .person-photo img { filter: grayscale(0); }
+}
+
 .floating-actions { position: fixed; z-index: 90; right: 18px; bottom: 18px; display: flex; align-items: stretch; gap: 1px; opacity: 0; transform: translateY(18px); pointer-events: none; transition: opacity .3s, transform .3s; }
 .floating-actions.is-visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
 .floating-actions a { display: flex; align-items: center; justify-content: space-between; min-height: 58px; padding: 0 18px; color: #fff; background: rgba(27,42,74,.95); border-radius: 14px; backdrop-filter: blur(12px); font-size: .78rem; font-weight: 700; box-shadow: 0 14px 30px rgba(27,42,74,.18); transition: background .2s, transform .2s; }
@@ -484,7 +510,22 @@ body { overflow-x: hidden; }
 .profile-portrait { overflow: hidden; background: #e8e9ec; border-radius: 28px; box-shadow: var(--shadow); }
 .profile-portrait img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center top; filter: grayscale(1); transition: filter .4s, transform .5s; }
 .profile-portrait:hover img { filter: grayscale(0); transform: scale(1.018); }
-.profile-heading { padding: 46px 50px; background: #fff; border: 1px solid rgba(27,42,74,.06); border-radius: 28px; box-shadow: var(--shadow); }
+.profile-heading { position: relative; isolation: isolate; overflow: hidden; padding: 46px 50px; background: #fff; border: 1px solid rgba(27,42,74,.06); border-radius: 28px; box-shadow: var(--shadow); }
+.profile-heading > * { position: relative; z-index: 1; }
+.profile-page.has-profile-sketch .profile-heading::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 16%;
+  right: -6%;
+  width: 46%;
+  height: 70%;
+  background: var(--profile-sketch-image) right bottom / contain no-repeat;
+  mix-blend-mode: multiply;
+  opacity: .075;
+  pointer-events: none;
+  transform: rotate(-1.5deg);
+}
 .profile-kicker { display: flex; justify-content: space-between; margin-bottom: 70px; color: var(--muted); font-family: var(--latin); font-size: .64rem; font-weight: 700; letter-spacing: .08em; }
 .profile-heading h1 { margin-bottom: 8px; font-size: clamp(3.8rem, 7vw, 7.2rem); font-weight: 750; line-height: .96; letter-spacing: -.075em; }
 .profile-name-en { margin-bottom: 17px; color: var(--muted); font-family: var(--latin); font-size: .72rem; }

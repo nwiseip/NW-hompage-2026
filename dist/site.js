@@ -7,6 +7,19 @@ const uiLabels = window.NWISE_UI_LABELS || { contact: '상담 문의', top: 'TOP
 
 root.classList.add('js');
 
+const profileSketches = {
+  'baik-seungyeob': '/assets/sketch-editorial/baik.jpg',
+  'jin-junhyung': '/assets/sketch-editorial/jin.jpg',
+  'lyu-taeweon': '/assets/sketch-editorial/ryu.jpg',
+  'yoon-jiyoung': '/assets/sketch-editorial/yoon.jpg',
+  'shin-kihyun': '/assets/sketch-editorial/shin.jpg'
+};
+const profileSlug = window.location.pathname.split('/').filter(Boolean).pop()?.replace(/\.html$/, '');
+if (document.body.classList.contains('profile-page') && profileSlug && profileSketches[profileSlug]) {
+  document.body.classList.add('has-profile-sketch');
+  document.body.style.setProperty('--profile-sketch-image', `url("${profileSketches[profileSlug]}")`);
+}
+
 function setMenu(open) {
   menuButton?.setAttribute('aria-expanded', String(open));
   nav?.classList.toggle('open', open);
