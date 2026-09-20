@@ -480,9 +480,9 @@ body { overflow-x: hidden; }
   pointer-events: none;
   transition: opacity .55s cubic-bezier(.22,1,.36,1), transform .65s cubic-bezier(.22,1,.36,1);
 }
-.person-card[href*="baik-seungyeob"] .person-photo::after { background-image: url("/assets/sketch-editorial/baik.jpg"); }
-.person-card[href*="jin-junhyung"] .person-photo::after { background-image: url("/assets/sketch-editorial/jin.jpg"); }
-.person-card[href*="lyu-taeweon"] .person-photo::after { background-image: url("/assets/sketch-editorial/ryu.jpg"); }
+.person-card[href*="baik-seungyeob"] .person-photo::after { background-image: url("/assets/sketch-home/baik.jpg"); }
+.person-card[href*="jin-junhyung"] .person-photo::after { background-image: url("/assets/sketch-home/jin.jpg"); }
+.person-card[href*="lyu-taeweon"] .person-photo::after { background-image: url("/assets/sketch-home/ryu.jpg"); }
 .person-card[href*="yoon-jiyoung"] .person-photo::after { background-image: url("/assets/sketch-matched/yoon.jpg"); }
 .person-card[href*="shin-kihyun"] .person-photo::after { background-image: url("/assets/sketch-matched/shin.jpg"); }
 .person-card:hover .person-photo::after,
