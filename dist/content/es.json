@@ -229,7 +229,7 @@
         "name": "Jiyoung Yoon",
         "role": "Abogada de patentes",
         "education": "Ingeniería Química y Biomolecular, KAIST; máster en UCD",
-        "practice": "Química y biotecnología; automatización de procesos y transformación AX",
+        "practice": "Química y biotecnología; automatización de procesos y transformación mediante IA",
         "tags": [
           "Química·biotecnología",
           "Software"
@@ -259,8 +259,8 @@
       },
       {
         "kicker": "TEAM NEWS",
-        "title": "Jiyoung Yoon se incorpora — ampliamos capacidades en química, biotecnología y AX",
-        "body": "Sumamos experiencia en patentes químicas y biotecnológicas, automatización de procesos y transformación AX.",
+        "title": "Jiyoung Yoon se incorpora — ampliamos capacidades en química, biotecnología y transformación mediante IA",
+        "body": "Sumamos experiencia en patentes químicas y biotecnológicas, automatización de procesos y transformación mediante IA.",
         "datetime": "2026-09-01",
         "date": "1 de septiembre de 2026",
         "author": "NwiseIP →"
@@ -282,13 +282,13 @@
   "location": {
     "title": "Cómo llegar | Near & Wise IP Law Office",
     "description": "Dirección, mapa y datos de contacto de Near & Wise IP Law Office en Seúl.",
-    "photoTitle": "Nos vemos<br>en Seúl.",
+    "photoTitle": "Nos vemos<br>en Gangnam, Seúl.",
     "heading": "Cómo llegar a<br>Near & Wise",
     "lead": "Reserve su visita para que el profesional responsable pueda preparar una reunión eficaz. También ofrecemos reuniones en línea.",
     "office": "Oficina de Seúl",
     "address": "3.ª planta, oficina 303, 20 Yeongdong-daero 85-gil,<br>Gangnam-gu, Seúl 06181, Corea",
     "naver": "Naver Map",
-    "kakao": "Kakao Map",
+    "google": "Google Maps",
     "before": "El profesional responsable prepara personalmente cada visita. Si dispone de documentación técnica, envíela por correo electrónico con antelación para una conversación más concreta.",
     "reserve": "Reservar una visita"
   },
@@ -340,7 +340,7 @@
       "name": "Jiyoung Yoon",
       "role": "Abogada de patentes",
       "intro": "Combina química y biotecnología con una comprensión amplia de electrónica y software para proteger tecnologías convergentes.",
-      "keyPractice": "Química y biotecnología · automatización de procesos · transformación AX",
+      "keyPractice": "Química y biotecnología · automatización de procesos · transformación mediante IA",
       "technicalFields": "Química · materiales · biotecnología · salud · software",
       "education": "Ingeniería Química y Biomolecular, KAIST · máster en UCD",
       "approach": "Organiza explicaciones técnicas complejas en derechos útiles tanto en examen como en negocio."

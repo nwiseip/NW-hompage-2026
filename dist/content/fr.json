@@ -229,7 +229,7 @@
         "name": "Jiyoung Yoon",
         "role": "Conseil en propriété industrielle",
         "education": "Génie chimique et biomoléculaire, KAIST ; master en cours, UCD",
-        "practice": "Dépôts en chimie et biotechnologies ; automatisation des processus et transformation AX",
+        "practice": "Dépôts en chimie et biotechnologies ; automatisation des processus et transformation par l’IA",
         "tags": [
           "Chimie · biotechnologies",
           "Logiciels"
@@ -259,8 +259,8 @@
       },
       {
         "kicker": "TEAM NEWS",
-        "title": "Jiyoung Yoon rejoint NwiseIP — renforcement en chimie, biotechnologies et AX",
-        "body": "Nous associons la pratique des brevets en chimie et biotechnologies à l’automatisation des processus et à la transformation AX.",
+        "title": "Jiyoung Yoon rejoint NwiseIP — renforcement en chimie, biotechnologies et transformation par l’IA",
+        "body": "Nous associons la pratique des brevets en chimie et biotechnologies à l’automatisation des processus et à la transformation par l’IA.",
         "datetime": "2026-09-01",
         "date": "1er septembre 2026",
         "author": "NwiseIP →"
@@ -282,13 +282,13 @@
   "location": {
     "title": "Nous trouver | Near & Wise IP Law Office",
     "description": "Adresse, plans et coordonnées de Near & Wise IP Law Office à Séoul.",
-    "photoTitle": "Retrouvez-nous<br>à Séoul.",
+    "photoTitle": "Retrouvez-nous<br>à Gangnam, Séoul.",
     "heading": "Comment trouver<br>Near & Wise",
     "lead": "Merci de planifier votre visite afin que le conseil responsable puisse préparer une réunion ciblée. Des réunions en ligne sont également possibles.",
     "office": "Bureau de Séoul",
     "address": "3e étage, bureau 303, 20 Yeongdong-daero 85-gil,<br>Gangnam-gu, Séoul 06181, Corée du Sud",
     "naver": "Naver Map",
-    "kakao": "Kakao Map",
+    "google": "Google Maps",
     "before": "Le conseil responsable prépare personnellement chaque visite. Si vous en disposez, merci d’envoyer à l’avance les documents techniques par courriel afin de permettre un échange plus précis.",
     "reserve": "Planifier une visite"
   },
@@ -340,7 +340,7 @@
       "name": "Jiyoung Yoon",
       "role": "Conseil en propriété industrielle",
       "intro": "En associant son expertise en chimie et biotechnologies à une compréhension étendue de l’électronique et des logiciels, elle protège les technologies convergentes.",
-      "keyPractice": "Dépôts en chimie et biotechnologies · automatisation des processus · transformation AX",
+      "keyPractice": "Dépôts en chimie et biotechnologies · automatisation des processus · transformation par l’IA",
       "technicalFields": "Chimie · matériaux · biotechnologies · santé · logiciels",
       "education": "Génie chimique et biomoléculaire, KAIST · master en génie électrique en cours, UCD",
       "approach": "Les explications techniques complexes sont structurées en droits utiles tant lors de l’examen que dans l’activité."

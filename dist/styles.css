@@ -20,7 +20,6 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 82px; }
 body { margin: 0; color: var(--ink); background: var(--grouped); font-family: var(--sans); font-size: 16px; line-height: 1.65; word-break: keep-all; -webkit-font-smoothing: antialiased; }
-html:lang(ja) body, html:lang(zh-CN) body { word-break: normal; line-break: strict; }
 body.menu-open { overflow: hidden; }
 a { color: inherit; text-decoration: none; }
 img { display: block; max-width: 100%; }
@@ -53,7 +52,6 @@ h1, h2, h3, h4, p, blockquote, dl, dd { margin-top: 0; }
 
 .hero { overflow: hidden; background: #fff; }
 .hero-layout { display: grid; grid-template-columns: minmax(0, 1fr) 390px; align-items: center; gap: clamp(70px, 9vw, 130px); min-height: 690px; padding-block: 95px; }
-.hero-copy, .route-panel { min-width: 0; }
 .eyebrow, .section-tag { margin-bottom: 23px; color: var(--red); font-family: var(--latin); font-size: .72rem; font-weight: 700; letter-spacing: .18em; }
 .hero h1 { max-width: 760px; margin-bottom: 28px; font-size: clamp(3.1rem, 5vw, 5rem); font-weight: 800; line-height: 1.12; letter-spacing: -.06em; }
 .hero h1 span { color: var(--navy); }
@@ -133,7 +131,7 @@ blockquote cite { position: relative; display: inline-flex; margin-top: 20px; pa
 .service-group > h3 span { margin-left: 8px; color: var(--muted); font-family: var(--latin); font-size: .66rem; font-weight: 600; text-transform: uppercase; }
 .service-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .service-group.portfolio-care .service-grid { grid-template-columns: repeat(3, 1fr); }
-.service-card { position: relative; min-width: 0; min-height: 275px; padding: 27px; background: #fff; border: 1px solid rgba(27,42,74,.06); border-radius: var(--radius); box-shadow: 0 3px 10px rgba(27,42,74,.03); transition: transform .2s, box-shadow .2s; }
+.service-card { position: relative; min-height: 275px; padding: 27px; background: #fff; border: 1px solid rgba(27,42,74,.06); border-radius: var(--radius); box-shadow: 0 3px 10px rgba(27,42,74,.03); transition: transform .2s, box-shadow .2s; }
 .service-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
 .service-card > span { color: #a8adb7; font-family: var(--latin); font-size: .68rem; }
 .service-card small { display: block; margin-top: 31px; color: var(--red); font-family: var(--latin); font-size: .58rem; font-weight: 700; letter-spacing: .1em; }

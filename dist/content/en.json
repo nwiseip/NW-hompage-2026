@@ -11,7 +11,7 @@
     ],
     "contact": "Contact us",
     "top": "Back to top",
-    "address": "3F, Suite 303, 20 Yeongdong-daero 85-gil,<br>Gangnam-gu, Seoul 06181, Korea",
+    "address": "Suite 303, 3F, 20 Yeongdong-daero 85-gil,<br>Gangnam-gu, Seoul 06181, Republic of Korea",
     "org": "Near &amp; Wise IP Law Office"
   },
   "home": {
@@ -229,7 +229,7 @@
         "name": "Jiyoung Yoon",
         "role": "Patent Attorney",
         "education": "B.S. Chemical & Biomolecular Engineering, KAIST; M.S. candidate, UCD",
-        "practice": "Chemistry and biotech prosecution; business process automation and AX transformation",
+        "practice": "Chemistry and biotech prosecution; business process automation and AI transformation",
         "tags": [
           "Chemistry · biotech",
           "Software"
@@ -259,8 +259,8 @@
       },
       {
         "kicker": "TEAM NEWS",
-        "title": "Jiyoung Yoon joins NwiseIP — Expanding our chemistry, biotech and AX capabilities",
-        "body": "Bringing together patent practice in chemistry and biotech with business process automation and AX transformation.",
+        "title": "Jiyoung Yoon joins NwiseIP — Expanding our chemistry, biotech and AI transformation capabilities",
+        "body": "Bringing together patent practice in chemistry and biotech with business process automation and AI transformation.",
         "datetime": "2026-09-01",
         "date": "1 September 2026",
         "author": "NwiseIP →"
@@ -282,13 +282,13 @@
   "location": {
     "title": "Visit | Near & Wise IP Law Office",
     "description": "Address, map and contact information for Near & Wise IP Law Office in Seoul.",
-    "photoTitle": "Meet us<br>in Seoul.",
+    "photoTitle": "Meet us<br>in Gangnam, Seoul.",
     "heading": "How to find<br>Near & Wise",
     "lead": "Please schedule your visit so the responsible attorney can prepare for a focused meeting. Online meetings are also available.",
     "office": "Seoul Office",
-    "address": "3F, Suite 303, 20 Yeongdong-daero 85-gil,<br>Gangnam-gu, Seoul 06181, Republic of Korea",
+    "address": "Suite 303, 3F, 20 Yeongdong-daero 85-gil,<br>Gangnam-gu, Seoul 06181, Republic of Korea",
     "naver": "Naver Map",
-    "kakao": "Kakao Map",
+    "google": "Google Maps",
     "before": "The responsible attorney prepares personally for each visit. If available, please email technical materials in advance for a more specific discussion.",
     "reserve": "Schedule a visit"
   },
@@ -340,7 +340,7 @@
       "name": "Jiyoung Yoon",
       "role": "Patent Attorney",
       "intro": "Combining chemistry and biotechnology expertise with a broader understanding of electronics and software, she protects convergent technologies.",
-      "keyPractice": "Chemistry and biotechnology prosecution · business process automation · AX transformation",
+      "keyPractice": "Chemistry and biotechnology prosecution · business process automation · AI transformation",
       "technicalFields": "Chemistry · materials · biotechnology · healthcare · software",
       "education": "B.S. Chemical & Biomolecular Engineering, KAIST · M.S. candidate in Electrical Engineering, UCD",
       "approach": "Complex technical explanations are organised into rights structures useful in both examination and business."

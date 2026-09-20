@@ -224,7 +224,7 @@
     if (details[3]) details[3].innerHTML = `<a href="mailto:${contact.email}">${contact.email}</a>`;
     const buttons = document.querySelectorAll('.map-actions .button');
     if (buttons[0]) { buttons[0].href = contact.naverMap; buttons[0].innerHTML = `${t.naver} <span>↗</span>`; }
-    if (buttons[1]) { buttons[1].href = contact.kakaoMap; buttons[1].innerHTML = `${t.kakao} <span>↗</span>`; }
+    if (buttons[1]) { buttons[1].href = contact.googleMap; buttons[1].innerHTML = `${t.google} <span>↗</span>`; }
     setText('.visit-note p', t.before);
     set('.visit-note > a', `${t.reserve} <b>→</b>`);
   }
@@ -266,9 +266,9 @@
   async function loadContent() {
     try {
       const [languageResponse, contactResponse, mediaResponse] = await Promise.all([
-        fetch(new URL(`${lang}.json`, contentBase)),
-        fetch(new URL('contact.json', contentBase)),
-        fetch(new URL('media.json', contentBase))
+        fetch(new URL(`${lang}.json`, contentBase), { cache: 'no-store' }),
+        fetch(new URL('contact.json', contentBase), { cache: 'no-store' }),
+        fetch(new URL('media.json', contentBase), { cache: 'no-store' })
       ]);
       if (!languageResponse.ok || !contactResponse.ok || !mediaResponse.ok) throw new Error('Content files could not be loaded.');
       const [data, contact, media] = await Promise.all([
