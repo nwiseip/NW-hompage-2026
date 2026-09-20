@@ -19,7 +19,7 @@
     "description": "기술을 이해하는 변리사가 출원부터 분쟁, 평가, 회수까지 한 팀으로 이어갑니다.",
     "heroTitle": "출원은 시작이고,<br><span>회수가 목적</span>입니다.",
     "heroLede": "엔지니어 출신 변리사가 기술을 먼저 이해합니다. 출원부터 분쟁, 평가, 회수까지 한 팀이 이어받습니다.",
-    "heroValueButton": "IP 가치 보기",
+    "heroValueButton": "IP 가치평가",
     "panel": "권리의 목적에 맞는 진입로로 시작하세요.",
     "routes": [
       "확보",
