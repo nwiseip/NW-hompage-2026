@@ -16,9 +16,9 @@
   },
   "home": {
     "title": "Near & Wise IP Law Office | Seúl",
-    "description": "Abogados de patentes con formación técnica conectan la solicitud, los litigios, la valoración y la monetización.",
+    "description": "Un mismo equipo protege patentes, marcas y diseños desde la solicitud y los conflictos hasta la expansión internacional y la valorización.",
     "heroTitle": "La solicitud es el comienzo.<br><span>El objetivo es generar valor.</span>",
-    "heroLede": "Nuestros abogados de patentes con formación en ingeniería entienden primero la tecnología. Un mismo equipo acompaña la solicitud, los conflictos, la valoración y la monetización.",
+    "heroLede": "Comenzamos por comprender la tecnología, la marca y la forma del producto. Un mismo equipo acompaña patentes, marcas y diseños desde la solicitud y los conflictos hasta la expansión internacional y la valorización.",
     "heroValueButton": "Ver el valor de la PI",
     "panel": "Empiece por la vía que mejor responda al objetivo de sus derechos.",
     "routes": [
@@ -81,8 +81,8 @@
     ],
     "visual": "Para diseñar bien los derechos,<br>primero hay que entender la tecnología.",
     "experienceEyebrow": "2020—2026 · EXPEDIENTES ANONIMIZADOS",
-    "experienceTitle": "Experiencia amplia.<br>Profundidad demostrada en casos reales.",
-    "experienceBody": "Patentes, marcas, diseños, derechos de autor, consultoría, programas públicos y valoración de PI: nuestra experiencia y la red creada en LESI, AIPPI, INTA y APAA conectan tecnología y mercados en todo el mundo.",
+    "experienceTitle": "Patentes, marcas y diseños.<br>Experiencia profunda en cada área.",
+    "experienceBody": "Nuestro historial de más de 1.900 asuntos y proyectos va mucho más allá de las patentes e incluye marcas, diseños, derechos de autor, consultoría y valoración de PI. Protegemos tecnología, marcas y formas de producto en mercados de todo el mundo.",
     "experienceStats": [
       { "value": "1.900+", "label": "asuntos y proyectos gestionados" },
       { "value": "GLOBAL", "label": "red LESI · AIPPI · INTA · APAA" },
@@ -136,6 +136,27 @@
       { "alt": "Investigadores de biotecnología trabajando en un laboratorio", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
     ],
     "experienceNote": "Cifras anonimizadas de nuestros registros internos de asuntos a septiembre de 2026. No se publican nombres de clientes ni datos de asuntos concretos.",
+    "brandDesign": {
+      "eyebrow": "TRADEMARK & DESIGN",
+      "title": "Protegemos la marca<br>y la identidad visual del producto",
+      "body": "El trabajo en marcas y diseños no termina con una solicitud. Nuestra experiencia multisectorial abarca búsquedas, alcance de protección, oposiciones, litigios, renovaciones y anualidades en Corea y en el extranjero.",
+      "trademark": {
+        "title": "Marcas",
+        "lead": "Para que nombres y signos perduren en el mercado",
+        "body": "Desde búsquedas y especificaciones hasta solicitudes nacionales e internacionales, oposiciones, procedimientos, MADRID, renovaciones y gestión de carteras.",
+        "points": ["Búsqueda y registrabilidad", "Solicitudes, oposiciones y procedimientos", "MADRID, renovaciones y carteras"],
+        "cta": "Consultar sobre marcas",
+        "subject": "Consulta sobre marcas"
+      },
+      "design": {
+        "title": "Diseños",
+        "lead": "Convertimos la forma y la distinción visual en derechos",
+        "body": "Conectamos la búsqueda de diseños anteriores, vistas y productos, solicitudes nacionales e internacionales, análisis de similitud, HAGUE, conflictos y anualidades en el extranjero.",
+        "points": ["Diseños anteriores y similitud", "Vistas, productos y solicitudes", "HAGUE, conflictos y anualidades"],
+        "cta": "Consultar sobre diseños",
+        "subject": "Consulta sobre diseños"
+      }
+    },
     "servicesTitle": "La PI acompaña<br>cada etapa del negocio",
     "servicesBody": "Cada servicio se conecta con el siguiente. La experiencia en operaciones y ventas mejora el diseño de las reivindicaciones desde el inicio.",
     "group1": "Etapas esenciales <span>Core Practice</span>",
@@ -275,8 +296,8 @@
       }
     ],
     "note": "Actualizamos esta sección con noticias del despacho y orientación práctica.",
-    "contactTitle": "También trabajamos con ideas<br>en fase inicial.",
-    "contactBody": "Desde la posibilidad de protección hasta la estrategia de solicitud, ordenaremos juntos las primeras preguntas.",
+    "contactTitle": "Patentes, marcas o diseños:<br>empecemos a conversar.",
+    "contactBody": "Desde el análisis previo hasta los conflictos, la expansión internacional y el mantenimiento, el profesional responsable definirá con usted la protección adecuada y el siguiente paso.",
     "contactButton": "Iniciar una conversación"
   },
   "location": {

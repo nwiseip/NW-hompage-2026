@@ -16,9 +16,9 @@
   },
   "home": {
     "title": "Near & Wise IP Law Office | Seoul",
-    "description": "Engineer-trained patent attorneys connect prosecution, disputes, valuation and value realisation in one team.",
+    "description": "One team protects patents, trademarks and designs from filing and disputes to international expansion and value realisation.",
     "heroTitle": "Filing is the beginning.<br><span>Value realisation is the goal.</span>",
-    "heroLede": "Our engineer-trained patent attorneys understand the technology first. One team carries the matter from filing through disputes, valuation and realisation.",
+    "heroLede": "We begin with the technology, the brand and the product’s visual form. One responsible team handles patents, trademarks and designs from filing and disputes to international expansion and value realisation.",
     "heroValueButton": "Explore IP value",
     "panel": "Start with the path that fits the purpose of your rights.",
     "routes": [
@@ -81,8 +81,8 @@
     ],
     "visual": "Technology must be understood<br>before rights can be designed.",
     "experienceEyebrow": "2020—2026 · ANONYMIZED MATTER RECORDS",
-    "experienceTitle": "Breadth in practice.<br>Depth proven by real matters.",
-    "experienceBody": "Across patents, trademarks, designs, copyright, advisory work, public programs and IP valuation, our matter experience and relationships built through LESI, AIPPI, INTA and APAA connect technology and markets worldwide.",
+    "experienceTitle": "Patents. Trademarks. Designs.<br>Depth across every practice.",
+    "experienceBody": "Our record of more than 1,900 matters and projects extends well beyond patents to trademarks, designs, copyright, advisory work and IP valuation. We protect technology, brands and product form across markets worldwide.",
     "experienceStats": [
       { "value": "1,900+", "label": "matters and projects handled" },
       { "value": "WORLDWIDE", "label": "LESI · AIPPI · INTA · APAA network" },
@@ -136,6 +136,27 @@
       { "alt": "Biotechnology researchers working in a laboratory", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
     ],
     "experienceNote": "Anonymized totals from internal matter-management records as of September 2026. Client names and individual matter details are not disclosed.",
+    "brandDesign": {
+      "eyebrow": "TRADEMARK & DESIGN",
+      "title": "Protecting the brand<br>and the product’s visual identity",
+      "body": "Trademark and design work does not end with a single filing. Drawing on experience across industries, we manage clearance, scope, oppositions and trials, disputes, renewals and annuities in Korea and worldwide.",
+      "trademark": {
+        "title": "Trademarks",
+        "lead": "Helping names and marks endure in the market",
+        "body": "From clearance and specification strategy to Korean and international filings, oppositions, trials, MADRID, renewals and portfolio management.",
+        "points": ["Clearance and registrability", "Filings, oppositions and trials", "MADRID, renewals and portfolios"],
+        "cta": "Discuss a trademark matter",
+        "subject": "Trademark consultation"
+      },
+      "design": {
+        "title": "Designs",
+        "lead": "Turning product form and visual distinction into rights",
+        "body": "We connect prior-design review, drawings and product indications, Korean and overseas filings, similarity analysis, HAGUE, disputes and overseas annuities.",
+        "points": ["Prior designs and similarity", "Drawings, products and filings", "HAGUE, disputes and annuities"],
+        "cta": "Discuss a design matter",
+        "subject": "Design consultation"
+      }
+    },
     "servicesTitle": "IP rights evolve<br>with the business",
     "servicesBody": "Each stage informs the next. Experience in transactions and exits changes how rights should be designed from day one.",
     "group1": "Core stages <span>Core Practice</span>",
@@ -275,8 +296,8 @@
       }
     ],
     "note": "Firm news and practical guidance are updated here as they are published.",
-    "contactTitle": "Early-stage ideas<br>are welcome.",
-    "contactBody": "From protectability to filing strategy, we will organise the first questions with you.",
+    "contactTitle": "Patents, trademarks or designs—<br>start the conversation with us.",
+    "contactBody": "From pre-filing review to disputes, international expansion and portfolio maintenance, the responsible attorney will identify the right form of protection and the next step with you.",
     "contactButton": "Start a conversation"
   },
   "location": {

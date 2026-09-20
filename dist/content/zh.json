@@ -16,9 +16,9 @@
   },
   "home": {
     "title": "Near & Wise 知识产权事务所 | 首尔",
-    "description": "由具备工程背景的专利代理师，从申请、争议到评估与价值实现，全程一体化负责。",
+    "description": "同一团队覆盖专利、商标与外观设计，从申请、争议到海外布局与价值实现全程负责。",
     "heroTitle": "申请只是起点，<br><span>价值实现才是目标。</span>",
-    "heroLede": "具备工程背景的专利代理师首先理解技术。从申请、争议、评估到价值实现，由同一团队全程衔接。",
+    "heroLede": "我们从理解技术、品牌和产品外观开始。专利、商标与外观设计的申请、争议、海外布局和价值实现，均由同一团队全程衔接。",
     "heroValueButton": "查看知识产权价值",
     "panel": "从符合权利目标的路径开始。",
     "routes": [
@@ -81,8 +81,8 @@
     ],
     "visual": "只有理解技术，<br>才能正确设计权利。",
     "experienceEyebrow": "2020—2026 · 匿名化案件记录",
-    "experienceTitle": "真实案件记录所呈现的<br>业务广度与专业深度",
-    "experienceBody": "从专利、商标、外观设计、著作权与咨询，到政府支持项目和知识产权价值评估，我们凭借案件经验以及在LESI、AIPPI、INTA和APAA建立的网络，让技术与市场跨越国界相连。",
+    "experienceTitle": "专利、商标与外观设计，<br>每一领域都有深厚实务经验",
+    "experienceBody": "逾1,900件案件与项目的记录，不仅涵盖专利，也包括商标、外观设计、著作权、咨询和知识产权价值评估。我们在韩国及全球市场保护技术、品牌和产品外观。",
     "experienceStats": [
       { "value": "1,900+", "label": "经办案件与项目" },
       { "value": "GLOBAL", "label": "LESI · AIPPI · INTA · APAA全球网络" },
@@ -136,6 +136,27 @@
       { "alt": "在实验室工作的生物科技研究人员", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
     ],
     "experienceNote": "以上数据来自截至2026年9月的内部案件管理记录，并已作匿名统计。客户名称及具体案件信息不予公开。",
+    "brandDesign": {
+      "eyebrow": "TRADEMARK & DESIGN",
+      "title": "从品牌到产品外观，<br>都转化为清晰的权利",
+      "body": "商标与外观设计服务并不止于一次申请。凭借跨行业经验，我们持续处理境内外在先检索、保护范围设计、异议与审判、争议、续展及年费管理。",
+      "trademark": {
+        "title": "商标",
+        "lead": "让名称和标识在市场中长久发挥价值",
+        "body": "从在先商标检索和商品服务项目设计，到境内外申请、异议与审判、MADRID、续展及商标组合管理。",
+        "points": ["在先检索与可注册性分析", "境内外申请、异议与审判", "MADRID、续展与组合管理"],
+        "cta": "咨询商标事项",
+        "subject": "商标咨询"
+      },
+      "design": {
+        "title": "外观设计",
+        "lead": "将产品形态与视觉差异转化为权利",
+        "body": "我们贯通在先设计检索、视图与产品名称设计、境内外申请、相似性判断、HAGUE、争议及海外年费管理。",
+        "points": ["在先设计与相似性分析", "视图、产品与境内外申请", "HAGUE、争议与海外年费"],
+        "cta": "咨询外观设计事项",
+        "subject": "外观设计咨询"
+      }
+    },
     "servicesTitle": "让知识产权贯穿<br>业务全周期",
     "servicesBody": "各项服务彼此衔接。交易与出售经验，会反向改善申请阶段的权利要求设计。",
     "group1": "权利基础阶段 <span>Core Practice</span>",
@@ -275,8 +296,8 @@
       }
     ],
     "note": "我们将持续更新事务所动态与实务资讯。",
-    "contactTitle": "创意尚在萌芽阶段，<br>也欢迎交流。",
-    "contactBody": "从可保护性判断到申请策略，我们将在首次沟通中共同梳理。",
+    "contactTitle": "专利、商标或外观设计，<br>都可以从一次沟通开始。",
+    "contactBody": "从申请前分析到争议、海外布局和权利维护，负责代理师将在首次沟通中与您梳理合适的保护方式和下一步。",
     "contactButton": "开始咨询"
   },
   "location": {

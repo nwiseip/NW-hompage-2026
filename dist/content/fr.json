@@ -16,9 +16,9 @@
   },
   "home": {
     "title": "Near & Wise IP Law Office | Séoul",
-    "description": "Des conseils en propriété industrielle formés à l’ingénierie relient dépôt, contentieux, évaluation et valorisation au sein d’une même équipe.",
+    "description": "Une même équipe protège brevets, marques et dessins et modèles, du dépôt et du contentieux à l’extension internationale et à la valorisation.",
     "heroTitle": "Le dépôt n’est que le début.<br><span>La valorisation est l’objectif.</span>",
-    "heroLede": "Nos conseils en propriété industrielle formés à l’ingénierie commencent par comprendre la technologie. Une même équipe vous accompagne du dépôt aux litiges, à l’évaluation et à la valorisation.",
+    "heroLede": "Nous commençons par comprendre la technologie, la marque et la forme du produit. Une même équipe accompagne brevets, marques et dessins et modèles, du dépôt et du contentieux à l’extension internationale et à la valorisation.",
     "heroValueButton": "Découvrir la valeur de la PI",
     "panel": "Commencez par la voie qui correspond à l’objectif de vos droits.",
     "routes": [
@@ -81,8 +81,8 @@
     ],
     "visual": "Il faut comprendre la technologie<br>avant de pouvoir concevoir les droits.",
     "experienceEyebrow": "2020—2026 · DOSSIERS ANONYMISÉS",
-    "experienceTitle": "Une pratique étendue.<br>Une expertise prouvée par les dossiers.",
-    "experienceBody": "Brevets, marques, dessins, droit d’auteur, conseil, programmes publics et valorisation de la PI : notre expérience et le réseau développé au sein de la LESI, de l’AIPPI, de l’INTA et de l’APAA relient technologie et marchés partout dans le monde.",
+    "experienceTitle": "Brevets, marques, dessins et modèles.<br>Une expertise approfondie dans chaque domaine.",
+    "experienceBody": "Plus de 1 900 dossiers et projets témoignent d’une pratique qui dépasse largement les brevets : marques, dessins et modèles, droit d’auteur, conseil et valorisation de la PI. Nous protégeons technologies, marques et formes de produits sur les marchés du monde entier.",
     "experienceStats": [
       { "value": "1 900+", "label": "dossiers et projets traités" },
       { "value": "MONDIAL", "label": "réseau LESI · AIPPI · INTA · APAA" },
@@ -136,6 +136,27 @@
       { "alt": "Chercheurs en biotechnologie travaillant en laboratoire", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
     ],
     "experienceNote": "Données anonymisées issues de nos registres internes de dossiers en septembre 2026. Les noms des clients et les détails des dossiers ne sont pas divulgués.",
+    "brandDesign": {
+      "eyebrow": "TRADEMARK & DESIGN",
+      "title": "Protéger la marque<br>et l’identité visuelle du produit",
+      "body": "Le travail sur les marques et les dessins et modèles ne s’arrête pas à un dépôt. Notre expérience multisectorielle couvre les recherches, la définition de la protection, les oppositions et procédures, les litiges, les renouvellements et les annuités en Corée comme à l’étranger.",
+      "trademark": {
+        "title": "Marques",
+        "lead": "Pour que les noms et les signes durent sur le marché",
+        "body": "Des recherches d’antériorités et du libellé aux dépôts coréens et internationaux, oppositions, procédures, MADRID, renouvellements et gestion de portefeuille.",
+        "points": ["Antériorités et disponibilité", "Dépôts, oppositions et procédures", "MADRID, renouvellements et portefeuille"],
+        "cta": "Échanger sur une marque",
+        "subject": "Consultation en matière de marques"
+      },
+      "design": {
+        "title": "Dessins et modèles",
+        "lead": "Transformer la forme et l’identité visuelle en droits",
+        "body": "Nous relions recherche d’antériorités, vues et désignation des produits, dépôts coréens et internationaux, analyse de similitude, HAGUE, litiges et annuités à l’étranger.",
+        "points": ["Antériorités et similitude", "Vues, produits et dépôts", "HAGUE, litiges et annuités"],
+        "cta": "Échanger sur un dessin ou modèle",
+        "subject": "Consultation en matière de dessins et modèles"
+      }
+    },
     "servicesTitle": "La PI accompagne<br>chaque étape de l’entreprise",
     "servicesBody": "Chaque service s’inscrit dans une continuité. L’expérience des transactions et des cessions améliore la rédaction des revendications dès l’origine.",
     "group1": "Étapes essentielles <span>Pratique fondamentale</span>",
@@ -275,8 +296,8 @@
       }
     ],
     "note": "Nous actualisons cette rubrique avec les nouvelles du cabinet et nos analyses pratiques.",
-    "contactTitle": "Même au stade de l’idée,<br>parlons-en.",
-    "contactBody": "De la brevetabilité à la stratégie de dépôt, nous structurerons avec vous les premières questions.",
+    "contactTitle": "Brevets, marques, dessins et modèles :<br>commençons par en parler.",
+    "contactBody": "De l’analyse avant dépôt aux litiges, à l’extension internationale et au maintien des droits, le conseil responsable définira avec vous la protection adaptée et la prochaine étape.",
     "contactButton": "Commencer un échange"
   },
   "location": {

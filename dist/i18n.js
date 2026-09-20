@@ -155,6 +155,21 @@
     });
     setText('.experience-note', t.experienceNote);
 
+    setText('.brand-rights-eyebrow', t.brandDesign.eyebrow);
+    set('#brand-rights-title', t.brandDesign.title);
+    setText('.brand-rights-heading > p', t.brandDesign.body);
+    document.querySelectorAll('.brand-rights-card').forEach((card, index) => {
+      const item = index === 0 ? t.brandDesign.trademark : t.brandDesign.design;
+      if (!item) return;
+      card.querySelector('h3').textContent = item.title;
+      card.querySelector('strong').textContent = item.lead;
+      card.querySelector('p').textContent = item.body;
+      card.querySelector('ul').innerHTML = item.points.map((point) => `<li>${point}</li>`).join('');
+      const cta = card.querySelector('.brand-rights-cta');
+      cta.innerHTML = `${item.cta} <span>→</span>`;
+      cta.href = `mailto:nwiseip@nwiseip.com?subject=${encodeURIComponent(item.subject)}`;
+    });
+
     set('#services-title', t.servicesTitle);
     setText('.services .section-heading > p', t.servicesBody);
     set('.service-group:not(.expanded) > h3', t.group1);

@@ -16,9 +16,9 @@
   },
   "home": {
     "title": "엔와이즈특허법률사무소 | Near & Wise IP Law Office",
-    "description": "기술을 이해하는 변리사가 출원부터 분쟁, 평가, 회수까지 한 팀으로 이어갑니다.",
+    "description": "특허·상표·디자인을 아우르는 변리사가 출원부터 분쟁, 해외 확장, 가치 실현까지 함께합니다.",
     "heroTitle": "출원은 시작이고,<br><span>회수가 목적</span>입니다.",
-    "heroLede": "엔지니어 출신 변리사가 기술을 먼저 이해합니다. 출원부터 분쟁, 평가, 회수까지 한 팀이 이어받습니다.",
+    "heroLede": "기술·브랜드·제품의 형태를 먼저 이해합니다. 특허·상표·디자인의 출원부터 분쟁, 해외 확장, 가치 실현까지 담당 변리사가 한 팀으로 이어갑니다.",
     "heroValueButton": "IP 가치평가",
     "panel": "권리의 목적에 맞는 진입로로 시작하세요.",
     "routes": [
@@ -81,8 +81,8 @@
     ],
     "visual": "기술을 이해해야<br>권리를 제대로 설계할 수 있습니다.",
     "experienceEyebrow": "2020—2026 · 익명화된 사건 기록",
-    "experienceTitle": "실제 사건 기록이 말하는<br>실무의 폭과 깊이",
-    "experienceBody": "특허·상표·디자인·저작권과 컨설팅부터 정부지원사업, IP 가치평가까지 다뤄온 사건과 LESI·AIPPI·INTA·APAA에서 쌓은 네트워크를 바탕으로 기술과 시장을 국경 없이 연결합니다.",
+    "experienceTitle": "특허·상표·디자인,<br>각 분야의 실무가 깊습니다",
+    "experienceBody": "1,900건 이상의 사건·프로젝트 기록에는 특허뿐 아니라 상표·디자인·저작권, 컨설팅과 IP 가치평가 경험이 함께 축적되어 있습니다. 기술과 브랜드, 제품의 형태를 국내외 시장에서 보호합니다.",
     "experienceStats": [
       { "value": "1,900+", "label": "다뤄온 사건·프로젝트" },
       { "value": "GLOBAL", "label": "LESI·AIPPI·INTA·APAA 네트워크" },
@@ -136,6 +136,27 @@
       { "alt": "연구실에서 실험 중인 바이오 연구진", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
     ],
     "experienceNote": "2026년 9월 현재 내부 사건 관리 기록을 익명 집계했습니다. 고객명과 개별 사건 정보는 공개하지 않습니다.",
+    "brandDesign": {
+      "eyebrow": "TRADEMARK & DESIGN",
+      "title": "브랜드와 제품의 인상까지<br>권리로 설계합니다",
+      "body": "상표와 디자인은 출원 한 번으로 끝나지 않습니다. 국내외 선행 검토, 권리 범위 설계, 이의·심판, 분쟁, 갱신·연차료까지 다양한 산업에서 축적한 경험으로 이어서 관리합니다.",
+      "trademark": {
+        "title": "상표",
+        "lead": "이름과 표장이 시장에서 오래 살아남도록",
+        "body": "선행상표 검토와 지정상품 설계부터 국내외 출원, 이의·심판, MADRID, 갱신과 포트폴리오 관리까지 담당합니다.",
+        "points": ["선행상표·등록가능성 검토", "국내외 출원·이의·심판", "MADRID·갱신·포트폴리오"],
+        "cta": "상표 상담하기",
+        "subject": "상표 상담 문의"
+      },
+      "design": {
+        "title": "디자인",
+        "lead": "제품의 형태와 시각적 차별성을 권리로",
+        "body": "선행디자인 검토, 도면·물품 설계, 국내외 출원, 유사범위 판단, HAGUE, 분쟁과 해외 연차료까지 연결합니다.",
+        "points": ["선행디자인·유사범위 검토", "도면·물품 설계·국내외 출원", "HAGUE·분쟁·해외 연차료"],
+        "cta": "디자인 상담하기",
+        "subject": "디자인 상담 문의"
+      }
+    },
     "servicesTitle": "권리는 여러 국면을<br>지납니다",
     "servicesBody": "각 업무는 독립된 상품이 아니라 앞뒤로 이어집니다. 매각을 다뤄본 경험이 출원 단계의 청구항 설계를 교정합니다.",
     "group1": "권리의 기본 국면 <span>Core Practice</span>",
@@ -275,8 +296,8 @@
       }
     ],
     "note": "사무소 소식과 실무 콘텐츠를 순차적으로 업데이트합니다.",
-    "contactTitle": "아이디어가 아직<br>초기 단계여도 괜찮습니다.",
-    "contactBody": "보호 가능성 검토부터 출원 전략까지, 첫 대화에서 함께 정리합니다.",
+    "contactTitle": "특허·상표·디자인,<br>무엇이든 먼저 이야기해 주세요.",
+    "contactBody": "출원 전 검토부터 분쟁·해외 확장·유지관리까지, 담당 변리사가 첫 대화에서 필요한 권리와 다음 단계를 함께 정리합니다.",
     "contactButton": "상담 문의하기"
   },
   "location": {
