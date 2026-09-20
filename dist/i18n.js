@@ -6,12 +6,12 @@
   const languageNames = { ko: 'KR', en: 'EN', ja: '日本語', zh: '中文', es: 'ES', fr: 'FR' };
   const htmlLang = { ko: 'ko', en: 'en', ja: 'ja', zh: 'zh-CN', es: 'es', fr: 'fr' };
   const uiLabels = {
-    ko: { contact: '상담 문의', top: '맨 위로' },
-    en: { contact: 'Contact us', top: 'Back to top' },
-    ja: { contact: 'お問い合わせ', top: 'ページ上部へ' },
-    zh: { contact: '联系我们', top: '返回顶部' },
-    es: { contact: 'Contactar', top: 'Volver arriba' },
-    fr: { contact: 'Nous contacter', top: 'Retour en haut' }
+    ko: { contact: '상담 문의', top: '맨 위로', skip: '본문으로 바로가기', nav: '주요 메뉴', language: '언어 선택', trust: '주요 대외 활동', visual: '기술을 이해하는 지식재산 실무', stats: '익명 집계된 업무 현황', tabs: '업무 경험 보기' },
+    en: { contact: 'Contact us', top: 'Back to top', skip: 'Skip to content', nav: 'Primary navigation', language: 'Select language', trust: 'International affiliations', visual: 'Technology-led IP practice', stats: 'Anonymized matter overview', tabs: 'Explore our experience' },
+    ja: { contact: 'お問い合わせ', top: 'ページ上部へ', skip: '本文へ移動', nav: 'メインナビゲーション', language: '言語を選択', trust: '主な国際活動', visual: '技術を理解する知的財産実務', stats: '匿名集計した取扱実績', tabs: '実務経験を見る' },
+    zh: { contact: '联系我们', top: '返回顶部', skip: '跳至正文', nav: '主导航', language: '选择语言', trust: '主要国际活动', visual: '以技术理解为基础的知识产权实务', stats: '匿名汇总的业务概览', tabs: '查看业务经验' },
+    es: { contact: 'Contactar', top: 'Volver arriba', skip: 'Ir al contenido', nav: 'Navegación principal', language: 'Seleccionar idioma', trust: 'Actividad internacional', visual: 'Práctica de PI basada en la tecnología', stats: 'Resumen anonimizado de asuntos', tabs: 'Explorar nuestra experiencia' },
+    fr: { contact: 'Nous contacter', top: 'Retour en haut', skip: 'Aller au contenu', nav: 'Navigation principale', language: 'Choisir la langue', trust: 'Réseaux internationaux', visual: 'Une pratique de la PI fondée sur la technologie', stats: 'Aperçu anonymisé des dossiers', tabs: 'Découvrir notre expérience' }
   };
   const scriptUrl = document.currentScript?.src || window.location.href;
   const contentBase = new URL('./content/', scriptUrl);
@@ -30,6 +30,13 @@
   };
 
   function applyCommon(common, contact, media) {
+    setText('.skip-link', uiLabels[lang].skip);
+    document.querySelector('#site-nav')?.setAttribute('aria-label', uiLabels[lang].nav);
+    document.querySelector('.language-menu summary')?.setAttribute('aria-label', uiLabels[lang].language);
+    document.querySelector('.trust-strip')?.setAttribute('aria-label', uiLabels[lang].trust);
+    document.querySelector('.visual-story')?.setAttribute('aria-label', uiLabels[lang].visual);
+    document.querySelector('.experience-stats')?.setAttribute('aria-label', uiLabels[lang].stats);
+    document.querySelector('.experience-tabs')?.setAttribute('aria-label', uiLabels[lang].tabs);
     setText('[data-current-language]', languageNames[lang]);
     document.querySelectorAll('.site-nav > a').forEach((link, index) => {
       if (common.nav[index]) link.textContent = common.nav[index];
@@ -103,6 +110,7 @@
     document.querySelectorAll('.trust-grid > div').forEach((element, index) => {
       const item = t.trust[index];
       if (!item) return;
+      element.querySelector('strong').textContent = item.name;
       element.querySelector('span').textContent = item.label;
       element.querySelector('p').textContent = item.detail;
     });
@@ -151,6 +159,7 @@
     setText('.services .section-heading > p', t.servicesBody);
     set('.service-group:not(.expanded) > h3', t.group1);
     set('.service-group.expanded > h3', t.group2);
+    set('.service-group.portfolio-care > h3', t.group3);
     document.querySelectorAll('.service-card').forEach((card, index) => {
       const service = t.services[index];
       if (!service) return;
@@ -160,6 +169,7 @@
 
     set('#ip-title', t.valueTitle);
     setText('.value-stat small', t.valueStat);
+    setText('.value-source', t.valueSource);
     setText('.value-copy > p', t.valueBody);
     set('.value-copy .button', `${t.valueButton} <span>→</span>`);
     const evidenceLabels = { ko: '권리를 가치로 만드는 경로', en: 'Routes from rights to value', ja: '権利を価値に変える道筋', zh: '从权利到价值的路径', es: 'Vías de los derechos al valor', fr: 'Des droits à la valeur' };

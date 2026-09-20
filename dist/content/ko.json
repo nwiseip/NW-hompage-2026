@@ -28,7 +28,7 @@
     ],
     "startQuestion": "어떤 일로 오셨나요?",
     "startTitle": "목적에 맞게<br>시작하세요",
-    "startBody": "고객의 위치와 사건의 목적에 따라 필요한 대응이 달라집니다. 담당 변리사가 처음부터 직접 이어갑니다.",
+    "startBody": "여러 국가와 절차가 얽힌 사건일수록 혼자 풀 필요가 없습니다. 한국 사건도 해외 사건도, 담당 변리사가 귀사의 실무팀처럼 함께 움직입니다.",
     "entries": [
       {
         "title": "기업 · 연구기관",
@@ -36,38 +36,42 @@
         "cta": "업무 보기"
       },
       {
-        "title": "해외 대리인",
-        "body": "지식재산처(MOIP) 사건의 국내 대리. 담당 변리사가 사건마다 직접 응대하며 기술 맥락을 놓치지 않습니다.",
-        "cta": "한 팀 보기"
+        "title": "해외 대리인 · 한국 사건",
+        "body": "복잡한 한국 사건, 혼자 고민하지 마십시오. 지식재산처의 심사기준과 절차를 아는 담당 변리사가 전략부터 보고까지 귀사와 한 팀으로 움직입니다.",
+        "cta": "한국 사건 협업"
       },
       {
-        "title": "국내 특허사무소",
-        "body": "해외 특허 연차료와 상표 갱신등록을 검증된 해외 네트워크를 통해 관리합니다.",
-        "cta": "문의하기"
+        "title": "국내 특허사무소 · 해외 사건",
+        "body": "복잡한 해외 사건도 혼자 고민하지 마십시오. 국가별 전략, 현지 대리인, 번역과 기한 관리를 귀사의 해외팀처럼 함께 맡습니다.",
+        "cta": "해외 사건 협업"
       }
     ],
     "trust": [
       {
-        "label": "국제 활동",
+        "name": "AIPPI",
+        "label": "국제 특허 네트워크",
         "detail": "멤버십 분과 이사"
       },
       {
-        "label": "라이선싱",
+        "name": "LESI",
+        "label": "국제 라이선싱 네트워크",
         "detail": "YMC 이사"
       },
       {
-        "label": "IP 거래",
-        "detail": "한국 연계 대리인"
+        "name": "INTA · APAA",
+        "label": "상표·아시아 IP 네트워크",
+        "detail": "주요국 현지 전문가 연계"
       },
       {
-        "label": "가치평가",
-        "detail": "평가 자문위원"
+        "name": "OCEAN TOMO",
+        "label": "IP 거래·가치평가",
+        "detail": "한국 연계 대리인"
       }
     ],
     "aboutTitle": "고객과 가까이,<br>전략은 지혜롭게",
     "aboutLead": "권리화가 목적이 아닙니다. 그 권리가 사업에서 작동하는지가 목적입니다.",
     "aboutBody": "담당 변리사가 처음부터 끝까지 직접 응대합니다. 기술 맥락이 창구 사이에서 끊기지 않도록, 사업 단계와 경쟁 구도를 읽고 최적의 보호 방식과 권리 회수 경로를 함께 설계합니다.",
-    "quote": "“등록에서 멈추지 않고, 그 권리가 사업에서 실제로 작동하도록 만듭니다.”",
+    "quote": "등록에서 멈추지 않고, 그 권리가 사업에서 실제로 작동하도록 만듭니다.",
     "quoteBy": "백승엽 대표 변리사",
     "how": [
       "담당 변리사의 직접 응대",
@@ -78,11 +82,11 @@
     "visual": "기술을 이해해야<br>권리를 제대로 설계할 수 있습니다.",
     "experienceEyebrow": "2020—2026 · 익명화된 사건 기록",
     "experienceTitle": "실제 사건 기록이 말하는<br>실무의 폭과 깊이",
-    "experienceBody": "특허·상표·디자인·저작권과 컨설팅부터 정부지원사업, IP 가치평가까지. 엔와이즈는 기술과 시장, 국내와 해외를 하나의 흐름으로 연결합니다.",
+    "experienceBody": "특허·상표·디자인·저작권과 컨설팅부터 정부지원사업, IP 가치평가까지 다뤄온 사건과 LESI·AIPPI·INTA·APAA에서 쌓은 네트워크를 바탕으로 기술과 시장을 국경 없이 연결합니다.",
     "experienceStats": [
-      { "value": "1,900+", "label": "고유 NW 레퍼런스" },
-      { "value": "7", "label": "실무 카테고리" },
-      { "value": "10+", "label": "주요 관할·국제 경로" },
+      { "value": "1,900+", "label": "다뤄온 사건·프로젝트" },
+      { "value": "GLOBAL", "label": "LESI·AIPPI·INTA·APAA 네트워크" },
+      { "value": "OCEAN TOMO", "label": "한국 연계 대리인" },
       { "value": "20+", "label": "가치평가·상장 관련 기록" }
     ],
     "experienceTabs": [
@@ -115,13 +119,13 @@
       {
         "label": "국제 업무",
         "title": "국내 지식재산처와 해외 관청 사건을 함께 다룹니다",
-        "body": "지식재산처(MOIP)의 국내 출원·심판·분쟁과 PCT·개별국 해외출원, 번역, 현지 대리인 협업, 연차료·갱신까지 국가별 절차를 연결합니다.",
+        "body": "국내에서는 지식재산처(MOIP)의 출원·심판·분쟁을 직접 수행하고, 해외에서는 LESI·AIPPI·INTA·APAA 네트워크를 통해 사실상 전 세계 주요 관할을 연결합니다.",
         "items": [
           { "title": "MOIP · KOREA", "detail": "국내 출원 · 중간사건 · 심판 · 분쟁" },
           { "title": "PCT · WO", "detail": "국제출원과 국내단계 진입" },
-          { "title": "US · EP · DE", "detail": "미국·유럽 주요국 권리화" },
-          { "title": "CN · JP · IN", "detail": "중국·일본·인도 포트폴리오" },
-          { "title": "VN · SG · CA · AU", "detail": "성장시장과 영미권 진입" },
+          { "title": "LESI · AIPPI", "detail": "특허 · 기술거래 · 국제 라이선싱 네트워크" },
+          { "title": "INTA · APAA", "detail": "상표 · 아시아·태평양 IP 네트워크" },
+          { "title": "WORLDWIDE", "detail": "미주 · 유럽 · 아시아·태평양 · 성장시장" },
           { "title": "GLOBAL PORTFOLIO", "detail": "해외 대리인 · 번역 · 연차료·갱신" }
         ]
       }
@@ -131,11 +135,12 @@
       { "alt": "자동차 생산라인의 산업용 로봇", "caption": "MOBILITY · ROBOTICS · MANUFACTURING", "credit": "Lilian Do Khac", "creditUrl": "https://unsplash.com/photos/robotic-arms-assembling-a-car-chassis-on-a-factory-line-EyqUxJuOb1Q" },
       { "alt": "연구실에서 실험 중인 바이오 연구진", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
     ],
-    "experienceNote": "2026년 9월 현재 내부 폴더 메타데이터의 고유 NW20–NW26 레퍼런스를 익명 집계했습니다. 고객명과 개별 사건 정보는 공개하지 않습니다.",
+    "experienceNote": "2026년 9월 현재 내부 사건 관리 기록을 익명 집계했습니다. 고객명과 개별 사건 정보는 공개하지 않습니다.",
     "servicesTitle": "권리는 여러 국면을<br>지납니다",
     "servicesBody": "각 업무는 독립된 상품이 아니라 앞뒤로 이어집니다. 매각을 다뤄본 경험이 출원 단계의 청구항 설계를 교정합니다.",
     "group1": "권리의 기본 국면 <span>Core Practice</span>",
     "group2": "사업으로 이어지는 국면 <span>Business Practice</span>",
+    "group3": "해외 권리 유지관리 <span>Global Portfolio Care</span>",
     "services": [
       {
         "title": "확보한다",
@@ -158,12 +163,17 @@
         "body": "국내 사건은 지식재산처(MOIP)의 심사기준과 절차에 맞춰 직접 수행하고, 해외 사건은 각국 관청과 현지 대리인 네트워크를 통해 연결합니다."
       },
       {
-        "title": "연차료·갱신 관리",
-        "body": "해외 특허 연차료와 상표 갱신등록을 현지 네트워크와 연결하여 안정적으로 관리합니다."
+        "title": "해외 특허 연차료",
+        "body": "국가별 납부기한과 비용을 확인하고 현지 대리인 네트워크를 통해 해외 특허 연차료를 안정적으로 관리합니다."
+      },
+      {
+        "title": "해외 상표 갱신등록",
+        "body": "국가별 갱신시기와 필요서류를 점검해 해외 상표권이 끊기지 않도록 갱신등록을 관리합니다."
       }
     ],
     "valueTitle": "평가받는 쪽이 아니라,<br>평가해 본 쪽입니다",
-    "valueStat": "S&P 500 기업가치 중 무형자산 비중",
+    "valueStat": "2025년 말 S&P 500 시가총액 중 무형자산의 추정 비중",
+    "valueSource": "출처: Ocean Tomo, 2025 Intangible Asset Market Value Study (2026. 2. 12. 발표) ↗",
     "valueBody": "등록 이후를 다루는 사람이 출원 단계의 설계도 다르게 합니다. 침해 입증 가능성, 패밀리 구조와 권리의 거래 가능성까지 함께 봅니다.",
     "valueButton": "IP 가치평가 문의",
     "valuePaths": [

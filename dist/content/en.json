@@ -28,7 +28,7 @@
     ],
     "startQuestion": "What brings you here?",
     "startTitle": "Start with<br>your objective",
-    "startBody": "The right response depends on where you are and what the matter needs to achieve. The attorney in charge stays with you from the beginning.",
+    "startBody": "Cross-border matters are rarely simple. For Korean work or multi-jurisdiction portfolios, we work alongside your team from strategy through execution.",
     "entries": [
       {
         "title": "Companies & R&D",
@@ -36,38 +36,42 @@
         "cta": "View services"
       },
       {
-        "title": "Foreign associates",
-        "body": "Korean representation grounded in the examination standards, procedures and practice of the Ministry of Intellectual Property (MOIP). The responsible attorney communicates directly and preserves the technical context.",
-        "cta": "Meet One Team"
+        "title": "Foreign associates · Korean matters",
+        "body": "Complex Korean matters do not need to be handled alone. A responsible attorney who understands MOIP standards and local procedure works as an extension of your team, from strategy through reporting.",
+        "cta": "Partner on Korean matters"
       },
       {
-        "title": "IP firms",
-        "body": "We manage overseas patent annuities and trademark renewals through a trusted international network.",
-        "cta": "Contact us"
+        "title": "Korean IP firms · Global matters",
+        "body": "For demanding multi-jurisdiction matters, we coordinate country strategy, trusted local counsel, translation and deadlines as an extension of your international team.",
+        "cta": "Partner on global matters"
       }
     ],
     "trust": [
       {
-        "label": "International practice",
+        "name": "AIPPI",
+        "label": "International patent network",
         "detail": "Membership Committee Director"
       },
       {
-        "label": "Licensing",
+        "name": "LESI",
+        "label": "International licensing network",
         "detail": "YMC Director"
       },
       {
-        "label": "IP transactions",
-        "detail": "Korea liaison"
+        "name": "INTA · APAA",
+        "label": "Trademark and Asia-Pacific IP network",
+        "detail": "Direct links to local professionals"
       },
       {
-        "label": "Technology-listing review",
-        "detail": "Valuation adviser"
+        "name": "OCEAN TOMO",
+        "label": "IP transactions and valuation",
+        "detail": "Korea liaison"
       }
     ],
     "aboutTitle": "Near to our clients.<br>Wise in strategy.",
     "aboutLead": "Obtaining a right is not the end. The goal is to make it work for the business.",
     "aboutBody": "The attorney in charge works with you from start to finish. We preserve the technical context, read the business stage and competitive landscape, and design both the right protection method and the route to value realisation.",
-    "quote": "“We do not stop at registration. We make the right work in the real business.”",
+    "quote": "Registration is only the start. We make rights work in the business.",
     "quoteBy": "Seungyeob Baik · Founding Partner",
     "how": [
       "Direct access to the responsible attorney",
@@ -78,12 +82,12 @@
     "visual": "Technology must be understood<br>before rights can be designed.",
     "experienceEyebrow": "2020—2026 · ANONYMIZED MATTER RECORDS",
     "experienceTitle": "Breadth in practice.<br>Depth proven by real matters.",
-    "experienceBody": "From patents, trademarks, designs, copyright and advisory work to public support programs and IP valuation, NwiseIP connects technology with markets and Korea with the world.",
+    "experienceBody": "Across patents, trademarks, designs, copyright, advisory work, public programs and IP valuation, our matter experience and relationships built through LESI, AIPPI, INTA and APAA connect technology and markets worldwide.",
     "experienceStats": [
-      { "value": "1,900+", "label": "unique NW references" },
-      { "value": "7", "label": "practice categories" },
-      { "value": "10+", "label": "key jurisdictions and routes" },
-      { "value": "20+", "label": "valuation and listing records" }
+      { "value": "1,900+", "label": "matters and projects handled" },
+      { "value": "WORLDWIDE", "label": "LESI · AIPPI · INTA · APAA network" },
+      { "value": "OCEAN TOMO", "label": "Korea liaison" },
+      { "value": "20+", "label": "valuation and technology-listing records" }
     ],
     "experienceTabs": [
       {
@@ -115,13 +119,13 @@
       {
         "label": "International",
         "title": "MOIP practice and global portfolio coordination",
-        "body": "We apply a detailed understanding of MOIP examination standards, procedures and local practice, while coordinating PCT and national filings, translation, foreign associates, annuities and renewals.",
+        "body": "We combine close knowledge of MOIP standards and local practice with relationships built through LESI, AIPPI, INTA and APAA to coordinate work across virtually every major jurisdiction.",
         "items": [
           { "title": "MOIP PRACTICE", "detail": "Korean filings · prosecution · trials and disputes" },
           { "title": "PCT · WO", "detail": "International filings and national-phase entry" },
-          { "title": "US · EP · DE", "detail": "Protection in the US and major European markets" },
-          { "title": "CN · JP · IN", "detail": "Portfolios in China, Japan and India" },
-          { "title": "VN · SG · CA · AU", "detail": "Growth markets and common-law jurisdictions" },
+          { "title": "LESI · AIPPI", "detail": "Patents · technology transactions · licensing" },
+          { "title": "INTA · APAA", "detail": "Trademarks · Asia-Pacific IP network" },
+          { "title": "WORLDWIDE", "detail": "Americas · Europe · Asia-Pacific · growth markets" },
           { "title": "GLOBAL PORTFOLIO", "detail": "Associates · translation · annuities and renewals" }
         ]
       }
@@ -131,11 +135,12 @@
       { "alt": "Industrial robots on an automotive production line", "caption": "MOBILITY · ROBOTICS · MANUFACTURING", "credit": "Lilian Do Khac", "creditUrl": "https://unsplash.com/photos/robotic-arms-assembling-a-car-chassis-on-a-factory-line-EyqUxJuOb1Q" },
       { "alt": "Biotechnology researchers working in a laboratory", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
     ],
-    "experienceNote": "Anonymized count of unique NW20–NW26 references found in internal folder metadata as of September 2026. Client names and individual matter details are not disclosed.",
-    "servicesTitle": "Rights move through<br>many stages",
-    "servicesBody": "Each service connects to the next. Experience in transactions and exits changes how claims should be drafted from the outset.",
+    "experienceNote": "Anonymized totals from internal matter-management records as of September 2026. Client names and individual matter details are not disclosed.",
+    "servicesTitle": "IP rights evolve<br>with the business",
+    "servicesBody": "Each stage informs the next. Experience in transactions and exits changes how rights should be designed from day one.",
     "group1": "Core stages <span>Core Practice</span>",
     "group2": "Business-facing stages <span>Business Practice</span>",
+    "group3": "Overseas rights maintenance <span>Global Portfolio Care</span>",
     "services": [
       {
         "title": "Secure",
@@ -158,13 +163,18 @@
         "body": "The responsible attorney handles Korean filings, prosecution, trials and disputes with close attention to MOIP standards, procedures and local practice, while coordinating directly with foreign associates."
       },
       {
-        "title": "Annuities & renewals",
-        "body": "Reliable overseas patent annuity and trademark renewal management through our local network."
+        "title": "Overseas patent annuities",
+        "body": "We monitor country-specific deadlines and costs, then coordinate payment through trusted local counsel so overseas patents remain in force."
+      },
+      {
+        "title": "Overseas trademark renewals",
+        "body": "We track renewal windows and local document requirements across jurisdictions so valuable trademark registrations do not lapse."
       }
     ],
-    "valueTitle": "Not only advised on valuation—<br>experienced in doing it.",
-    "valueStat": "share of intangible assets in S&P 500 enterprise value",
-    "valueBody": "People who work beyond registration design filings differently. We consider proof of infringement, family structure and the transaction potential of the right from the beginning.",
+    "valueTitle": "We know valuation<br>from the evaluator’s side.",
+    "valueStat": "estimated share of intangible assets in S&P 500 market capitalisation at year-end 2025",
+    "valueSource": "Source: Ocean Tomo, 2025 Intangible Asset Market Value Study (published 12 Feb 2026) ↗",
+    "valueBody": "Experience beyond registration changes how rights are designed from day one. We consider proof of infringement, family structure and transaction potential from the outset.",
     "valueButton": "Discuss IP valuation",
     "valuePaths": [
       "Patent design for a potential U.S. sale",
@@ -245,7 +255,7 @@
       }
     ],
     "note": "These items are layout samples and will be replaced with published articles in sequence.",
-    "contactTitle": "Your idea can still be<br>at an early stage.",
+    "contactTitle": "Early-stage ideas<br>are welcome.",
     "contactBody": "From protectability to filing strategy, we will organise the first questions with you.",
     "contactButton": "Start a conversation"
   },

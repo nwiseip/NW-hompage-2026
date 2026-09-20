@@ -16,58 +16,62 @@
   },
   "home": {
     "title": "Near & Wise IP Law Office | Seúl",
-    "description": "Abogados de patentes con formación técnica conectan la solicitud, los litigios, la valoración y la materialización del valor.",
-    "heroTitle": "La solicitud es el comienzo.<br><span>El objetivo es materializar su valor.</span>",
-    "heroLede": "Nuestros abogados de patentes con formación en ingeniería entienden primero la tecnología. Un mismo equipo acompaña la solicitud, los conflictos, la valoración y la realización del valor.",
+    "description": "Abogados de patentes con formación técnica conectan la solicitud, los litigios, la valoración y la monetización.",
+    "heroTitle": "La solicitud es el comienzo.<br><span>El objetivo es generar valor.</span>",
+    "heroLede": "Nuestros abogados de patentes con formación en ingeniería entienden primero la tecnología. Un mismo equipo acompaña la solicitud, los conflictos, la valoración y la monetización.",
     "heroValueButton": "Ver el valor de la PI",
     "panel": "Empiece por la vía que mejor responda al objetivo de sus derechos.",
     "routes": [
       "Proteger",
       "Defender",
-      "Realizar"
+      "Monetizar"
     ],
     "startQuestion": "¿Qué necesita?",
     "startTitle": "Empiece por<br>su objetivo",
-    "startBody": "La respuesta adecuada depende de la situación del cliente y del propósito del asunto. El profesional responsable interviene directamente desde el principio.",
+    "startBody": "Los asuntos que combinan varios países y procedimientos no tienen por qué resolverse en solitario. En Corea o en múltiples jurisdicciones, trabajamos como una extensión de su equipo.",
     "entries": [
       {
         "title": "Empresas e I+D",
-        "body": "Diseñamos solicitudes nacionales e internacionales, registro, defensa y realización del valor según cada etapa del negocio.",
+        "body": "Diseñamos solicitudes nacionales e internacionales, registro, defensa y monetización según cada etapa del negocio.",
         "cta": "Ver servicios"
       },
       {
-        "title": "Corresponsales extranjeros",
-        "body": "Representación en Corea basada en un conocimiento preciso de los criterios de examen, los procedimientos y la práctica del Ministerio de Propiedad Intelectual (MOIP). El profesional responsable se comunica directamente y conserva el contexto técnico.",
-        "cta": "Conocer al equipo"
+        "title": "Corresponsales extranjeros · Corea",
+        "body": "Los asuntos complejos en Corea no tienen por qué gestionarse en solitario. Un profesional que conoce los criterios y la práctica del MOIP se integra en su equipo, desde la estrategia hasta el informe final.",
+        "cta": "Colaborar en Corea"
       },
       {
-        "title": "Firmas de PI",
-        "body": "Gestionamos anualidades de patentes y renovaciones de marcas mediante una red internacional verificada.",
-        "cta": "Contactar"
+        "title": "Firmas coreanas de PI · Exterior",
+        "body": "Para asuntos complejos en varias jurisdicciones, coordinamos estrategia por país, corresponsales locales, traducción y plazos como parte de su equipo internacional.",
+        "cta": "Colaborar en el exterior"
       }
     ],
     "trust": [
       {
-        "label": "Actividad internacional",
+        "name": "AIPPI",
+        "label": "Red internacional de patentes",
         "detail": "Director del comité de membresía"
       },
       {
-        "label": "Licencias",
+        "name": "LESI",
+        "label": "Red internacional de licencias",
         "detail": "Director de YMC"
       },
       {
-        "label": "Transacciones de PI",
-        "detail": "Enlace en Corea"
+        "name": "INTA · APAA",
+        "label": "Marcas y red de PI en Asia-Pacífico",
+        "detail": "Acceso directo a profesionales locales"
       },
       {
-        "label": "Cotización tecnológica",
-        "detail": "Asesor de valoración"
+        "name": "OCEAN TOMO",
+        "label": "Transacciones y valoración de PI",
+        "detail": "Enlace en Corea"
       }
     ],
-    "aboutTitle": "Cerca del cliente.<br>Sabios en la estrategia.",
+    "aboutTitle": "Cerca del cliente.<br>Con visión estratégica.",
     "aboutLead": "Obtener el derecho no es el fin. El objetivo es que funcione en el negocio.",
     "aboutBody": "El profesional responsable le acompaña de principio a fin. Conservamos el contexto técnico, entendemos la etapa empresarial y el entorno competitivo, y diseñamos tanto la protección como la vía para realizar el valor.",
-    "quote": "«No nos detenemos en el registro; hacemos que el derecho funcione en el negocio real.»",
+    "quote": "El registro es solo el principio: hacemos que los derechos generen valor para el negocio.",
     "quoteBy": "Seungyeob Baik · Socio fundador",
     "how": [
       "Acceso directo al profesional responsable",
@@ -77,13 +81,13 @@
     ],
     "visual": "Para diseñar bien los derechos,<br>primero hay que entender la tecnología.",
     "experienceEyebrow": "2020—2026 · EXPEDIENTES ANONIMIZADOS",
-    "experienceTitle": "La amplitud y la profundidad<br>que demuestran casos reales",
-    "experienceBody": "Desde patentes, marcas, diseños, derechos de autor y consultoría hasta programas públicos y valoración de PI, NwiseIP conecta la tecnología con el mercado y Corea con el mundo.",
+    "experienceTitle": "Experiencia amplia.<br>Profundidad demostrada en casos reales.",
+    "experienceBody": "Patentes, marcas, diseños, derechos de autor, consultoría, programas públicos y valoración de PI: nuestra experiencia y la red creada en LESI, AIPPI, INTA y APAA conectan tecnología y mercados en todo el mundo.",
     "experienceStats": [
-      { "value": "1.900+", "label": "referencias NW únicas" },
-      { "value": "7", "label": "áreas de práctica" },
-      { "value": "10+", "label": "jurisdicciones y vías clave" },
-      { "value": "20+", "label": "registros de valoración y cotización" }
+      { "value": "1.900+", "label": "asuntos y proyectos gestionados" },
+      { "value": "GLOBAL", "label": "red LESI · AIPPI · INTA · APAA" },
+      { "value": "OCEAN TOMO", "label": "enlace en Corea" },
+      { "value": "20+", "label": "valoraciones y procesos de cotización tecnológica" }
     ],
     "experienceTabs": [
       {
@@ -115,13 +119,13 @@
       {
         "label": "Internacional",
         "title": "Práctica ante el MOIP y coordinación global de carteras",
-        "body": "Aplicamos un conocimiento preciso de los criterios de examen, los procedimientos y la práctica local del MOIP, y coordinamos solicitudes PCT y nacionales, traducción, corresponsales, anualidades y renovaciones.",
+        "body": "Unimos nuestro conocimiento de los criterios y la práctica local del MOIP con la red creada en LESI, AIPPI, INTA y APAA para trabajar en prácticamente cualquier jurisdicción relevante.",
         "items": [
           { "title": "MOIP PRACTICE", "detail": "Solicitudes coreanas · tramitación · recursos y litigios" },
           { "title": "PCT · WO", "detail": "Solicitudes internacionales y entrada en fase nacional" },
-          { "title": "US · EP · DE", "detail": "Protección en EE. UU. y principales mercados europeos" },
-          { "title": "CN · JP · IN", "detail": "Carteras en China, Japón e India" },
-          { "title": "VN · SG · CA · AU", "detail": "Mercados en crecimiento y jurisdicciones anglosajonas" },
+          { "title": "LESI · AIPPI", "detail": "Patentes · transacciones tecnológicas · licencias" },
+          { "title": "INTA · APAA", "detail": "Marcas · red de PI en Asia-Pacífico" },
+          { "title": "WORLDWIDE", "detail": "Américas · Europa · Asia-Pacífico · mercados emergentes" },
           { "title": "GLOBAL PORTFOLIO", "detail": "Corresponsales · traducción · anualidades y renovaciones" }
         ]
       }
@@ -131,11 +135,12 @@
       { "alt": "Robots industriales en una línea de producción de automóviles", "caption": "MOBILITY · ROBOTICS · MANUFACTURING", "credit": "Lilian Do Khac", "creditUrl": "https://unsplash.com/photos/robotic-arms-assembling-a-car-chassis-on-a-factory-line-EyqUxJuOb1Q" },
       { "alt": "Investigadores de biotecnología trabajando en un laboratorio", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
     ],
-    "experienceNote": "Recuento anonimizado de referencias NW20–NW26 únicas halladas en los metadatos internos a septiembre de 2026. No se publican nombres de clientes ni datos de asuntos concretos.",
-    "servicesTitle": "Los derechos pasan<br>por varias etapas",
+    "experienceNote": "Cifras anonimizadas de nuestros registros internos de asuntos a septiembre de 2026. No se publican nombres de clientes ni datos de asuntos concretos.",
+    "servicesTitle": "La PI acompaña<br>cada etapa del negocio",
     "servicesBody": "Cada servicio se conecta con el siguiente. La experiencia en operaciones y ventas mejora el diseño de las reivindicaciones desde el inicio.",
     "group1": "Etapas esenciales <span>Core Practice</span>",
     "group2": "Etapas orientadas al negocio <span>Business Practice</span>",
+    "group3": "Mantenimiento de derechos en el exterior <span>Global Portfolio Care</span>",
     "services": [
       {
         "title": "Proteger",
@@ -150,7 +155,7 @@
         "body": "PCT y fases nacionales, traducción de memorias y coordinación con corresponsales extranjeros según la entrada en cada mercado."
       },
       {
-        "title": "Realizar",
+        "title": "Monetizar",
         "body": "Valoración, diseño orientado a la venta, cotización tecnológica y financiación respaldada por PI."
       },
       {
@@ -158,13 +163,18 @@
         "body": "El profesional responsable gestiona solicitudes coreanas, tramitación, recursos y litigios conforme a los criterios, procedimientos y práctica local del MOIP, y coordina directamente con los corresponsales extranjeros."
       },
       {
-        "title": "Anualidades y renovaciones",
-        "body": "Gestión fiable de anualidades de patentes y renovaciones de marcas mediante nuestra red local."
+        "title": "Anualidades de patentes extranjeras",
+        "body": "Controlamos plazos y costes por país y coordinamos el pago mediante corresponsales de confianza para mantener vigentes las patentes extranjeras."
+      },
+      {
+        "title": "Renovaciones de marcas extranjeras",
+        "body": "Seguimos los plazos de renovación y los requisitos documentales de cada país para evitar la pérdida de registros de marca valiosos."
       }
     ],
-    "valueTitle": "No solo asesoramos en valoración:<br>también la hemos realizado.",
-    "valueStat": "proporción de intangibles en el valor empresarial del S&P 500",
-    "valueBody": "La experiencia posterior al registro cambia cómo se diseña una solicitud. Consideramos desde el inicio la prueba de infracción, la familia y el potencial transaccional.",
+    "valueTitle": "Conocemos la valoración<br>desde el lado del evaluador.",
+    "valueStat": "proporción estimada de intangibles en la capitalización del S&P 500 al cierre de 2025",
+    "valueSource": "Fuente: Ocean Tomo, 2025 Intangible Asset Market Value Study (publicado el 12 feb 2026) ↗",
+    "valueBody": "La experiencia más allá del registro cambia el diseño desde el primer día. Consideramos desde el inicio la prueba de infracción, la familia y el potencial transaccional.",
     "valueButton": "Consultar valoración de PI",
     "valuePaths": [
       "Diseño de patentes para una posible venta en EE. UU.",
@@ -173,8 +183,8 @@
       "Financiación respaldada por PI"
     ],
     "peopleLabel": "Distintas especialidades. Un mismo criterio.",
-    "peopleTitle": "Un solo equipo, desde la tecnología<br>hasta la realización de valor",
-    "peopleBody": "Cuatro abogados de patentes y un abogado colaborador combinan sus especialidades y mantienen la continuidad desde la primera cuestión técnica hasta la protección, los litigios y la realización de valor.",
+    "peopleTitle": "Un solo equipo, desde la tecnología<br>hasta la monetización",
+    "peopleBody": "Cuatro abogados de patentes y un abogado colaborador combinan sus especialidades y mantienen la continuidad desde la primera cuestión técnica hasta la protección, los litigios y la conversión de los derechos en valor.",
     "people": [
       {
         "name": "Seungyeob Baik",
@@ -245,7 +255,7 @@
       }
     ],
     "note": "Estos contenidos son ejemplos de maquetación y serán sustituidos progresivamente por artículos publicados.",
-    "contactTitle": "Su idea puede estar<br>todavía en una fase inicial.",
+    "contactTitle": "También trabajamos con ideas<br>en fase inicial.",
     "contactBody": "Desde la posibilidad de protección hasta la estrategia de solicitud, ordenaremos juntos las primeras preguntas.",
     "contactButton": "Iniciar una conversación"
   },
@@ -279,7 +289,7 @@
       "slug": "baik-seungyeob",
       "name": "Seungyeob Baik",
       "role": "Socio fundador · Abogado de patentes",
-      "intro": "Diseña estrategias de PI que van más allá de la protección e integran conflictos, valoración y realización del valor.",
+      "intro": "Diseña estrategias de PI que van más allá de la protección e integran conflictos, valoración y monetización.",
       "keyPractice": "Asuntos internacionales · solicitudes · procedimientos · litigios · valoración de PI",
       "technicalFields": "Industria pesada · maquinaria · naval · dispositivos médicos · automoción · IA · software",
       "education": "Ingeniería Nuclear, Hanyang University",

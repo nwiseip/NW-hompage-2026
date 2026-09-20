@@ -28,7 +28,7 @@
     ],
     "startQuestion": "您因何而来？",
     "startTitle": "从目标出发<br>开始行动",
-    "startBody": "客户所处阶段与案件目标不同，所需策略也不同。负责代理师从一开始就直接参与。",
+    "startBody": "跨越多个国家和程序的复杂案件，不必由贵所独自承担。无论是韩国业务还是多法域布局，负责代理师都会作为贵所团队的一员全程协作。",
     "entries": [
       {
         "title": "企业与研发机构",
@@ -36,38 +36,42 @@
         "cta": "查看服务"
       },
       {
-        "title": "海外代理机构",
-        "body": "依据韩国知识产权部（MOIP）的审查标准、程序及实务惯例提供韩国代理。负责代理师直接沟通，确保技术脉络完整。",
-        "cta": "了解团队"
+        "title": "海外代理机构 · 韩国业务",
+        "body": "复杂的韩国案件无需独自应对。熟悉MOIP审查标准与本地程序的负责代理师，从策略制定到报告反馈，都作为贵所团队的一员协同推进。",
+        "cta": "合作办理韩国案件"
       },
       {
-        "title": "知识产权事务所",
-        "body": "依托可靠的国际网络，管理海外专利年费与商标续展。",
-        "cta": "联系我们"
+        "title": "韩国知识产权事务所 · 海外业务",
+        "body": "复杂的多法域案件也可交给我们。国别策略、当地代理机构、翻译与期限管理，由我们作为贵所的国际业务团队共同承担。",
+        "cta": "合作办理海外案件"
       }
     ],
     "trust": [
       {
-        "label": "国际活动",
+        "name": "AIPPI",
+        "label": "国际专利网络",
         "detail": "会员委员会理事"
       },
       {
-        "label": "许可交易",
+        "name": "LESI",
+        "label": "国际许可网络",
         "detail": "YMC理事"
       },
       {
-        "label": "知识产权交易",
-        "detail": "韩国联络代理"
+        "name": "INTA · APAA",
+        "label": "商标与亚太知识产权网络",
+        "detail": "直连各国当地专业人士"
       },
       {
-        "label": "技术特例上市",
-        "detail": "评估顾问"
+        "name": "OCEAN TOMO",
+        "label": "知识产权交易与估值",
+        "detail": "韩国联络代理"
       }
     ],
     "aboutTitle": "贴近客户，<br>智慧布局。",
     "aboutLead": "获得权利不是终点，让权利在商业中发挥作用才是目标。",
     "aboutBody": "负责代理师从始至终直接参与。我们保持技术脉络，研判业务阶段与竞争格局，共同设计最佳保护方式和价值实现路径。",
-    "quote": "“不止于授权，让权利在真实业务中发挥作用。”",
+    "quote": "不止于授权，让权利在真实业务中发挥作用。",
     "quoteBy": "白承烨 代表专利代理师",
     "how": [
       "负责代理师直接沟通",
@@ -78,11 +82,11 @@
     "visual": "只有理解技术，<br>才能正确设计权利。",
     "experienceEyebrow": "2020—2026 · 匿名化案件记录",
     "experienceTitle": "真实案件记录所呈现的<br>业务广度与专业深度",
-    "experienceBody": "从专利、商标、外观设计、著作权与咨询，到政府支持项目和知识产权价值评估，NwiseIP将技术与市场、韩国与全球连接为一体。",
+    "experienceBody": "从专利、商标、外观设计、著作权与咨询，到政府支持项目和知识产权价值评估，我们凭借案件经验以及在LESI、AIPPI、INTA和APAA建立的网络，让技术与市场跨越国界相连。",
     "experienceStats": [
-      { "value": "1,900+", "label": "独立NW案件编号" },
-      { "value": "7", "label": "业务类别" },
-      { "value": "10+", "label": "主要法域与国际途径" },
+      { "value": "1,900+", "label": "经办案件与项目" },
+      { "value": "GLOBAL", "label": "LESI · AIPPI · INTA · APAA全球网络" },
+      { "value": "OCEAN TOMO", "label": "韩国联络代理" },
       { "value": "20+", "label": "估值与上市相关记录" }
     ],
     "experienceTabs": [
@@ -115,13 +119,13 @@
       {
         "label": "国际业务",
         "title": "MOIP实务与全球权利组合协同",
-        "body": "我们准确把握MOIP的审查标准、程序及韩国实务，并统筹PCT及各国申请、翻译、海外代理人协作、年费和续展。",
+        "body": "我们将对MOIP审查标准与韩国实务的深入理解，与在LESI、AIPPI、INTA和APAA建立的网络相结合，覆盖全球主要法域。",
         "items": [
           { "title": "MOIP PRACTICE", "detail": "韩国申请 · 审查答复 · 审判 · 争议" },
           { "title": "PCT · WO", "detail": "国际申请与国家阶段进入" },
-          { "title": "US · EP · DE", "detail": "美国及欧洲主要市场的权利化" },
-          { "title": "CN · JP · IN", "detail": "中国、日本与印度的权利组合" },
-          { "title": "VN · SG · CA · AU", "detail": "增长市场及英美法系市场" },
+          { "title": "LESI · AIPPI", "detail": "专利 · 技术交易 · 国际许可" },
+          { "title": "INTA · APAA", "detail": "商标 · 亚太知识产权网络" },
+          { "title": "WORLDWIDE", "detail": "美洲 · 欧洲 · 亚太 · 增长市场" },
           { "title": "GLOBAL PORTFOLIO", "detail": "海外代理人 · 翻译 · 年费与续展" }
         ]
       }
@@ -131,11 +135,12 @@
       { "alt": "汽车生产线上的工业机器人", "caption": "MOBILITY · ROBOTICS · MANUFACTURING", "credit": "Lilian Do Khac", "creditUrl": "https://unsplash.com/photos/robotic-arms-assembling-a-car-chassis-on-a-factory-line-EyqUxJuOb1Q" },
       { "alt": "在实验室工作的生物科技研究人员", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
     ],
-    "experienceNote": "以上数据为截至2026年9月对内部文件夹元数据中独立NW20–NW26编号的匿名统计。客户名称及具体案件信息不予公开。",
-    "servicesTitle": "权利会经历<br>多个阶段",
+    "experienceNote": "以上数据来自截至2026年9月的内部案件管理记录，并已作匿名统计。客户名称及具体案件信息不予公开。",
+    "servicesTitle": "让知识产权贯穿<br>业务全周期",
     "servicesBody": "各项服务彼此衔接。交易与出售经验，会反向改善申请阶段的权利要求设计。",
     "group1": "权利基础阶段 <span>Core Practice</span>",
     "group2": "面向商业的阶段 <span>Business Practice</span>",
+    "group3": "海外权利维护 <span>Global Portfolio Care</span>",
     "services": [
       {
         "title": "确权",
@@ -158,12 +163,17 @@
         "body": "负责代理师依据MOIP的审查标准、程序及韩国实务，直接处理申请、审查答复、审判和争议，并与海外代理机构紧密沟通。"
       },
       {
-        "title": "年费与续展管理",
-        "body": "通过当地网络，稳定管理海外专利年费与商标续展。"
+        "title": "海外专利年费管理",
+        "body": "我们核对各国缴费期限与费用，并通过可靠的当地代理网络管理海外专利年费，确保权利持续有效。"
+      },
+      {
+        "title": "海外商标续展",
+        "body": "我们跟踪各国续展时间与文件要求，避免重要海外商标因遗漏续展而失效。"
       }
     ],
-    "valueTitle": "不仅接受评估，<br>更拥有评估经验。",
-    "valueStat": "无形资产占S&P 500企业价值的比例",
+    "valueTitle": "不仅协助企业应对估值，<br>也真正参与过估值。",
+    "valueStat": "2025年末无形资产占S&P 500总市值的估算比例",
+    "valueSource": "来源：Ocean Tomo《2025 Intangible Asset Market Value Study》（2026年2月12日发布）↗",
     "valueBody": "处理授权后事务的经验，会改变申请阶段的设计。我们从一开始就考虑侵权举证、专利族结构及权利交易可能性。",
     "valueButton": "咨询IP价值评估",
     "valuePaths": [
@@ -245,7 +255,7 @@
       }
     ],
     "note": "当前内容为版式示例，将依次替换为正式发布文章。",
-    "contactTitle": "即使创意仍处于<br>早期阶段也没关系。",
+    "contactTitle": "创意尚在萌芽阶段，<br>也欢迎交流。",
     "contactBody": "从可保护性判断到申请策略，我们将在首次沟通中共同梳理。",
     "contactButton": "开始咨询"
   },

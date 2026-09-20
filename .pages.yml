@@ -43,6 +43,7 @@ components:
         list:
           collapsible: { collapsed: true, summary: "{label}" }
         fields:
+          - { name: name, label: 기관명, type: string }
           - { name: label, label: 분야, type: string }
           - { name: detail, label: 역할, type: string }
       - { name: aboutTitle, label: 사무소 소개 제목, type: text }
@@ -95,6 +96,7 @@ components:
       - { name: servicesBody, label: 서비스 설명, type: text }
       - { name: group1, label: 서비스 그룹 1, type: string }
       - { name: group2, label: 서비스 그룹 2, type: string }
+      - { name: group3, label: 서비스 그룹 3, type: string }
       - name: services
         label: 서비스 항목
         type: object
@@ -105,6 +107,7 @@ components:
           - { name: body, label: 설명, type: text }
       - { name: valueTitle, label: IP 가치 제목, type: text }
       - { name: valueStat, label: 통계 설명, type: string }
+      - { name: valueSource, label: 통계 출처, type: string }
       - { name: valueBody, label: IP 가치 설명, type: text }
       - { name: valueButton, label: IP 가치 버튼, type: string }
       - { name: valuePaths, label: 가치 실현 경로, type: string, list: true }

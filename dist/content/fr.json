@@ -28,7 +28,7 @@
     ],
     "startQuestion": "Quel est votre besoin ?",
     "startTitle": "Commencez par<br>votre objectif",
-    "startBody": "La réponse appropriée dépend de votre situation et du résultat recherché. Le conseil responsable vous accompagne directement dès le début.",
+    "startBody": "Les dossiers qui combinent plusieurs pays et procédures n’ont pas à être gérés seuls. En Corée comme dans plusieurs juridictions, nous travaillons comme le prolongement de votre équipe.",
     "entries": [
       {
         "title": "Entreprises et R&D",
@@ -36,38 +36,42 @@
         "cta": "Voir les services"
       },
       {
-        "title": "Confrères étrangers",
-        "body": "Représentation en Corée fondée sur une connaissance précise des critères d’examen, des procédures et de la pratique du ministère coréen de la Propriété intellectuelle (MOIP). Le conseil responsable communique directement et préserve le contexte technique.",
-        "cta": "Découvrir l’équipe"
+        "title": "Confrères étrangers · Dossiers coréens",
+        "body": "Les dossiers complexes en Corée ne doivent pas être gérés seuls. Un conseil rompu aux critères et à la pratique du MOIP rejoint votre équipe, de la stratégie jusqu’au reporting.",
+        "cta": "Collaborer en Corée"
       },
       {
-        "title": "Cabinets de PI",
-        "body": "Nous gérons les annuités de brevets et les renouvellements de marques à l’étranger grâce à un réseau international éprouvé.",
-        "cta": "Nous contacter"
+        "title": "Cabinets coréens de PI · International",
+        "body": "Pour les dossiers complexes multijuridictionnels, nous coordonnons stratégie locale, confrères, traductions et délais comme le prolongement de votre équipe internationale.",
+        "cta": "Collaborer à l’international"
       }
     ],
     "trust": [
       {
-        "label": "Pratique internationale",
+        "name": "AIPPI",
+        "label": "Réseau international de brevets",
         "detail": "Directeur du comité des adhésions"
       },
       {
-        "label": "Licences",
+        "name": "LESI",
+        "label": "Réseau international de licences",
         "detail": "Directeur YMC"
       },
       {
-        "label": "Transactions de PI",
-        "detail": "Correspondant en Corée"
+        "name": "INTA · APAA",
+        "label": "Marques et réseau PI Asie-Pacifique",
+        "detail": "Liens directs avec les confrères locaux"
       },
       {
-        "label": "Cotation technologique",
-        "detail": "Conseiller en évaluation"
+        "name": "OCEAN TOMO",
+        "label": "Transactions et valorisation de PI",
+        "detail": "Correspondant en Corée"
       }
     ],
-    "aboutTitle": "Proches de nos clients.<br>Avisés dans la stratégie.",
+    "aboutTitle": "Une relation de proximité.<br>Une vision stratégique.",
     "aboutLead": "L’obtention d’un droit n’est pas une fin. L’objectif est qu’il produise des effets concrets pour l’entreprise.",
     "aboutBody": "Le conseil responsable vous accompagne du début à la fin. Nous préservons le contexte technique, analysons le stade de développement et l’environnement concurrentiel, puis concevons à la fois la protection adéquate et la voie de valorisation.",
-    "quote": "« Nous ne nous arrêtons pas à l’enregistrement : nous faisons vivre le droit dans l’activité réelle. »",
+    "quote": "Nous ne nous arrêtons pas au titre : nous faisons de la PI un outil au service de l’entreprise.",
     "quoteBy": "Seungyeob Baik · Associé fondateur",
     "how": [
       "Accès direct au conseil responsable",
@@ -78,12 +82,12 @@
     "visual": "Il faut comprendre la technologie<br>avant de pouvoir concevoir les droits.",
     "experienceEyebrow": "2020—2026 · DOSSIERS ANONYMISÉS",
     "experienceTitle": "Une pratique étendue.<br>Une expertise prouvée par les dossiers.",
-    "experienceBody": "Des brevets, marques, dessins, droits d’auteur et missions de conseil aux programmes publics et à la valorisation de la PI, NwiseIP relie la technologie au marché et la Corée au monde.",
+    "experienceBody": "Brevets, marques, dessins, droit d’auteur, conseil, programmes publics et valorisation de la PI : notre expérience et le réseau développé au sein de la LESI, de l’AIPPI, de l’INTA et de l’APAA relient technologie et marchés partout dans le monde.",
     "experienceStats": [
-      { "value": "1 900+", "label": "références NW uniques" },
-      { "value": "7", "label": "domaines de pratique" },
-      { "value": "10+", "label": "juridictions et voies clés" },
-      { "value": "20+", "label": "dossiers de valorisation et cotation" }
+      { "value": "1 900+", "label": "dossiers et projets traités" },
+      { "value": "MONDIAL", "label": "réseau LESI · AIPPI · INTA · APAA" },
+      { "value": "OCEAN TOMO", "label": "correspondant en Corée" },
+      { "value": "20+", "label": "dossiers de valorisation et cotation technologique" }
     ],
     "experienceTabs": [
       {
@@ -115,13 +119,13 @@
       {
         "label": "International",
         "title": "Pratique devant le MOIP et coordination internationale des portefeuilles",
-        "body": "Nous appliquons une connaissance précise des critères d’examen, des procédures et de la pratique locale du MOIP, tout en coordonnant les dépôts PCT et nationaux, la traduction, les correspondants, les annuités et les renouvellements.",
+        "body": "Nous conjuguons notre maîtrise des critères et de la pratique du MOIP avec le réseau développé au sein de la LESI, de l’AIPPI, de l’INTA et de l’APAA pour intervenir dans pratiquement toutes les grandes juridictions.",
         "items": [
           { "title": "MOIP PRACTICE", "detail": "Dépôts coréens · procédure · recours et contentieux" },
           { "title": "PCT · WO", "detail": "Dépôts internationaux et entrées en phase nationale" },
-          { "title": "US · EP · DE", "detail": "Protection aux États-Unis et sur les principaux marchés européens" },
-          { "title": "CN · JP · IN", "detail": "Portefeuilles en Chine, au Japon et en Inde" },
-          { "title": "VN · SG · CA · AU", "detail": "Marchés en croissance et juridictions de common law" },
+          { "title": "LESI · AIPPI", "detail": "Brevets · transactions technologiques · licences" },
+          { "title": "INTA · APAA", "detail": "Marques · réseau PI Asie-Pacifique" },
+          { "title": "WORLDWIDE", "detail": "Amériques · Europe · Asie-Pacifique · marchés émergents" },
           { "title": "GLOBAL PORTFOLIO", "detail": "Correspondants · traduction · annuités et renouvellements" }
         ]
       }
@@ -131,11 +135,12 @@
       { "alt": "Robots industriels sur une chaîne de production automobile", "caption": "MOBILITY · ROBOTICS · MANUFACTURING", "credit": "Lilian Do Khac", "creditUrl": "https://unsplash.com/photos/robotic-arms-assembling-a-car-chassis-on-a-factory-line-EyqUxJuOb1Q" },
       { "alt": "Chercheurs en biotechnologie travaillant en laboratoire", "caption": "BIOTECH · HEALTHCARE · MATERIALS", "credit": "Amari Shutters", "creditUrl": "https://unsplash.com/photos/two-scientists-working-with-test-tubes-in-a-lab-_ldNP1tBteQ" }
     ],
-    "experienceNote": "Décompte anonymisé des références NW20–NW26 uniques figurant dans les métadonnées internes en septembre 2026. Les noms des clients et les détails des dossiers ne sont pas divulgués.",
-    "servicesTitle": "Les droits traversent<br>plusieurs étapes",
+    "experienceNote": "Données anonymisées issues de nos registres internes de dossiers en septembre 2026. Les noms des clients et les détails des dossiers ne sont pas divulgués.",
+    "servicesTitle": "La PI accompagne<br>chaque étape de l’entreprise",
     "servicesBody": "Chaque service s’inscrit dans une continuité. L’expérience des transactions et des cessions améliore la rédaction des revendications dès l’origine.",
     "group1": "Étapes essentielles <span>Pratique fondamentale</span>",
     "group2": "Étapes orientées vers l’entreprise <span>Pratique commerciale</span>",
+    "group3": "Maintien des droits à l’étranger <span>Gestion internationale des portefeuilles</span>",
     "services": [
       {
         "title": "Protéger",
@@ -158,12 +163,17 @@
         "body": "Le conseil responsable traite les dépôts coréens, la procédure, les recours et le contentieux selon les critères, les procédures et la pratique locale du MOIP, en coordination directe avec les confrères étrangers."
       },
       {
-        "title": "Annuités et renouvellements",
-        "body": "Gestion fiable des annuités de brevets et des renouvellements de marques à l’étranger grâce à notre réseau local."
+        "title": "Annuités de brevets étrangers",
+        "body": "Nous suivons les échéances et les coûts par pays, puis coordonnons les paiements avec des confrères de confiance pour maintenir les brevets étrangers en vigueur."
+      },
+      {
+        "title": "Renouvellement de marques à l’étranger",
+        "body": "Nous suivons les fenêtres de renouvellement et les exigences documentaires locales afin d’éviter la perte d’enregistrements de marque précieux."
       }
     ],
-    "valueTitle": "Nous ne conseillons pas seulement l’évaluation :<br>nous l’avons pratiquée.",
-    "valueStat": "part des actifs incorporels dans la valeur des entreprises du S&P 500",
+    "valueTitle": "La valorisation, vue aussi<br>du côté de l’évaluateur.",
+    "valueStat": "part estimée des actifs incorporels dans la capitalisation du S&P 500 fin 2025",
+    "valueSource": "Source : Ocean Tomo, 2025 Intangible Asset Market Value Study (publiée le 12 févr. 2026) ↗",
     "valueBody": "L’expérience acquise après l’enregistrement transforme la manière de concevoir un dépôt. Dès le départ, nous considérons la preuve de la contrefaçon, la structure des familles et le potentiel transactionnel du droit.",
     "valueButton": "Échanger sur l’évaluation de PI",
     "valuePaths": [
@@ -245,7 +255,7 @@
       }
     ],
     "note": "Ces contenus sont des exemples de mise en page et seront progressivement remplacés par des articles publiés.",
-    "contactTitle": "Votre idée peut encore être<br>à un stade précoce.",
+    "contactTitle": "Même au stade de l’idée,<br>parlons-en.",
     "contactBody": "De la brevetabilité à la stratégie de dépôt, nous structurerons avec vous les premières questions.",
     "contactButton": "Commencer un échange"
   },
