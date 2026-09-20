@@ -12,11 +12,12 @@
     "contact": "Nous contacter",
     "top": "Retour en haut",
     "address": "3e étage, bureau 303, 20 Yeongdong-daero 85-gil,<br>Gangnam-gu, Séoul 06181, Corée du Sud",
-    "org": "Near &amp; Wise IP Law Office"
+    "org": "Near &amp; Wise IP Law Office",
+    "legal": "Near & Wise IP Law Office · Représentant : Seungyeob Baik · N° d’immatriculation coréen : 209-37-35631"
   },
   "home": {
-    "title": "Near & Wise IP Law Office | Séoul",
-    "description": "Une même équipe protège brevets, marques et dessins et modèles, du dépôt et du contentieux à l’extension internationale et à la valorisation.",
+    "title": "Conseils en propriété intellectuelle en Corée | Near & Wise IP",
+    "description": "Cabinet de propriété intellectuelle à Gangnam, Séoul : brevets, marques, dessins et modèles, droit d’auteur, dépôts internationaux, contentieux et valorisation de la PI.",
     "heroTitle": "Le dépôt n’est que le début.<br><span>La valorisation est l’objectif.</span>",
     "heroLede": "Nous commençons par comprendre la technologie, la marque et la forme du produit. Une même équipe accompagne brevets, marques et dessins et modèles, du dépôt et du contentieux à l’extension internationale et à la valorisation.",
     "heroValueButton": "Découvrir la valeur de la PI",
@@ -137,9 +138,9 @@
     ],
     "experienceNote": "Données anonymisées issues de nos registres internes de dossiers en septembre 2026. Les noms des clients et les détails des dossiers ne sont pas divulgués.",
     "brandDesign": {
-      "eyebrow": "TRADEMARK & DESIGN",
-      "title": "Protéger la marque<br>et l’identité visuelle du produit",
-      "body": "Le travail sur les marques et les dessins et modèles ne s’arrête pas à un dépôt. Notre expérience multisectorielle couvre les recherches, la définition de la protection, les oppositions et procédures, les litiges, les renouvellements et les annuités en Corée comme à l’étranger.",
+      "eyebrow": "TRADEMARK, DESIGN & COPYRIGHT",
+      "title": "Protéger les marques, les formes<br>et les œuvres de l’esprit",
+      "body": "Le travail sur les marques, les dessins et modèles et le droit d’auteur ne s’arrête pas à un dépôt ou un enregistrement. Notre expérience multisectorielle relie stratégie de protection, contrats, licences, contentieux et maintien des droits.",
       "trademark": {
         "title": "Marques",
         "lead": "Pour que les noms et les signes durent sur le marché",
@@ -155,6 +156,14 @@
         "points": ["Antériorités et similitude", "Vues, produits et dépôts", "HAGUE, litiges et annuités"],
         "cta": "Échanger sur un dessin ou modèle",
         "subject": "Consultation en matière de dessins et modèles"
+      },
+      "copyright": {
+        "title": "Droit d’auteur",
+        "lead": "Protéger la valeur créative des contenus et logiciels",
+        "body": "De l’analyse de l’œuvre et de la titularité à l’enregistrement, aux contrats, licences, cessions, actions en contrefaçon et prévention des litiges.",
+        "points": ["Œuvre et titularité", "Enregistrement, contrats et licences", "Contrefaçon et prévention des litiges"],
+        "cta": "Échanger sur le droit d’auteur",
+        "subject": "Consultation en matière de droit d’auteur"
       }
     },
     "servicesTitle": "La PI accompagne<br>chaque étape de l’entreprise",
@@ -296,8 +305,8 @@
       }
     ],
     "note": "Nous actualisons cette rubrique avec les nouvelles du cabinet et nos analyses pratiques.",
-    "contactTitle": "Brevets, marques, dessins et modèles :<br>commençons par en parler.",
-    "contactBody": "De l’analyse avant dépôt aux litiges, à l’extension internationale et au maintien des droits, le conseil responsable définira avec vous la protection adaptée et la prochaine étape.",
+    "contactTitle": "Brevets, marques, dessins et modèles ou droit d’auteur :<br>commençons par en parler.",
+    "contactBody": "De l’analyse avant dépôt ou enregistrement aux contrats, litiges, à l’extension internationale et au maintien des droits, le conseil responsable définira avec vous la protection adaptée et la prochaine étape.",
     "contactButton": "Commencer un échange"
   },
   "location": {

@@ -12,11 +12,12 @@
     "contact": "Contact us",
     "top": "Back to top",
     "address": "Suite 303, 3F, 20 Yeongdong-daero 85-gil,<br>Gangnam-gu, Seoul 06181, Republic of Korea",
-    "org": "Near &amp; Wise IP Law Office"
+    "org": "Near &amp; Wise IP Law Office",
+    "legal": "Near & Wise IP Law Office · Representative: Seungyeob Baik · Korean Business Registration No. 209-37-35631"
   },
   "home": {
-    "title": "Near & Wise IP Law Office | Seoul",
-    "description": "One team protects patents, trademarks and designs from filing and disputes to international expansion and value realisation.",
+    "title": "Korean Patent & Trademark Attorneys | Near & Wise IP Seoul",
+    "description": "Korean patent attorneys in Gangnam, Seoul advising on patents, trademarks, designs, copyright, Korean prosecution, global filings, disputes and IP valuation.",
     "heroTitle": "Filing is the beginning.<br><span>Value realisation is the goal.</span>",
     "heroLede": "We begin with the technology, the brand and the product’s visual form. One responsible team handles patents, trademarks and designs from filing and disputes to international expansion and value realisation.",
     "heroValueButton": "Explore IP value",
@@ -137,9 +138,9 @@
     ],
     "experienceNote": "Anonymized totals from internal matter-management records as of September 2026. Client names and individual matter details are not disclosed.",
     "brandDesign": {
-      "eyebrow": "TRADEMARK & DESIGN",
-      "title": "Protecting the brand<br>and the product’s visual identity",
-      "body": "Trademark and design work does not end with a single filing. Drawing on experience across industries, we manage clearance, scope, oppositions and trials, disputes, renewals and annuities in Korea and worldwide.",
+      "eyebrow": "TRADEMARK, DESIGN & COPYRIGHT",
+      "title": "Protecting brands, product form<br>and creative work",
+      "body": "Trademark, design and copyright work does not end with a filing or registration. Drawing on experience across industries, we connect protection strategy with contracts, licensing, disputes and portfolio care in Korea and worldwide.",
       "trademark": {
         "title": "Trademarks",
         "lead": "Helping names and marks endure in the market",
@@ -155,6 +156,14 @@
         "points": ["Prior designs and similarity", "Drawings, products and filings", "HAGUE, disputes and annuities"],
         "cta": "Discuss a design matter",
         "subject": "Design consultation"
+      },
+      "copyright": {
+        "title": "Copyright",
+        "lead": "Protecting the value of creative work and software",
+        "body": "From authorship and ownership review to registration, contracts, licensing, assignments, infringement response and dispute prevention.",
+        "points": ["Work and ownership review", "Registration, contracts and licensing", "Infringement response and prevention"],
+        "cta": "Discuss a copyright matter",
+        "subject": "Copyright consultation"
       }
     },
     "servicesTitle": "IP rights evolve<br>with the business",
@@ -296,8 +305,8 @@
       }
     ],
     "note": "Firm news and practical guidance are updated here as they are published.",
-    "contactTitle": "Patents, trademarks or designs—<br>start the conversation with us.",
-    "contactBody": "From pre-filing review to disputes, international expansion and portfolio maintenance, the responsible attorney will identify the right form of protection and the next step with you.",
+    "contactTitle": "Patents, trademarks, designs or copyright—<br>start the conversation with us.",
+    "contactBody": "From pre-filing or registration review to contracts, disputes, international expansion and portfolio maintenance, the responsible attorney will identify the right protection and next step with you.",
     "contactButton": "Start a conversation"
   },
   "location": {

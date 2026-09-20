@@ -1,10 +1,32 @@
 (() => {
   const supported = ['ko', 'en', 'ja', 'zh', 'es', 'fr'];
-  const requested = new URLSearchParams(window.location.search).get('lang');
-  const lang = supported.includes(requested) ? requested : 'ko';
   const page = document.body.dataset.page || '';
-  const languageNames = { ko: 'KR', en: 'EN', ja: '日本語', zh: '中文', es: 'ES', fr: 'FR' };
+  const search = new URLSearchParams(window.location.search);
+  const requested = search.get('lang');
+  const segments = window.location.pathname.split('/').filter(Boolean);
+  const pathLanguage = supported.includes(segments[0]) ? segments[0] : null;
+  const lang = pathLanguage || (supported.includes(requested) ? requested : 'ko');
+  const profileSlug = page === 'profile' ? window.location.pathname.split('/').pop().replace('.html', '') : '';
+  const languageNames = { ko: '🇰🇷 KR', en: '🇬🇧 EN', ja: '🇯🇵 日本語', zh: '🇨🇳 中文', es: '🇪🇸 ES', fr: '🇫🇷 FR' };
+  const languageOptions = { ko: '🇰🇷 한국어', en: '🇬🇧 English', ja: '🇯🇵 日本語', zh: '🇨🇳 中文', es: '🇪🇸 Español', fr: '🇫🇷 Français' };
   const htmlLang = { ko: 'ko', en: 'en', ja: 'ja', zh: 'zh-CN', es: 'es', fr: 'fr' };
+  const ogLocale = { ko: 'ko_KR', en: 'en_US', ja: 'ja_JP', zh: 'zh_CN', es: 'es_ES', fr: 'fr_FR' };
+  const siteOrigin = 'https://www.nwiseip.com';
+
+  function routeForLanguage(targetLang, targetPage = page, slug = profileSlug) {
+    const prefix = targetLang === 'ko' ? '' : `/${targetLang}`;
+    if (targetPage === 'location') return `${prefix}/location.html`;
+    if (targetPage === 'profile') return `${prefix}/people/${slug}.html`;
+    return `${prefix}/`;
+  }
+
+  if (supported.includes(requested) && !search.has('prerender')) {
+    const target = `${routeForLanguage(requested)}${window.location.hash}`;
+    if (`${window.location.pathname}${window.location.hash}` !== target) {
+      window.location.replace(target);
+      return;
+    }
+  }
   const uiLabels = {
     ko: { contact: '상담 문의', top: '맨 위로', skip: '본문으로 바로가기', nav: '주요 메뉴', language: '언어 선택', trust: '주요 대외 활동', visual: '기술을 이해하는 지식재산 실무', stats: '익명 집계된 업무 현황', tabs: '업무 경험 보기' },
     en: { contact: 'Contact us', top: 'Back to top', skip: 'Skip to content', nav: 'Primary navigation', language: 'Select language', trust: 'International affiliations', visual: 'Technology-led IP practice', stats: 'Anonymized matter overview', tabs: 'Explore our experience' },
@@ -38,11 +60,20 @@
     document.querySelector('.experience-stats')?.setAttribute('aria-label', uiLabels[lang].stats);
     document.querySelector('.experience-tabs')?.setAttribute('aria-label', uiLabels[lang].tabs);
     setText('[data-current-language]', languageNames[lang]);
+    document.querySelectorAll('.language-menu > div > a').forEach((link, index) => {
+      const option = supported[index];
+      if (!option) return;
+      link.textContent = languageOptions[option];
+      link.setAttribute('href', `${routeForLanguage(option)}${page === 'home' ? window.location.hash : ''}`);
+      if (option === lang) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    });
     document.querySelectorAll('.site-nav > a').forEach((link, index) => {
       if (common.nav[index]) link.textContent = common.nav[index];
     });
     setText('.header-cta', common.contact);
     set('.footer-brand p', common.org);
+    setText('.footer-legal', common.legal);
 
     document.querySelectorAll('.footer-links a').forEach((link) => {
       const href = link.getAttribute('href') || '';
@@ -158,8 +189,9 @@
     setText('.brand-rights-eyebrow', t.brandDesign.eyebrow);
     set('#brand-rights-title', t.brandDesign.title);
     setText('.brand-rights-heading > p', t.brandDesign.body);
+    const brandRightItems = [t.brandDesign.trademark, t.brandDesign.design, t.brandDesign.copyright];
     document.querySelectorAll('.brand-rights-card').forEach((card, index) => {
-      const item = index === 0 ? t.brandDesign.trademark : t.brandDesign.design;
+      const item = brandRightItems[index];
       if (!item) return;
       card.querySelector('h3').textContent = item.title;
       card.querySelector('strong').textContent = item.lead;
@@ -250,6 +282,7 @@
     const common = data.profileCommon;
     if (!profile) return;
     document.title = `${profile.name} | Near & Wise IP Law Office`;
+    document.querySelector('meta[name="description"]')?.setAttribute('content', profile.intro);
     setText('.profile-back', common.back);
     setText('.profile-heading h1', profile.name);
     setText('.profile-role', profile.role);
@@ -266,16 +299,106 @@
     if (photo && media.professionals[slug]) photo.src = media.professionals[slug];
   }
 
-  function propagateLanguage() {
-    if (lang === 'ko') return;
+  function localizeInternalLinks() {
     document.querySelectorAll('a[href]').forEach((link) => {
+      if (link.closest('.language-menu')) return;
       const href = link.getAttribute('href');
-      if (!href || href.startsWith('#') || href.startsWith('?') || /^(mailto:|tel:|https?:)/.test(href)) return;
+      if (!href || href.startsWith('?') || /^(mailto:|tel:|https?:)/.test(href)) return;
+      if (href.startsWith('#')) {
+        if (page === 'home') link.setAttribute('href', `${routeForLanguage(lang, 'home')}${href}`);
+        return;
+      }
       const url = new URL(href, window.location.href);
       if (url.origin !== window.location.origin) return;
-      url.searchParams.set('lang', lang);
-      link.setAttribute('href', `${url.pathname}${url.search}${url.hash}`);
+      const parts = url.pathname.split('/').filter(Boolean);
+      if (supported.includes(parts[0])) parts.shift();
+      const normalized = `/${parts.join('/')}`;
+      let localized = null;
+      if (normalized === '/' || normalized === '/index.html') localized = routeForLanguage(lang, 'home');
+      else if (normalized === '/location.html') localized = routeForLanguage(lang, 'location');
+      else if (normalized.startsWith('/people/') && normalized.endsWith('.html')) localized = routeForLanguage(lang, 'profile', normalized.split('/').pop().replace('.html', ''));
+      if (localized) link.setAttribute('href', `${localized}${url.hash}`);
     });
+  }
+
+  function setMeta(selector, attributes) {
+    let element = document.head.querySelector(selector);
+    if (!element) {
+      element = document.createElement(attributes.tag || 'meta');
+      document.head.appendChild(element);
+    }
+    Object.entries(attributes).forEach(([key, value]) => {
+      if (key !== 'tag') element.setAttribute(key, value);
+    });
+    return element;
+  }
+
+  function applySeo(data, contact, media) {
+    const canonicalPath = routeForLanguage(lang);
+    const canonicalUrl = `${siteOrigin}${canonicalPath}`;
+    const description = document.querySelector('meta[name="description"]')?.getAttribute('content') || '';
+    setMeta('link[rel="canonical"]', { tag: 'link', rel: 'canonical', href: canonicalUrl });
+    document.head.querySelectorAll('link[rel="alternate"][hreflang]').forEach((element) => element.remove());
+    [...supported, 'x-default'].forEach((code) => {
+      const targetLang = code === 'x-default' ? 'ko' : code;
+      const alternate = document.createElement('link');
+      alternate.rel = 'alternate';
+      alternate.hreflang = code === 'zh' ? 'zh-CN' : code;
+      alternate.href = `${siteOrigin}${routeForLanguage(targetLang)}`;
+      alternate.dataset.generatedHreflang = 'true';
+      document.head.appendChild(alternate);
+    });
+    setMeta('meta[name="robots"]', { name: 'robots', content: 'index, follow, max-image-preview:large' });
+    setMeta('meta[property="og:type"]', { property: 'og:type', content: page === 'profile' ? 'profile' : 'website' });
+    setMeta('meta[property="og:title"]', { property: 'og:title', content: document.title });
+    setMeta('meta[property="og:description"]', { property: 'og:description', content: description });
+    setMeta('meta[property="og:url"]', { property: 'og:url', content: canonicalUrl });
+    setMeta('meta[property="og:locale"]', { property: 'og:locale', content: ogLocale[lang] });
+    setMeta('meta[name="twitter:card"]', { name: 'twitter:card', content: 'summary' });
+    setMeta('meta[name="twitter:title"]', { name: 'twitter:title', content: document.title });
+    setMeta('meta[name="twitter:description"]', { name: 'twitter:description', content: description });
+
+    const organization = {
+      '@type': ['LegalService', 'ProfessionalService'],
+      '@id': `${siteOrigin}/#organization`,
+      name: 'Near & Wise IP Law Office',
+      alternateName: ['NwiseIP', '엔와이즈특허법률사무소'],
+      url: `${siteOrigin}/`,
+      logo: `${siteOrigin}${media.logoDark}`,
+      email: contact.email,
+      telephone: contact.telephone,
+      faxNumber: contact.fax,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Suite 303, 3F, 20 Yeongdong-daero 85-gil',
+        addressLocality: 'Gangnam-gu, Seoul',
+        postalCode: '06181',
+        addressCountry: 'KR'
+      },
+      areaServed: 'Worldwide',
+      knowsLanguage: ['ko', 'en', 'ja', 'zh-CN', 'es', 'fr'],
+      serviceType: ['Patents', 'Trademarks', 'Designs', 'Copyright', 'IP valuation']
+    };
+    let schema = { '@context': 'https://schema.org', ...organization };
+    if (page === 'profile') {
+      const profile = data.profiles.find((item) => item.slug === profileSlug);
+      if (profile) {
+        schema = {
+          '@context': 'https://schema.org', '@type': 'Person', name: profile.name,
+          jobTitle: profile.role, description: profile.intro, url: canonicalUrl,
+          image: `${siteOrigin}${media.professionals[profileSlug]}`,
+          worksFor: { '@id': `${siteOrigin}/#organization` }
+        };
+      }
+    }
+    let script = document.head.querySelector('script[type="application/ld+json"][data-seo-schema]');
+    if (!script) {
+      script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.dataset.seoSchema = 'true';
+      document.head.appendChild(script);
+    }
+    script.textContent = JSON.stringify(schema);
   }
 
   async function loadContent() {
@@ -296,14 +419,15 @@
       if (page === 'home') applyHome(data.home);
       if (page === 'location') applyLocation(data.location, contact);
       if (page === 'profile') applyProfile(data, media);
-      propagateLanguage();
+      localizeInternalLinks();
+      applySeo(data, contact, media);
       setText('.floating-contact span', data.common.contact);
       document.querySelector('.floating-top')?.setAttribute('aria-label', data.common.top);
       window.NWISE_CONTENT_READY = true;
       window.dispatchEvent(new CustomEvent('nwise:content-ready', { detail: { lang, page } }));
     } catch (error) {
       console.error('NwiseIP content load failed:', error);
-      propagateLanguage();
+      localizeInternalLinks();
     }
   }
 

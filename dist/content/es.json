@@ -12,11 +12,12 @@
     "contact": "Contactar",
     "top": "Volver arriba",
     "address": "3.ª planta, oficina 303, 20 Yeongdong-daero 85-gil,<br>Gangnam-gu, Seúl 06181, Corea",
-    "org": "Near &amp; Wise IP Law Office"
+    "org": "Near &amp; Wise IP Law Office",
+    "legal": "Near & Wise IP Law Office · Representante: Seungyeob Baik · N.º de registro empresarial en Corea: 209-37-35631"
   },
   "home": {
-    "title": "Near & Wise IP Law Office | Seúl",
-    "description": "Un mismo equipo protege patentes, marcas y diseños desde la solicitud y los conflictos hasta la expansión internacional y la valorización.",
+    "title": "Abogados de propiedad intelectual en Corea | Near & Wise IP",
+    "description": "Firma de propiedad intelectual en Gangnam, Seúl, especializada en patentes, marcas, diseños, derechos de autor, solicitudes internacionales, litigios y valoración de PI.",
     "heroTitle": "La solicitud es el comienzo.<br><span>El objetivo es generar valor.</span>",
     "heroLede": "Comenzamos por comprender la tecnología, la marca y la forma del producto. Un mismo equipo acompaña patentes, marcas y diseños desde la solicitud y los conflictos hasta la expansión internacional y la valorización.",
     "heroValueButton": "Ver el valor de la PI",
@@ -137,9 +138,9 @@
     ],
     "experienceNote": "Cifras anonimizadas de nuestros registros internos de asuntos a septiembre de 2026. No se publican nombres de clientes ni datos de asuntos concretos.",
     "brandDesign": {
-      "eyebrow": "TRADEMARK & DESIGN",
-      "title": "Protegemos la marca<br>y la identidad visual del producto",
-      "body": "El trabajo en marcas y diseños no termina con una solicitud. Nuestra experiencia multisectorial abarca búsquedas, alcance de protección, oposiciones, litigios, renovaciones y anualidades en Corea y en el extranjero.",
+      "eyebrow": "TRADEMARK, DESIGN & COPYRIGHT",
+      "title": "Protegemos marcas, diseños<br>y obras creativas",
+      "body": "El trabajo en marcas, diseños y derechos de autor no termina con una solicitud o registro. Nuestra experiencia multisectorial conecta la estrategia de protección con contratos, licencias, conflictos y mantenimiento de derechos.",
       "trademark": {
         "title": "Marcas",
         "lead": "Para que nombres y signos perduren en el mercado",
@@ -155,6 +156,14 @@
         "points": ["Diseños anteriores y similitud", "Vistas, productos y solicitudes", "HAGUE, conflictos y anualidades"],
         "cta": "Consultar sobre diseños",
         "subject": "Consulta sobre diseños"
+      },
+      "copyright": {
+        "title": "Derechos de autor",
+        "lead": "Protegemos el valor creativo de contenidos y software",
+        "body": "Desde la autoría y titularidad hasta el registro, los contratos, las licencias, las cesiones, la respuesta a infracciones y la prevención de conflictos.",
+        "points": ["Autoría y titularidad", "Registro, contratos y licencias", "Infracciones y prevención de conflictos"],
+        "cta": "Consultar sobre derechos de autor",
+        "subject": "Consulta sobre derechos de autor"
       }
     },
     "servicesTitle": "La PI acompaña<br>cada etapa del negocio",
@@ -296,8 +305,8 @@
       }
     ],
     "note": "Actualizamos esta sección con noticias del despacho y orientación práctica.",
-    "contactTitle": "Patentes, marcas o diseños:<br>empecemos a conversar.",
-    "contactBody": "Desde el análisis previo hasta los conflictos, la expansión internacional y el mantenimiento, el profesional responsable definirá con usted la protección adecuada y el siguiente paso.",
+    "contactTitle": "Patentes, marcas, diseños o derechos de autor:<br>empecemos a conversar.",
+    "contactBody": "Desde el análisis previo a la solicitud o registro hasta contratos, conflictos, expansión internacional y mantenimiento, el profesional responsable definirá con usted la protección adecuada y el siguiente paso.",
     "contactButton": "Iniciar una conversación"
   },
   "location": {
